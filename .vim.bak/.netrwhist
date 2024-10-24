@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/kraoshin/.vim'
+let g:netrw_dirhist_4='/home/kraoshin'
+let g:netrw_dirhist_3='/home/kraoshin/holbertonschool-low_level_programming/functions_nested_loops'
+let g:netrw_dirhist_2='/home/kraoshin/holbertonschool-low_level_programming/variables_if_else_while'
+let g:netrw_dirhist_1='/home/kraoshin/holbertonschool-shell/io_redirections_and_filters'
