@@ -241,3 +241,70 @@
 2025-01-21 11:16:18.632 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [12ms]
 2025-01-21 11:16:19.178 [info] > git check-ignore -v -z --stdin [1ms]
 2025-01-21 11:16:27.355 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-21 11:16:43.157 [info] > git add -A -- . [7714ms]
+2025-01-21 11:16:43.157 [info] warning: adding embedded git repository: holbertonschool-binary_trees
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> holbertonschool-binary_trees
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached holbertonschool-binary_trees
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: holbertonschool-chatgpt-introduction
+warning: adding embedded git repository: holbertonschool-higher_level_programming
+warning: adding embedded git repository: holbertonschool-printf
+warning: adding embedded git repository: holbertonschool-simple_shell
+warning: adding embedded git repository: holbertonschool-sorting_algorithms
+2025-01-21 11:16:43.950 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2025-01-21 11:16:43.951 [info] > git ls-files --stage -- /home/kraoshin/.git/COMMIT_EDITMSG [2ms]
+2025-01-21 11:16:44.200 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-21 11:16:44.546 [info] > git config --get commit.template [3ms]
+2025-01-21 11:16:44.546 [info] > git config --get commit.template [1ms]
+2025-01-21 11:16:44.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-21 11:16:44.557 [info] > git status -z -uall [3ms]
+2025-01-21 11:16:44.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-01-21 11:16:44.557 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-21 11:16:44.567 [info] > git status -z -uall [6ms]
+2025-01-21 11:16:44.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-21 11:16:44.935 [info] > git ls-files --stage -- /home/kraoshin/.git/COMMIT_EDITMSG [2ms]
+2025-01-21 11:16:44.943 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2025-01-21 11:16:49.293 [info] > git blame --root --incremental 45654e2a738482ef9f5d14c0bb253cb2a19fac12 -- /home/kraoshin/.git/COMMIT_EDITMSG [1ms]
+2025-01-21 11:16:49.293 [info] fatal: no such path .git/COMMIT_EDITMSG in 45654e2a738482ef9f5d14c0bb253cb2a19fac12
+2025-01-21 11:16:55.095 [info] > git -c user.useConfigOnly=true commit --quiet [11935ms]
+2025-01-21 11:16:55.106 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-21 11:16:55.106 [info] > git config --get commit.template [5ms]
+2025-01-21 11:16:55.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-21 11:16:55.119 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-21 11:16:55.160 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [97ms]
+2025-01-21 11:16:55.186 [info] > git status -z -uall [76ms]
+2025-01-21 11:16:55.574 [info] > git config --get commit.template [3ms]
+2025-01-21 11:16:55.577 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-21 11:16:55.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-21 11:16:55.586 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-21 11:16:55.634 [info] > git status -z -uall [52ms]
+2025-01-21 11:16:55.707 [info] > git show --textconv :python-data_structures/7-add_tuple.py [9ms]
+2025-01-21 11:16:55.707 [info] > git ls-files --stage -- /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/7-add_tuple.py [6ms]
+2025-01-21 11:16:55.712 [info] > git cat-file -s 6b995066afd3562cbd433b896554e664a6a9a32e [2ms]
+2025-01-21 11:16:56.309 [info] > git check-ignore -v -z --stdin [6ms]
+2025-01-21 11:16:56.625 [info] > git ls-files --stage -- /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/7-add_tuple.py [1ms]
+2025-01-21 11:16:56.629 [info] > git cat-file -s 6b995066afd3562cbd433b896554e664a6a9a32e [1ms]
+2025-01-21 11:16:56.638 [info] > git show --textconv :python-data_structures/7-add_tuple.py [1ms]
+2025-01-21 11:16:58.032 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-21 11:16:58.766 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-21 11:16:58.766 [info] > git config --get commit.template [3ms]
+2025-01-21 11:16:58.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-21 11:16:58.773 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-21 11:16:58.817 [info] > git status -z -uall [47ms]
+2025-01-21 11:16:59.485 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-21 11:17:02.924 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [503ms]
+2025-01-21 11:17:03.823 [info] > git config --get commit.template [1ms]
+2025-01-21 11:17:03.825 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-21 11:17:03.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-21 11:17:03.834 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-21 11:17:03.880 [info] > git status -z -uall [50ms]
