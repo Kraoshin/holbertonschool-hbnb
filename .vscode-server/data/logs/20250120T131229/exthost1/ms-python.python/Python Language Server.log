@@ -1,0 +1,48 @@
+2025-01-20 13:14:56.685 [info] [Info  - 1:14:56 PM] (1786) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-20 13:14:56.685 [info] [Info  - 1:14:56 PM] (1786) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-20 13:14:56.686 [info] [Info  - 1:14:56 PM] (1786) Starting service instance "kraoshin"
+2025-01-20 13:14:56.718 [info] [Info  - 1:14:56 PM] (1786) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-01-20 13:14:56.718 [info] [Info  - 1:14:56 PM] (1786) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-01-20 13:14:56.718 [info] [Info  - 1:14:56 PM] (1786) No include entries specified; assuming /home/kraoshin
+2025-01-20 13:14:56.719 [info] [Info  - 1:14:56 PM] (1786) Auto-excluding **/node_modules
+2025-01-20 13:14:56.719 [info] [Info  - 1:14:56 PM] (1786) Auto-excluding **/__pycache__
+2025-01-20 13:14:56.719 [info] [Info  - 1:14:56 PM] (1786) Auto-excluding **/.*
+2025-01-20 13:14:56.739 [info] [Info  - 1:14:56 PM] (1786) Assuming Python version 3.12.3.final.0
+2025-01-20 13:14:56.813 [info] [Info  - 1:14:56 PM] (1786) Found 33 source files
+2025-01-20 13:14:57.066 [info] [Info  - 1:14:57 PM] (1786) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-20 13:14:57.069 [info] [Info  - 1:14:57 PM] (1786) Background analysis(1) started
+2025-01-20 13:14:57.136 [info] [Info  - 1:14:57 PM] (1786) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-20 13:14:57.136 [info] [Info  - 1:14:57 PM] (1786) Indexing(2) started
+2025-01-20 13:14:57.445 [info] [Info  - 1:14:57 PM] (1786) scanned(2) 73 files over 1 exec env
+2025-01-20 13:14:58.464 [info] [Info  - 1:14:58 PM] (1786) indexed(2) 73 files over 1 exec env
+2025-01-20 13:14:58.485 [info] [Info  - 1:14:58 PM] (1786) Indexing finished(2).
+2025-01-20 13:15:06.502 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2025-01-20 13:15:06.503 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-20 13:16:50.384 [info] [Info  - 1:16:50 PM] (1786) Found 34 source files
+2025-01-20 13:18:39.501 [info] [Info  - 1:18:39 PM] (1786) Starting service instance "<default>"
+2025-01-20 13:18:39.571 [info] [Info  - 1:18:39 PM] (1786) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-01-20 13:18:39.571 [info] [Info  - 1:18:39 PM] (1786) Setting pythonPath for service "<default>": "/bin/python3"
+2025-01-20 13:18:39.572 [info] [Info  - 1:18:39 PM] (1786) No include entries specified; assuming /<default workspace root>
+2025-01-20 13:18:39.572 [info] [Info  - 1:18:39 PM] (1786) Auto-excluding **/node_modules
+2025-01-20 13:18:39.572 [info] [Info  - 1:18:39 PM] (1786) Auto-excluding **/__pycache__
+2025-01-20 13:18:39.572 [info] [Info  - 1:18:39 PM] (1786) Auto-excluding **/.*
+2025-01-20 13:18:39.590 [info] [Info  - 1:18:39 PM] (1786) Assuming Python version 3.12.3.final.0
+2025-01-20 13:18:39.625 [info] [Error - 1:18:39 PM] (1786) File or directory "/<default workspace root>" does not exist.
+2025-01-20 13:18:39.625 [info] [Info  - 1:18:39 PM] (1786) No source files found.
+2025-01-20 13:18:39.862 [info] [Info  - 1:18:39 PM] (1786) Background analysis(3) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-20 13:18:39.863 [info] [Info  - 1:18:39 PM] (1786) Background analysis(3) started
+2025-01-20 13:26:11.254 [info] [Info  - 1:26:11 PM] (1786) Found 35 source files
+2025-01-20 13:26:37.296 [info] [Info  - 1:26:37 PM] (1786) Found 36 source files
+2025-01-20 13:30:53.151 [info] [Info  - 1:30:53 PM] (1786) Found 37 source files
+2025-01-20 13:31:06.152 [info] [Info  - 1:31:06 PM] (1786) Found 38 source files
+2025-01-20 13:36:46.472 [info] [Info  - 1:36:46 PM] (1786) Found 39 source files
+2025-01-20 13:36:56.874 [info] [Info  - 1:36:56 PM] (1786) Found 40 source files
+2025-01-20 13:40:36.437 [info] [Info  - 1:40:36 PM] (1786) Found 41 source files
+2025-01-20 13:40:46.020 [info] [Info  - 1:40:46 PM] (1786) Found 42 source files
+2025-01-20 13:45:27.001 [info] [Info  - 1:45:27 PM] (1786) Found 37 source files
+2025-01-20 13:45:47.559 [info] [Info  - 1:45:47 PM] (1786) Found 38 source files
+2025-01-20 13:46:01.014 [info] [Info  - 1:46:01 PM] (1786) Found 39 source files
+2025-01-20 13:52:26.836 [info] [Info  - 1:52:26 PM] (1786) Found 40 source files
+2025-01-20 13:52:40.791 [info] [Info  - 1:52:40 PM] (1786) Found 41 source files
+2025-01-20 15:56:33.432 [info] [Info  - 3:56:33 PM] (1786) Found 42 source files
+2025-01-20 15:57:29.622 [info] [Info  - 3:57:29 PM] (1786) Found 43 source files

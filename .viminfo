@@ -11,13 +11,51 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<m\>
+~Msle0~/\<quicksort\>
 
 # Command Line History (newest to oldest):
+:set relativenumber!
+|2,0,1736934017,,"set relativenumber!"
+:set nonumber
+|2,0,1736934014,,"set nonumber"
+:set relative number
+|2,0,1736933173,,"set relative number"
+:q!
+|2,0,1736514390,,"q!"
+:!q
+|2,0,1736247521,,"!q"
+:.:d
+|2,0,1736239348,,".:d"
+:set !nonumber
+|2,0,1736160296,,"set !nonumber"
+:set relativenumber
+|2,0,1736160291,,"set relativenumber"
+:!relativenumber
+|2,0,1736160248,,"!relativenumber"
+:set !relativenumber
+|2,0,1736160242,,"set !relativenumber"
+:.:
+|2,0,1732722772,,".:"
+:.,.+1!:
+|2,0,1732722647,,".,.+1!:"
+:set nonum
+|2,0,1732704404,,"set nonum"
+:set nonumber 
+|2,0,1732618696,,"set nonumber "
 
 # Search String History (newest to oldest):
-? \<m\>
-|2,1,1729710432,,"\\<m\\>"
+?/\<quicksort\>
+|2,1,1736253094,47,"\\<quicksort\\>"
+? \<quicksort\>
+|2,1,1733926176,,"\\<quicksort\\>"
+? \<next_n\>
+|2,1,1733917537,,"\\<next_n\\>"
+?/iiii<F1>
+|2,1,1732702843,47,"iiii<F1>"
+?/ii
+|2,1,1732702802,47,"ii"
+?/.
+|2,1,1732702798,47,"."
 
 # Expression History (newest to oldest):
 
@@ -28,442 +66,1658 @@
 # Registers:
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1729717244,""
+|3,1,1,1,1,0,1736941698,""
 "2	LINE	0
-				}
-|3,0,2,1,1,0,1729717233,"			}"
-"3	LINE	0
-					_putchar(32);
-|3,0,3,1,1,0,1729717232,"				_putchar(32);"
-"4	LINE	0
-					_putchar(44);
-|3,0,4,1,1,0,1729717232,"				_putchar(44);"
-"5	LINE	0
-					_putchar(r + '0');
-|3,0,5,1,1,0,1729717232,"				_putchar(r + '0');"
-"6	LINE	0
-				{
-|3,0,6,1,1,0,1729717231,"			{"
-"7	LINE	0
-				if (r == 9 && b != 9)
-|3,0,7,1,1,0,1729717231,"			if (r == 9 && b != 9)"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1729715888,""
+|3,0,2,1,1,0,1736941353,""
+"3	LINE	0
+	
+	if __name__ == "__main__":
+|3,0,3,1,2,0,1736941351,"","if __name__ == \"__main__\":"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1736940952,""
+"5	LINE	0
+	        print(f"{i}{j}", end="\n" if i == 8 and j == 9 else ", ")
+|3,0,5,1,1,0,1736938898,"        print(f\"{i}{j}\", end=\"\\n\" if i == 8 and j == 9 else \", \")"
+"6	LINE	0
+	    for j in range(i + 1, 10):
+|3,0,6,1,1,0,1736938898,"    for j in range(i + 1, 10):"
+"7	LINE	0
+	for i in range(0, 9):
+|3,0,7,1,1,0,1736938898,"for i in range(0, 9):"
+"8	LINE	0
+	#!/usr/bin/python3
+|3,0,8,1,1,0,1736938898,"#!/usr/bin/python3"
 "9	LINE	0
-				}
-|3,0,9,1,1,0,1729715885,"			}"
+	        print("{:c}".format(letter), end="")
+|3,0,9,1,1,0,1736938649,"        print(\"{:c}\".format(letter), end=\"\")"
 "-	CHAR	0
-	=
-|3,0,36,0,1,0,1729715660,"="
+	r
+|3,0,36,0,1,0,1736778862,"r"
 
 # File marks:
-'0  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/.gitignore
-|4,48,1,0,1729717434,"~/holbertonschool-low_level_programming/functions_nested_loops/.gitignore"
-'1  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,49,1,0,1729717306,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'2  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,50,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'3  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,51,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'4  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,52,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'5  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,53,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'6  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,54,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'7  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,55,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'8  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,56,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
-'9  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,57,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
+'0  4  3  ~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py
+|4,48,4,3,1736943519,"~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py"
+'1  4  2  ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+|4,49,4,2,1736943471,"~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py"
+'2  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,50,1,0,1736941879,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+'3  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,51,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+'4  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,52,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+'5  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,53,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+'6  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,54,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+'7  11  48  ~/holbertonschool-higher_level_programming/python-import_modules/1-calculation.py
+|4,55,11,48,1736941121,"~/holbertonschool-higher_level_programming/python-import_modules/1-calculation.py"
+'8  1  18  ~/holbertonschool-higher_level_programming/python-import_modules/0-import_add.py
+|4,56,1,18,1736941010,"~/holbertonschool-higher_level_programming/python-import_modules/0-import_add.py"
+'9  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/README.md
+|4,57,1,0,1736940952,"~/holbertonschool-higher_level_programming/python-import_modules/README.md"
 
 # Jumplist (newest first):
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/.gitignore
-|4,39,1,0,1729717434,"~/holbertonschool-low_level_programming/functions_nested_loops/.gitignore"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729717306,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729717306,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  33  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,33,0,1729717253,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  9  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,9,1729716237,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  9  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,9,1729716237,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  9  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,9,1729716237,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  9  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,9,1729716237,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716205,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716205,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  18  10  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,18,10,1729716165,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716139,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716139,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  2  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,2,0,1729716118,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716065,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729716065,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  44  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,44,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  44  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,44,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  44  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,44,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  44  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,44,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  51  3  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,51,3,1729716044,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715945,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715945,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  40  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,40,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  40  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,40,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  40  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,40,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  40  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,40,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  52  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,52,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  47  2  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,47,2,1729715889,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715650,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715650,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  45  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,45,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  38  4  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,38,4,1729715633,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715554,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715554,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715372,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  1  0  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,1,0,1729715372,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  34  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,34,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  41  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,41,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  34  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,34,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  41  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,41,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  34  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,34,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  41  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,41,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  34  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,34,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  41  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,41,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
--'  34  20  ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-|4,39,34,20,1729715369,"~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c"
+-'  4  3  ~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py
+|4,39,4,3,1736943519,"~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py
+|4,39,1,0,1736943479,"~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py"
+-'  4  2  ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+|4,39,4,2,1736943471,"~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py"
+-'  4  2  ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+|4,39,4,2,1736943471,"~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+|4,39,1,0,1736943465,"~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+|4,39,1,0,1736943465,"~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941879,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941879,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941879,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941879,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  2  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,2,0,1736941761,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941643,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941643,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941643,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+|4,39,1,0,1736941643,"~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  3  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,3,0,1736941460,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+|4,39,1,0,1736941350,"~/holbertonschool-higher_level_programming/python-import_modules/2-args.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  51  20  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,51,20,1736941172,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
+-'  1  0  ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+|4,39,1,0,1736941165,"~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/holbertonschool-low_level_programming/functions_nested_loops/.gitignore
-	*	1729717430	0
+> ~/holbertonschool-higher_level_programming/python-import_modules/5-variable_load.py
+	*	1736943519	0
+	"	4	3
+	^	4	4
+	.	4	4
+	+	2	25
+	+	6	0
+	+	5	11
+	+	4	4
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/variable_load_5.py
+	*	1736943471	0
+	"	4	2
+	^	4	3
+	.	4	2
+	+	4	2
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/3-infinite_add.py
+	*	1736941872	0
+	"	1	0
+	^	9	30
+	.	2	0
+	+	9	29
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/2-args.py
+	*	1736941354	0
+	"	3	0
+	^	15	52
+	.	2	0
+	+	15	51
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/calculator_1.py
+	*	1736941172	0
+	"	51	20
+	^	51	21
+	.	51	20
+	+	51	20
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/1-calculation.py
+	*	1736941121	0
+	"	11	48
+	^	11	49
+	.	11	48
+	+	11	48
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/0-import_add.py
+	*	1736941010	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/README.md
+	*	1736940952	0
+	"	1	0
+	.	2	0
+	+	1	41
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/0-add.py
+	*	1736940930	0
+	"	7	48
+	^	7	49
+	.	7	48
+	+	7	48
+
+> ~/holbertonschool-higher_level_programming/python-import_modules/add_0.py
+	*	1736940836	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	2	15
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/6-print_comb3.py
+	*	1736938901	0
+	"	7	50
+	^	7	51
+	.	7	50
+	+	1	64
+	+	1	18
+	+	7	50
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/3-print_alphabt.py
+	*	1736938762	0
+	"	4	38
+	^	4	39
+	.	4	38
+	+	4	38
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/2-print_alphabet.py
+	*	1736938653	0
+	"	3	34
+	^	3	35
+	.	3	34
+	+	1	43
+	+	1	18
+	+	3	34
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/1-last_digit.py
+	*	1736938578	0
+	"	16	40
+	^	16	41
+	.	16	40
+	+	1	90
+	+	17	0
+	+	1	90
+	+	17	0
+	+	1	0
+	+	1	19
+	+	17	0
+	+	16	40
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/12-fizzbuzz.py
+	*	1736937900	0
+	"	11	33
+	^	11	34
+	.	11	33
+	+	11	33
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/12-main.py
+	*	1736937795	0
+	"	5	8
+	^	5	9
+	.	5	8
+	+	5	8
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/11-pow.py
+	*	1736937697	0
+	"	3	16
+	^	3	17
+	.	3	16
+	+	3	16
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/11-main.py
+	*	1736937666	0
+	"	8	16
+	^	8	17
+	.	8	16
+	+	8	16
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/10-add.py
+	*	1736937557	0
+	"	3	15
+	^	3	16
+	.	3	15
+	+	3	15
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/10-main.py
+	*	1736937526	0
+	"	6	0
+	.	7	0
+	+	6	19
+	+	7	0
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/9-print_last_digit.py
+	*	1736937248	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	5	14
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/9-main.py
+	*	1736937206	0
+	"	7	7
+	^	7	8
+	.	7	7
+	+	7	7
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/8-uppercase.py
+	*	1736937041	0
+	"	9	30
+	^	9	31
+	.	9	30
+	+	9	30
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/8-main.py
+	*	1736936325	0
+	"	5	41
+	^	5	42
+	.	5	41
+	+	5	41
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/7-main.py
+	*	1736936243	0
+	"	9	0
+	^	9	0
+	.	8	61
+	+	8	61
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/7-islower.py
+	*	1736936095	0
+	"	6	19
+	^	6	20
+	.	6	19
+	+	6	19
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/5-print_comb2.py
+	*	1736935488	0
+	"	6	32
+	^	6	33
+	.	6	32
+	+	6	32
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/4-print_hexa.py
+	*	1736935247	0
+	"	3	38
+	^	3	39
+	.	3	38
+	+	3	38
+
+> ~/holbertonschool-higher_level_programming/python-if_else_loops_functions/0-positive_or_negative.py
+	*	1736933201	0
+	"	12	43
+	^	12	44
+	.	12	43
+	+	12	43
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/9-easter_egg.py
+	*	1736781915	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	4	0
+	+	2	10
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/8-concat_edges.py
+	*	1736781901	0
+	"	5	9
+	^	5	10
+	.	5	9
+	+	10	0
+	+	5	9
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/7-edges.py
+	*	1736781887	0
+	"	8	35
+	^	8	36
+	.	8	35
+	+	16	0
+	+	8	35
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/6-concat.py
+	*	1736781871	0
+	"	5	27
+	^	5	28
+	.	5	27
+	+	10	0
+	+	5	27
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/5-print_string.py
+	*	1736781855	0
+	"	4	18
+	^	4	19
+	.	4	18
+	+	8	0
+	+	4	18
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/4-print_float.py
+	*	1736781835	0
+	"	3	28
+	^	3	29
+	.	3	28
+	+	6	0
+	+	3	28
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/3-print_number.py
+	*	1736781806	0
+	"	3	32
+	^	3	33
+	.	3	32
+	+	6	0
+	+	3	32
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/2-print.py
+	*	1736781776	0
+	"	2	60
+	^	2	61
+	.	2	60
+	+	1	2
+	+	4	0
+	+	2	60
+
+> ~/holbertonschool-higher_level_programming/python-hello_world/README.md
+	*	1736778955	0
 	"	1	0
 
-> ~/holbertonschool-low_level_programming/functions_nested_loops/9-times_table.c
-	*	1729717306	0
-	"	1	0
-	.	33	0
-	+	47	0
-	+	10	5
-	+	9	5
-	+	20	27
-	+	46	0
-	+	4	56
-	+	45	0
-	+	39	0
-	+	11	10
-	+	20	28
-	+	21	27
-	+	11	0
-	+	16	18
-	+	38	19
-	+	39	4
-	+	45	0
-	+	19	0
-	+	34	17
-	+	34	0
-	+	35	0
-	+	18	9
-	+	31	41
+> ~/test
+	*	1736770597	0
+	"	2	60
+	^	2	61
+	.	2	60
+	+	1	19
+	+	4	0
+	+	2	60
+
+> ~/holbertonschool-chatgpt-introduction/debugging/change_background.html
+	*	1736762915	0
+	"	38	0
+	.	39	0
+	+	38	7
+	+	33	0
 	+	32	0
-	+	20	0
-	+	30	3
-	+	31	3
-	+	30	0
-	+	18	22
-	+	26	22
-	+	34	22
-	+	37	28
-	+	45	0
-	+	23	0
-	+	18	10
-	+	34	20
-	+	18	13
-	+	26	11
-	+	18	12
-	+	26	12
-	+	33	0
-	+	45	0
-	+	43	19
-	+	44	0
-	+	18	0
-	+	26	11
-	+	20	0
-	+	28	0
-	+	26	13
-	+	33	0
+	+	3	0
+	+	39	0
 
-> ~/holbertonschool-low_level_programming/functions_nested_loops/9-main.c
-	*	1729714076	0
-	"	12	0
-	^	12	1
-	.	12	0
-	+	12	0
-
-> ~/holbertonschool-low_level_programming/functions_nested_loops/main.h
-	*	1729714059	0
-	"	23	0
-	^	23	0
-	.	22	23
-	+	22	23
-
-> ~/holbertonschool-low_level_programming/functions_nested_loops/8-24_hours.c
-	*	1729713432	0
+> ~/holbertonschool-chatgpt-introduction/debugging/tic.py
+	*	1736762277	0
 	"	1	0
-	^	21	18
-	.	21	17
-	+	24	11
-	+	24	2
-	+	24	17
-	+	24	0
-	+	24	14
-	+	24	3
-	+	24	14
-	+	24	1
-	+	24	45
-	+	24	13
-	+	24	0
-	+	24	2
-	+	24	18
-	+	24	20
-	+	24	3
-	+	24	27
-	+	24	20
-	+	24	3
-	+	24	2
-	+	24	1
-	+	24	6
-	+	24	2
-	+	24	0
-	+	24	4
-	+	24	17
-	+	24	5
-	+	24	18
-	+	24	0
-	+	24	32
-	+	24	13
-	+	24	33
-	+	24	2
-	+	24	0
-	+	24	9
-	+	24	0
-	+	24	2
-	+	24	21
-	+	24	17
-	+	24	18
-	+	24	0
-	+	24	17
-	+	24	7
-	+	24	12
-	+	24	1
-	+	24	0
-	+	25	0
-	+	24	8
-	+	24	13
-	+	24	0
-	+	24	11
-	+	24	15
-	+	24	17
-	+	24	0
-	+	24	16
-	+	24	2
-	+	24	0
-	+	24	13
-	+	24	3
-	+	24	21
-	+	24	12
-	+	24	0
-	+	24	23
-	+	24	41
-	+	24	13
-	+	24	10
-	+	24	2
-	+	24	1
-	+	24	0
-	+	24	1
-	+	24	0
-	+	24	8
-	+	24	0
-	+	24	14
-	+	24	3
-	+	24	0
-	+	24	4
-	+	24	13
-	+	24	12
-	+	24	3
-	+	24	0
-	+	24	7
-	+	24	0
-	+	25	0
-	+	16	26
-	+	17	14
-	+	16	16
-	+	20	28
-	+	18	13
-	+	20	28
-	+	19	28
-	+	20	28
-	+	23	2
-	+	21	17
+	^	72	0
+	.	33	0
+	+	71	13
+	+	33	0
 
-> ~/holbertonschool-low_level_programming/functions_nested_loops/_putchar.c
-	*	1729705965	0
-	"	13	0
-	^	13	1
-	.	13	0
+> ~/holbertonschool-chatgpt-introduction/debugging/checkbook.py
+	*	1736762163	0
+	"	1	0
+	^	52	0
+	.	51	10
+	+	51	10
+
+> ~/holbertonschool-chatgpt-introduction/debugging/factorial_recursive.py
+	*	1736761859	0
+	"	25	0
+	^	25	0
+	.	24	8
+	+	24	8
+
+> ~/holbertonschool-chatgpt-introduction/debugging/mines.py
+	*	1736761495	0
+	"	87	0
+	^	87	0
+	.	86	15
+	+	86	15
+
+> ~/holbertonschool-chatgpt-introduction/debugging/print_arguments.py
+	*	1736760982	0
+	"	1	0
+	^	4	19
+	.	4	17
+	+	5	21
+	+	4	17
+
+> ~/holbertonschool-chatgpt-introduction/debugging/README.md
+	*	1736760740	0
+	"	1	45
+	^	1	46
+	.	1	45
+	+	1	45
+
+> ~/holbertonschool-chatgpt-introduction/debugging/factorial.py
+	*	1736760632	0
+	"	1	0
+	^	8	14
+	.	8	13
+	+	1	18
+	+	12	7
+	+	8	13
+
+> ~/holbertonschool-simple_shell/shell.c
+	*	1736518173	0
+	"	20	24
+	^	20	30
+	.	20	24
+	+	6	0
+	+	7	14
+	+	22	0
+	+	12	26
 	+	13	0
+	+	25	0
+	+	11	17
+	+	25	14
+	+	25	20
+	+	25	0
+	+	24	0
+	+	22	16
+	+	22	12
+	+	22	0
+	+	22	3
+	+	22	19
+	+	11	18
+	+	22	2
+	+	22	18
+	+	22	13
+	+	22	0
+	+	22	2
+	+	22	0
+	+	22	2
+	+	22	14
+	+	11	18
+	+	22	1
+	+	22	13
+	+	11	21
+	+	22	3
+	+	22	13
+	+	22	19
+	+	22	2
+	+	22	18
+	+	11	15
+	+	22	13
+	+	22	0
+	+	11	15
+	+	23	12
+	+	25	0
+	+	20	24
 
-> ~/holbertonschool-low_level_programming/functions_nested_loops/8-main.c
-	*	1729705929	0
+> ~/holbertonschool-simple_shell/shell.h
+	*	1736518163	0
+	"	16	24
+	^	16	25
+	.	16	24
+	+	21	5
+	+	4	18
+	+	13	32
+	+	13	0
+	+	4	29
+	+	3	0
+	+	8	20
+	+	9	0
+	+	11	20
+	+	21	0
+	+	19	30
+	+	11	21
+	+	9	21
+	+	21	0
+	+	4	0
+	+	20	0
+	+	13	0
+	+	16	24
+
+> ~/holbertonschool-simple_shell/RPE.c
+	*	1736518150	0
+	"	105	1
+	^	100	0
+	.	100	0
+	+	126	33
+	+	106	15
+	+	107	0
+	+	106	13
+	+	112	32
+	+	113	14
+	+	117	13
+	+	105	44
+	+	59	0
+	+	58	28
+	+	59	19
+	+	74	0
+	+	72	0
+	+	69	0
+	+	66	19
+	+	53	33
+	+	71	33
+	+	126	0
+	+	70	0
+	+	73	0
+	+	101	2
+	+	114	0
+	+	123	0
+	+	118	0
+	+	116	0
+	+	108	0
+	+	98	0
+	+	101	0
+	+	101	2
+	+	62	32
+	+	71	33
+	+	67	0
+	+	68	0
+	+	101	0
+	+	102	0
+	+	101	2
+	+	123	1
+	+	101	0
+	+	114	0
+	+	123	0
+	+	122	11
+	+	122	9
+	+	122	1
+	+	122	0
+	+	25	0
+	+	26	0
+	+	24	11
+	+	26	13
+	+	26	0
+	+	101	2
+	+	122	0
+	+	24	13
+	+	24	0
+	+	26	0
+	+	24	0
+	+	26	0
+	+	24	0
+	+	101	12
+	+	124	9
+	+	97	10
+	+	101	12
+	+	97	10
+	+	101	2
+	+	114	2
+	+	124	9
+	+	125	0
+	+	124	0
+	+	122	0
+	+	118	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	11	6
+	+	32	9
+	+	30	22
+	+	34	18
+	+	38	0
+	+	122	0
+	+	101	2
+	+	98	37
+	+	99	0
+	+	97	10
+	+	93	16
+	+	101	2
+	+	93	11
+	+	101	0
+	+	98	8
+	+	101	12
+	+	90	35
+	+	118	0
+	+	101	0
+	+	99	0
+	+	90	24
+	+	97	10
+	+	98	27
+	+	99	0
+	+	101	0
+	+	99	12
+	+	100	0
+
+> ~/holbertonschool-simple_shell/shell.
+	*	1736514388	0
+	"	1	0
+
+> ~/holbertonschool-simple_shell/path_and_env.c
+	*	1736514297	0
+	"	38	12
+	^	38	13
+	.	38	12
+	+	39	9
+	+	27	32
+	+	50	30
+	+	52	33
+	+	99	0
+	+	52	35
+	+	98	16
+	+	98	5
+	+	52	41
+	+	98	5
+	+	98	10
+	+	98	12
+	+	98	14
+	+	98	17
+	+	52	44
+	+	98	24
+	+	98	23
+	+	98	1
+	+	99	0
+	+	98	0
+	+	52	39
+	+	98	23
+	+	98	1
+	+	98	18
+	+	98	1
+	+	98	9
+	+	98	12
+	+	98	17
+	+	98	15
+	+	98	23
+	+	98	0
+	+	52	37
+	+	98	1
+	+	98	0
+	+	97	14
+	+	91	24
+	+	91	16
+	+	52	29
+	+	4	43
+	+	19	79
+	+	24	55
+	+	42	63
+	+	43	22
+	+	47	75
+	+	48	24
+	+	47	9
+	+	91	50
+	+	91	13
+	+	91	1
+	+	91	17
+	+	39	1
+	+	40	0
+	+	39	0
+	+	38	14
+	+	30	27
+	+	32	11
+	+	34	49
+	+	35	18
+	+	91	0
+	+	90	0
+	+	91	0
+	+	53	16
+	+	53	36
+	+	57	20
+	+	63	3
+	+	67	20
+	+	68	5
+	+	60	10
+	+	64	15
+	+	78	0
+	+	77	38
+	+	56	15
+	+	77	15
+	+	79	44
+	+	81	10
+	+	82	16
+	+	87	11
+	+	88	8
+	+	64	8
+	+	70	9
+	+	74	16
+	+	53	24
+	+	53	23
+	+	38	9
+	+	39	0
+	+	38	9
+	+	61	10
+	+	65	10
+	+	71	10
+	+	89	9
+	+	61	13
+	+	65	13
+	+	71	13
+	+	89	12
+	+	29	9
+	+	32	17
+	+	36	5
+	+	35	20
+	+	34	57
+	+	38	12
+
+> ~/holbertonschool-simple_shell/isinteractive.c
+	*	1736250085	0
+	"	25	0
+	^	25	1
+	.	25	0
+	+	20	15
+	+	4	71
+	+	6	18
+	+	20	20
+	+	26	0
+	+	14	29
+	+	20	0
+	+	17	0
+	+	16	0
+	+	19	12
+	+	25	0
+
+> ~/holbertonschool-simple_shell/interactive.c
+	*	1736249991	0
+	"	7	0
+	^	21	13
+	.	20	6
+	+	1	18
+	+	18	25
+	+	17	13
+	+	23	16
+	+	24	0
+	+	23	0
+	+	15	0
+	+	17	13
+	+	23	16
+	+	23	0
+	+	4	71
+	+	5	66
+	+	14	23
+	+	23	3
+	+	23	14
+	+	18	0
+	+	23	21
+	+	23	0
+	+	21	12
+	+	20	6
+
+> ~/holbertonschool-simple_shell/nointeractive.c
+	*	1736247901	0
+	"	17	6
+	^	18	13
+	.	17	6
+	+	22	0
+	+	9	20
+	+	13	13
+	+	15	0
+	+	13	22
+	+	14	0
+	+	21	0
+	+	20	0
+	+	20	15
+	+	20	16
+	+	20	0
+	+	13	17
+	+	4	78
+	+	20	0
+	+	19	0
+	+	18	12
+	+	17	6
+
+> ~/RPE.c
+	*	1736246211	0
+	"	1	0
+
+> ~/holbertonschool-simple_shell/RP
+	*	1734528564	0
+	"	1	0
+
+> ~/holbertonschool-simple_shell/test_ls_2
+	*	1734525351	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/holbertonschool-simple_shell/R
+	*	1734511486	0
+	"	1	0
+
+> ~/holbertonschool-simple_shell/isinterractive.c
+	*	1734426934	0
+	"	1	0
+	^	16	1
+	.	16	0
+	+	13	25
+	+	11	0
+	+	16	0
+
+> ~/holbertonschool-simple_shell/tokenize.c
+	*	1734426588	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	3	0
+
+> ~/holbertonschool-simple_shell/usr_input.c
+	*	1734425628	0
+	"	26	0
+	^	26	0
+	.	27	0
+	+	6	0
+	+	7	38
+	+	9	45
+	+	28	0
+	+	12	0
+	+	14	21
+	+	27	0
+
+> ~/holbertonschool-simple_shell/print_prompt.c
+	*	1734424037	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	7	23
+	+	9	25
+	+	10	0
+
+> ~/holbertonschool-simple_shell/README.md
+	*	1734337098	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/holbertonschool-shell/io_redirections_and_filters/12-newest_files
+	*	1734086821	0
+	"	2	17
+	.	2	17
+	+	2	17
+
+> ~/holbertonschool-shell/io_redirections_and_filters/26-the_biggest_fan
+	*	1734085983	0
+	"	1	0
+
+> ~/test.c
+	*	1734083622	0
+	"	1	0
+	^	1	1
+	.	2	0
+	+	1	0
+	+	1	10
+	+	1	5
+	+	1	10
+	+	1	2
+	+	1	0
+	+	1	2
+	+	1	18
+	+	1	0
+	+	1	9
+	+	1	0
+	+	1	5
+	+	1	2
+	+	1	17
+	+	1	10
+	+	1	17
+	+	1	11
+	+	1	0
+	+	1	5
+	+	1	12
+	+	1	0
+	+	1	26
+	+	1	0
+	+	1	12
+	+	1	7
+	+	1	11
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	28
+	+	1	0
+	+	1	30
+	+	1	22
+	+	1	2
+	+	1	35
+	+	1	2
+	+	1	10
+	+	1	14
+	+	1	18
+	+	1	11
+	+	1	21
+	+	1	31
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	2
+	+	1	33
+	+	1	12
+	+	1	0
+	+	1	52
+	+	1	0
+	+	1	44
+	+	1	5
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	1
+	+	1	23
+	+	1	25
+	+	2	0
+
+> ~/print
+	*	1734082768	0
+	"	2	14
+	^	2	8
+	.	2	7
+	+	1	10
+	+	2	7
+
+> ~/0-puts_recursion.c
+	*	1734081042	0
+	"	1	0
+	.	1	0
+	+	1	13
+	+	1	23
+	+	1	13
+	+	1	24
+	+	1	13
+	+	1	36
+	+	1	22
+	+	1	34
+	+	1	29
+	+	1	15
+	+	1	19
+	+	1	0
+
+> ~/0-puts_recursion
+	*	1734080873	0
+	"	3	28
+	^	3	29
+	.	3	28
+	+	3	28
+
+> ~/0-main.c
+	*	1734080820	0
 	"	12	0
 	^	12	1
 	.	12	0
 	+	12	0
+
+> ~/main.h
+	*	1734080796	0
+	"	4	29
+	^	4	30
+	.	4	29
+	+	6	5
+	+	3	0
+	+	4	29
+
+> ~/fizzbuzz.c
+	*	1734080626	0
+	"	18	21
+	^	9	13
+	.	9	12
+	+	21	0
+	+	10	19
+	+	11	35
+	+	17	9
+	+	13	46
+	+	17	48
+	+	20	11
+	+	7	12
+	+	13	18
+	+	17	18
+	+	13	18
+	+	11	18
+	+	9	12
+
+> ~/holbertonschool-sorting_algorithms/0-bubble_sort.c
+	*	1733928817	0
+	"	43	0
+	^	8	51
+	.	8	50
+	+	43	0
+	+	32	0
+	+	27	0
+	+	17	1
+	+	16	17
+	+	15	0
+	+	4	50
+	+	42	4
+	+	33	2
+	+	34	0
+	+	36	0
+	+	35	0
+	+	33	0
+	+	32	32
+	+	34	37
+	+	14	0
+	+	36	22
+	+	38	13
+	+	34	7
+	+	32	6
+	+	31	0
+	+	32	20
+	+	30	6
+	+	11	35
+	+	13	6
+	+	37	0
+	+	40	0
+	+	34	21
+	+	6	74
+	+	7	6
+	+	7	45
+	+	34	0
+	+	34	21
+	+	20	68
+	+	23	58
+	+	24	48
+	+	11	14
+	+	34	0
+	+	25	61
+	+	8	50
+
+> ~/holbertonschool-sorting_algorithms/0-O
+	*	1733928811	0
+	"	2	0
+	^	3	6
+	.	3	6
+	+	4	0
+	+	1	3
+	+	2	6
+	+	3	6
+
+> ~/holbertonschool-sorting_algorithms/2-selection_sort.c
+	*	1733928598	0
+	"	1	0
+	^	32	3
+	.	27	0
+	+	17	18
+	+	15	5
+	+	12	10
+	+	14	0
+	+	15	30
+	+	12	17
+	+	17	13
+	+	12	13
+	+	33	2
+	+	34	0
+	+	33	0
+	+	23	5
+	+	21	32
+	+	22	0
+	+	13	8
+	+	23	3
+	+	29	17
+	+	31	26
+	+	7	26
+	+	27	0
+	+	32	2
+	+	27	0
+
+> ~/holbertonschool-sorting_algorithms/1-insertion_sort_list.c
+	*	1733928371	0
+	"	27	0
+	^	5	14
+	.	5	14
+	+	13	9
+	+	13	36
+	+	13	9
+	+	10	27
+	+	13	24
+	+	10	34
+	+	13	32
+	+	13	9
+	+	13	35
+	+	13	27
+	+	13	36
+	+	13	32
+	+	13	14
+	+	13	9
+	+	10	51
+	+	13	80
+	+	13	26
+	+	13	28
+	+	13	20
+	+	13	9
+	+	13	29
+	+	13	9
+	+	13	32
+	+	13	9
+	+	40	0
+	+	13	25
+	+	13	9
+	+	13	28
+	+	13	22
+	+	13	30
+	+	13	9
+	+	13	20
+	+	13	19
+	+	13	23
+	+	40	0
+	+	10	27
+	+	13	9
+	+	17	24
+	+	14	0
+	+	21	53
+	+	23	39
+	+	21	6
+	+	26	24
+	+	23	12
+	+	26	30
+	+	40	0
+	+	29	37
+	+	26	40
+	+	24	0
+	+	30	30
+	+	30	0
+	+	31	20
+	+	22	0
+	+	38	0
+	+	25	0
+	+	37	20
+	+	37	0
+	+	40	21
+	+	41	0
+	+	20	8
+	+	40	18
+	+	23	21
+	+	26	40
+	+	28	32
+	+	27	0
+	+	30	32
+	+	30	0
+	+	20	2
+	+	10	20
+	+	19	15
+	+	20	0
+	+	10	26
+	+	40	24
+	+	21	37
+	+	23	25
+	+	25	8
+	+	10	23
+	+	19	3
+	+	21	32
+	+	23	22
+	+	26	24
+	+	28	17
+	+	29	17
+	+	30	23
+	+	31	10
+	+	32	14
+	+	19	15
+	+	30	0
+	+	32	26
+	+	34	16
+	+	36	24
+	+	35	0
+	+	37	0
+	+	40	0
+	+	17	3
+	+	17	22
+	+	39	0
+	+	31	7
+	+	1	0
+	+	5	14
+
+> ~/holbertonschool-sorting_algorithms/3-O
+	*	1733927574	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	3	5
+
+> ~/holbertonschool-sorting_algorithms/3-quick_sort.c
+	*	1733927466	0
+	"	18	0
+	^	34	16
+	.	34	15
+	+	90	0
+	+	86	0
+	+	17	45
+	+	38	0
+	+	15	2
+	+	1	17
+	+	15	3
+	+	38	0
+	+	19	41
+	+	26	30
+	+	30	2
+	+	37	8
+	+	46	0
+	+	47	25
+	+	52	0
+	+	89	36
+	+	88	0
+	+	82	3
+	+	63	56
+	+	89	34
+	+	17	56
+	+	73	0
+	+	65	0
+	+	63	44
+	+	17	44
+	+	69	37
+	+	71	35
+	+	72	0
+	+	69	14
+	+	3	26
+	+	1	17
+	+	89	29
+	+	74	0
+	+	89	34
+	+	63	56
+	+	70	37
+	+	71	41
+	+	72	0
+	+	17	56
+	+	69	40
+	+	34	25
+	+	33	0
+	+	36	0
+	+	26	30
+	+	28	0
+	+	35	0
+	+	34	28
+	+	6	58
+	+	9	30
+	+	11	29
+	+	44	26
+	+	42	2
+	+	55	51
+	+	57	8
+	+	56	2
+	+	60	3
+	+	59	3
+	+	60	35
+	+	76	2
+	+	14	37
+	+	76	70
+	+	81	53
+	+	80	2
+	+	79	35
+	+	17	13
+	+	35	0
+	+	66	0
+	+	12	48
+	+	37	13
+	+	34	15
+
+> ~/holbertonschool-sorting_algorithms/3-main.c
+	*	1733925358	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/holbertonschool-sorting_algorithms/sort.h
+	*	1733922726	0
+	"	26	0
+	^	26	0
+	.	26	0
+	+	22	41
+	+	23	0
+	+	4	19
+	+	15	0
+	+	23	42
+	+	24	0
+	+	1	58
+	+	24	44
+	+	25	0
+	+	1	0
+	+	25	40
+	+	26	0
+
+> ~/holbertonschool-sorting_algorithms/2-O
+	*	1733921208	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	3	5
+
+> ~/holbertonschool-sorting_algorithms/2-main.c
+	*	1733921101	0
+	"	1	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/holbertonschool-sorting_algorithms/1-O
+	*	1733918782	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	3	5
+
+> ~/holbertonschool-sorting_algorithms/1-main.c
+	*	1733914256	0
+	"	56	0
+	^	56	1
+	.	56	0
+	+	56	0
+
+> ~/holbertonschool-sorting_algorithms/0-main.c
+	*	1733906824	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/holbertonschool-sorting_algorithms/README.md
+	*	1733905814	0
+	"	1	33
+	^	1	34
+	.	1	33
+	+	1	33
+
+> ~/sort.h
+	*	1733905630	0
+	"	17	0
+	^	17	0
+	.	16	12
+	+	21	5
+	+	3	0
+	+	18	48
+	+	20	0
+	+	16	12
+
+> ~/print_list.c
+	*	1733905565	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/print_array.c
+	*	1733905550	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/holbertonschool-binary_trees/2-binary_tree_insert_right.c
+	*	1733844519	0
+	"	32	0
+
+> ~/holbertonschool-binary_trees/3-binary_tree_delete.c
+	*	1733844358	0
+	"	1	0
+	^	6	29
+	.	6	12
+	+	18	0
+	+	6	12
+
+> ~/holbertonschool-binary_trees/binary_trees.h
+	*	1733844065	0
+	"	17	0
+	^	37	0
+	.	37	0
+	+	27	5
+	+	24	65
+	+	25	0
+	+	23	45
+	+	5	19
+	+	25	72
+	+	26	0
+	+	28	0
+	+	27	44
+	+	28	50
+	+	29	0
+	+	1	0
+	+	29	50
+	+	30	71
+	+	31	70
+	+	32	0
+	+	1	0
+	+	32	72
+	+	33	52
+	+	34	51
+	+	35	50
+	+	36	52
+	+	37	0
+
+> ~/holbertonschool-binary_trees/0-binary_tree_node.c
+	*	1733843752	0
+	"	1	0
+	^	9	52
+	.	16	5
+	+	25	0
+	+	14	54
+	+	16	20
+	+	17	16
+	+	19	17
+	+	18	0
+	+	24	15
+	+	4	73
+	+	9	51
+	+	5	2
+	+	16	5
+
+> ~/holbertonschool-binary_trees/13-binary_tree_nodes.c
+	*	1733843555	0
+	"	1	0
+
+> ~/holbertonschool-binary_trees/12-binary_tree_leaves.c
+	*	1733747095	0
+	"	8	43
+	^	8	44
+	.	8	43
+	+	25	0
+	+	19	13
+	+	14	0
+	+	13	28
+	+	24	25
+	+	8	32
+	+	4	49
+	+	8	43
+
+> ~/holbertonschool-binary_trees/binary_tree
+	*	1733746743	0
+	"	1	0
+
+> ~/holbertonschool-binary_trees/12-main.c
+	*	1733746729	0
+	"	29	0
+	^	29	1
+	.	29	0
+	+	29	0
+
+> ~/holbertonschool-binary_trees/11-binary_tree_size.c
+	*	1733746670	0
+	"	22	0
+	^	14	0
+	.	23	0
+	+	23	0
+	+	16	0
+	+	22	0
+	+	21	0
+	+	22	0
+	+	21	29
+	+	19	26
+	+	18	25
+	+	4	67
+	+	8	44
+	+	14	0
+	+	23	0
+
+> ~/holbertonschool-binary_trees/11-main.c
+	*	1733746232	0
+	"	29	0
+	^	29	1
+	.	29	0
+	+	29	0

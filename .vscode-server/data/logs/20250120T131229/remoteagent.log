@@ -1,0 +1,29 @@
+2025-01-20 13:12:29.497 [info] 
+
+
+
+
+2025-01-20 13:12:29.512 [info] Extension host agent started.
+2025-01-20 13:12:30.854 [info] [127.0.0.1][bd27f7ab][ManagementConnection] New connection established.
+2025-01-20 13:12:31.042 [info] [127.0.0.1][0d14485d][ExtensionHostConnection] New connection established.
+2025-01-20 13:12:31.053 [info] [127.0.0.1][0d14485d][ExtensionHostConnection] <513> Launched Extension Host Process.
+2025-01-20 13:14:40.406 [info] Getting Manifest... ms-python.python
+2025-01-20 13:14:40.477 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-09T18:14:09.060Z"}}
+2025-01-20 13:14:40.880 [info] Getting Manifest... ms-python.vscode-pylance
+2025-01-20 13:14:40.917 [info] Getting Manifest... ms-python.debugpy
+2025-01-20 13:14:40.946 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-09T18:14:09.060Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-20 13:14:40.947 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-09T18:14:09.060Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-20 13:14:42.948 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1176ms.
+2025-01-20 13:14:42.974 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 912ms.
+2025-01-20 13:14:43.679 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 741ms.
+2025-01-20 13:14:44.268 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2025-01-20 13:14:44.300 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2025-01-20 13:14:46.181 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64: ms-python.python
+2025-01-20 13:14:46.333 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64
+2025-01-20 13:14:51.736 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-01-20 13:14:52.201 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-20 13:14:52.215 [info] Extension installed successfully: ms-python.debugpy file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-01-20 13:14:52.215 [info] Extension installed successfully: ms-python.python file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-01-20 13:14:52.215 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-01-20 16:03:45.028 [info] [127.0.0.1][bd27f7ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-20 16:03:45.124 [info] [127.0.0.1][0d14485d][ExtensionHostConnection] <513> Extension Host Process exited with code: 0, signal: null.

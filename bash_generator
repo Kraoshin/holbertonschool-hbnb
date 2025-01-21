@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for file in $*
-do
-	echo "#!/bin/bash" > "$file"
-	chmod +x "$file"
-done

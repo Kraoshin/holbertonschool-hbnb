@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/kraoshin/holbertonschool-low_level_programming'
+let g:netrw_dirhist_2='/home/kraoshin/holbertonschool-low_level_programming/recursion'
+let g:netrw_dirhist_1='/home/kraoshin/holbertonschool-low_level_programming/hello_world'

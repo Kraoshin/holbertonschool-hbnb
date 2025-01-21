@@ -1,0 +1,32 @@
+2025-01-21 11:14:39.664 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-21 11:14:39.706 [info] [Info  - 11:14:39 AM] (782) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-21 11:14:39.766 [info] [Info  - 11:14:39 AM] (782) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-21 11:14:39.815 [info] [Info  - 11:14:39 AM] (782) Starting service instance "kraoshin"
+2025-01-21 11:14:40.128 [info] [Info  - 11:14:40 AM] (782) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-01-21 11:14:40.159 [info] [Info  - 11:14:40 AM] (782) Setting pythonPath for service "kraoshin": "/usr/bin/python3"
+2025-01-21 11:14:40.174 [info] [Info  - 11:14:40 AM] (782) No include entries specified; assuming /home/kraoshin
+2025-01-21 11:14:40.199 [info] [Info  - 11:14:40 AM] (782) Auto-excluding **/node_modules
+2025-01-21 11:14:40.209 [info] [Info  - 11:14:40 AM] (782) Auto-excluding **/__pycache__
+2025-01-21 11:14:40.226 [info] [Info  - 11:14:40 AM] (782) Auto-excluding **/.*
+2025-01-21 11:14:40.301 [info] [Info  - 11:14:40 AM] (782) Assuming Python version 3.12.3.final.0
+2025-01-21 11:14:40.325 [info] [Info  - 11:14:40 AM] (782) Found 43 source files
+2025-01-21 11:14:40.599 [info] [Info  - 11:14:40 AM] (782) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-21 11:14:40.599 [info] [Info  - 11:14:40 AM] (782) Background analysis(1) started
+2025-01-21 11:14:40.702 [info] [Info  - 11:14:40 AM] (782) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-21 11:14:40.702 [info] [Info  - 11:14:40 AM] (782) Indexing(2) started
+2025-01-21 11:14:41.180 [info] [Info  - 11:14:41 AM] (782) scanned(2) 73 files over 1 exec env
+2025-01-21 11:14:41.342 [info] [Info  - 11:14:41 AM] (782) indexed(2) 73 files over 1 exec env
+2025-01-21 11:14:41.364 [info] [Info  - 11:14:41 AM] (782) Indexing finished(2).
+2025-01-21 11:16:18.691 [info] [Info  - 11:16:18 AM] (782) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-01-21 11:16:18.691 [info] [Info  - 11:16:18 AM] (782) Setting pythonPath for service "kraoshin": "/usr/bin/python3"
+2025-01-21 11:16:18.691 [info] [Info  - 11:16:18 AM] (782) No include entries specified; assuming /home/kraoshin
+2025-01-21 11:16:18.691 [info] [Info  - 11:16:18 AM] (782) Auto-excluding **/node_modules
+2025-01-21 11:16:18.691 [info] [Info  - 11:16:18 AM] (782) Auto-excluding **/__pycache__
+2025-01-21 11:16:18.692 [info] [Info  - 11:16:18 AM] (782) Auto-excluding **/.*
+2025-01-21 11:16:18.713 [info] [Info  - 11:16:18 AM] (782) Assuming Python version 3.12.3.final.0
+2025-01-21 11:16:18.759 [info] [Info  - 11:16:18 AM] (782) Found 43 source files
+2025-01-21 11:16:19.053 [info] [Info  - 11:16:19 AM] (782) Indexer background runner(3) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-21 11:16:19.053 [info] [Info  - 11:16:19 AM] (782) Indexing(3) started
+2025-01-21 11:16:19.242 [info] [Info  - 11:16:19 AM] (782) scanned(3) 73 files over 1 exec env
+2025-01-21 11:16:19.399 [info] [Info  - 11:16:19 AM] (782) indexed(3) 73 files over 1 exec env
+2025-01-21 11:16:19.416 [info] [Info  - 11:16:19 AM] (782) Indexing finished(3).
