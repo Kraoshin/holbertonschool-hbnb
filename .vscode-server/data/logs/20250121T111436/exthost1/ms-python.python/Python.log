@@ -11,3 +11,7 @@
 2025-01-21 11:14:39.854 [info] Starting Pylance language server.
 2025-01-21 11:14:43.134 [info] Native locator: Refresh finished in 5491 ms
 2025-01-21 11:16:43.667 [info] Python interpreter path: /usr/bin/python3
+2025-01-21 11:21:57.836 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/8-main.py
+2025-01-21 11:22:00.778 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/8-multiple_returns.py
+2025-01-21 11:30:17.471 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/9-max_integer.py
+2025-01-21 11:31:06.680 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/9-main.py
