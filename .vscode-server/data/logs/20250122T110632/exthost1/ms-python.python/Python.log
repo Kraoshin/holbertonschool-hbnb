@@ -1,0 +1,37 @@
+2025-01-22 11:06:38.358 [info] Experiment 'pythonaacf' is active
+2025-01-22 11:06:38.358 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-22 11:06:38.358 [info] Experiment 'pythonSurveyNotification' is active
+2025-01-22 11:06:38.358 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-22 11:06:38.358 [info] Experiment 'pythonTestAdapter' is active
+2025-01-22 11:06:38.358 [info] Native locator: Refresh started
+2025-01-22 11:06:38.358 [info] Native locator: Refresh started
+2025-01-22 11:06:38.384 [info] > pyenv which python
+2025-01-22 11:06:38.384 [info] cwd: .
+2025-01-22 11:06:38.405 [info] Python interpreter path: /usr/bin/python3
+2025-01-22 11:06:39.335 [info] Starting Pylance language server.
+2025-01-22 11:06:41.448 [info] Native locator: Refresh finished in 3446 ms
+2025-01-22 11:09:37.828 [info] Python interpreter path: /bin/python3
+2025-01-22 11:10:31.292 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/0-main.py
+2025-01-22 11:24:35.418 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/0-safe_print_list.py
+2025-01-22 11:27:16.615 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/1-main.py
+2025-01-22 11:40:10.228 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/1-safe_print_integer.py
+2025-01-22 11:54:22.919 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/2-safe_print_list_integers.py
+2025-01-22 11:54:50.885 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/2-main.py
+2025-01-22 11:56:26.526 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/2-safe_print_list_integers.py
+2025-01-22 11:59:54.496 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/3-main.py
+2025-01-22 12:00:40.402 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/3-safe_print_division.py
+2025-01-22 12:04:57.216 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/3-safe_print_division.py
+2025-01-22 12:05:07.886 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/4-main.py
+2025-01-22 12:08:36.865 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/4-list_division.py
+2025-01-22 12:11:32.423 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/5-main.py
+2025-01-22 12:12:06.981 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/5-raise_exception.py
+2025-01-22 12:15:13.699 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/6-main.py
+2025-01-22 12:15:46.848 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-exceptions/6-raise_exception_msg.py
+2025-01-22 12:31:51.266 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-main.py
+2025-01-22 12:39:51.978 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-add_integer.py
+2025-01-22 12:39:53.744 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-add_integer.py
+2025-01-22 12:39:54.993 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-add_integer.py
+2025-01-22 12:40:57.191 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-main.py
+2025-01-22 12:40:58.689 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-add_integer.py
+2025-01-22 15:22:49.723 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-main.py
+2025-01-22 15:25:29.600 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-test_driven_development/0-main.py

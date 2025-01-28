@@ -1,0 +1,22 @@
+2025-01-22 15:31:57.211 [info] Can't use the Electron fetcher in this environment.
+2025-01-22 15:31:57.211 [info] Using the Node fetch fetcher.
+2025-01-22 15:31:57.211 [info] Initializing Git extension service.
+2025-01-22 15:31:57.211 [info] Successfully activated the vscode.git extension.
+2025-01-22 15:31:57.211 [info] Enablement state of the vscode.git extension: true.
+2025-01-22 15:31:57.211 [info] Successfully registered Git commit message provider.
+2025-01-22 15:31:57.676 [info] Logged in as Kraoshin
+2025-01-22 15:31:59.078 [info] Got Copilot token for Kraoshin
+2025-01-22 15:31:59.578 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 15:31:59.578 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-22 15:31:59.590 [info] Registering default platform agent...
+2025-01-22 15:32:00.239 [info] Fetched model metadata in 1155ms b3566ca1-8693-4d43-9ce0-467784bcd8ab
+2025-01-22 15:32:00.241 [info] activationBlocker from 'languageModelAccess' took for 2681ms
+2025-01-22 15:46:06.360 [info] Fetched model metadata in 778ms 6a668738-b871-431c-9b8e-79d6f8d94e94
+2025-01-22 15:55:26.988 [info] Logged in as Kraoshin
+2025-01-22 15:55:27.791 [info] Got Copilot token for Kraoshin
+2025-01-22 15:55:28.005 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 16:09:30.417 [info] Fetched model metadata in 685ms a9b9c7a7-f251-459c-9bb3-c8d58d6793b8
+2025-01-22 16:18:48.531 [info] Logged in as Kraoshin
+2025-01-22 16:18:49.485 [info] Got Copilot token for Kraoshin
+2025-01-22 16:18:49.729 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-22 16:32:48.175 [info] Fetched model metadata in 761ms 0aaabf33-690f-4e3d-b970-a6cb02b9dbc7

@@ -1,0 +1,50 @@
+2025-01-22 11:06:39.047 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-22 11:06:39.325 [info] [Info  - 11:06:39 AM] (1122) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-22 11:06:39.325 [info] [Info  - 11:06:39 AM] (1122) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-22 11:06:39.325 [info] [Info  - 11:06:39 AM] (1122) Starting service instance "kraoshin"
+2025-01-22 11:06:39.360 [info] [Info  - 11:06:39 AM] (1122) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-01-22 11:06:39.360 [info] [Info  - 11:06:39 AM] (1122) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-01-22 11:06:39.361 [info] [Info  - 11:06:39 AM] (1122) No include entries specified; assuming /home/kraoshin
+2025-01-22 11:06:39.361 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/node_modules
+2025-01-22 11:06:39.361 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/__pycache__
+2025-01-22 11:06:39.361 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/.*
+2025-01-22 11:06:39.379 [info] [Info  - 11:06:39 AM] (1122) Assuming Python version 3.12.3.final.0
+2025-01-22 11:06:39.447 [info] [Info  - 11:06:39 AM] (1122) Found 58 source files
+2025-01-22 11:06:39.451 [info] [Info  - 11:06:39 AM] (1122) virtual workspace: vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-01-22 11:06:39.451 [info] [Info  - 11:06:39 AM] (1122) Starting service instance "<default>"
+2025-01-22 11:06:39.469 [info] [Info  - 11:06:39 AM] (1122) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-01-22 11:06:39.469 [info] [Info  - 11:06:39 AM] (1122) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-01-22 11:06:39.469 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/node_modules
+2025-01-22 11:06:39.469 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/__pycache__
+2025-01-22 11:06:39.470 [info] [Info  - 11:06:39 AM] (1122) Auto-excluding **/.*
+2025-01-22 11:06:39.506 [info] [Error - 11:06:39 AM] (1122) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-01-22 11:06:39.506 [info] [Info  - 11:06:39 AM] (1122) No source files found.
+2025-01-22 11:06:39.703 [info] [Info  - 11:06:39 AM] (1122) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-22 11:06:39.703 [info] [Info  - 11:06:39 AM] (1122) Background analysis(1) started
+2025-01-22 11:10:25.867 [info] [Info  - 11:10:25 AM] (1122) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-22 11:10:25.867 [info] [Info  - 11:10:25 AM] (1122) Indexing(2) started
+2025-01-22 11:10:26.107 [info] [Info  - 11:10:26 AM] (1122) Found 59 source files
+2025-01-22 11:10:26.141 [info] [Info  - 11:10:26 AM] (1122) scanned(2) 73 files over 1 exec env
+2025-01-22 11:10:26.312 [info] [Info  - 11:10:26 AM] (1122) indexed(2) 73 files over 1 exec env
+2025-01-22 11:10:26.330 [info] [Info  - 11:10:26 AM] (1122) Indexing finished(2).
+2025-01-22 11:22:31.402 [info] [Info  - 11:22:31 AM] (1122) Indexer background runner(3) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (refresh)
+2025-01-22 11:22:31.402 [info] [Info  - 11:22:31 AM] (1122) Indexing(3) started
+2025-01-22 11:22:31.703 [info] [Info  - 11:22:31 AM] (1122) scanned(3) 73 files over 1 exec env
+2025-01-22 11:22:31.882 [info] [Info  - 11:22:31 AM] (1122) indexed(3) 73 files over 1 exec env
+2025-01-22 11:22:31.908 [info] [Info  - 11:22:31 AM] (1122) Indexing finished(3).
+2025-01-22 11:24:19.609 [info] [Info  - 11:24:19 AM] (1122) Found 60 source files
+2025-01-22 11:27:09.606 [info] [Info  - 11:27:09 AM] (1122) Found 61 source files
+2025-01-22 11:27:23.175 [info] [Info  - 11:27:23 AM] (1122) Found 62 source files
+2025-01-22 11:48:30.159 [info] [Info  - 11:48:30 AM] (1122) Found 63 source files
+2025-01-22 11:48:54.936 [info] [Info  - 11:48:54 AM] (1122) Found 64 source files
+2025-01-22 11:58:34.126 [info] [Info  - 11:58:34 AM] (1122) Found 65 source files
+2025-01-22 12:00:01.291 [info] [Info  - 12:00:01 PM] (1122) Found 66 source files
+2025-01-22 12:04:48.764 [info] [Info  - 12:04:48 PM] (1122) Found 67 source files
+2025-01-22 12:05:14.937 [info] [Info  - 12:05:14 PM] (1122) Found 68 source files
+2025-01-22 12:11:27.731 [info] [Info  - 12:11:27 PM] (1122) Found 69 source files
+2025-01-22 12:11:38.095 [info] [Info  - 12:11:38 PM] (1122) Found 70 source files
+2025-01-22 12:15:07.582 [info] [Info  - 12:15:07 PM] (1122) Found 71 source files
+2025-01-22 12:15:22.175 [info] [Info  - 12:15:22 PM] (1122) Found 72 source files
+2025-01-22 12:31:45.697 [info] [Info  - 12:31:45 PM] (1122) Found 73 source files
+2025-01-22 12:39:52.298 [info] [Info  - 12:39:52 PM] (1122) Found 74 source files
+2025-01-22 15:28:41.698 [info] [Info  - 3:28:41 PM] (1122) Found 67 source files

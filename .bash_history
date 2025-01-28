@@ -1,452 +1,3 @@
-vim binary_trees.h 
-vim 8-binary_tree_postorder.c
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c -o 8-post
-./8-post 
-rm 8-post 
-git status -s 
-git add binary_trees.h 
-git commit -m "add prototype of func postorder traversal"
-git add 8-binary_tree_postorder.c 
-git commit -m "Write a function that goes through a binary tree using post-order traversal"
-git push
-git status -s
-ls
-git status -s
-vim 9-main.c
-vim binary_trees.h 
-vim 9-binary_tree_height.c
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
-alex@/tmp/binary_trees$ ./9-height 
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
-./9-height 
-git status -s
-betty 9-binary_tree_height.c 
-rm 9-height 
-git add binary_trees.h 
-git commit -m "add protoype of func that calculate the height of a tree"
-git add 9-binary_tree_height.c 
-git commit -m "Write a function that measures the height of a binary tree"
-git push
-vim 10-main.c
-vim binary_trees.h 
-vim 10-binary_tree_depth.c
-vim 9-binary_tree_height.c 
-git add 9-binary_tree_height.c 
-git commit -m "set variable h_left and h_right to 1 to make more sense"
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 9-binary_tree_height.c 9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 9-height
-./9-height 
-vim 9-binary_tree_height.c 
-git add 9-binary_tree_height.c 
-git commit -m "went back to previous writing"
-git status -s
-rm 9-height 
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 10-binary_tree_depth.c 10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 10-depth
-vim 10-binary_tree_depth.c
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 10-binary_tree_depth.c 10-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 10-depth
-./10-depth 
-vim 10-binary_tree_depth.c
-betty 10-binary_tree_depth.c 
-vim 10-binary_tree_depth.c
-betty 10-binary_tree_depth.c 
-git status -s
-rm 10-depth 
-git add binary_trees.h 
-git commit -m "add a prototype for a func that calc the depth of a node"
-git add 10-binary_tree_depth.c 
-git commit -m "Write a function that measures the depth of a node in a binary tree"
-git push
-vim 11-main.c
-vim binary_trees.h 
-vim 11-binary_tree_size.c
-git push
-vim 11-binary_tree_size.c
-betty 11-binary_tree_size.c 
-vim 11-binary_tree_size.c
-betty 11-binary_tree_size.c 
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 11-binary_tree_size.c 11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 11-size
-vim 11-binary_tree_size.c
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 11-binary_tree_size.c 11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 11-size
-vim 11-binary_tree_size.c
-betty 11-binary_tree_size.c 
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 11-binary_tree_size.c 11-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 11-size
-./11-size 
-rm 11-size 
-git status -s
-git add binary_trees.h 
-git commit -m "add prototype of a func that calc the size of a tree"
-git add 11-binary_tree_size.c 
-git commit -m "Write a function that measures the size of a binary tree"
-git push
-vim 12-main.c
-vim binary_tree
-vim binary_trees.h 
-vim 12-binary_tree_leaves.c
-betty 12-binary_tree_leaves.c 
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c 12-binary_tree_leaves.c 12-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o 12-leaves
-./12-leaves 
-rm 12-leaves 
-git status -s
-git add binary_trees.h 
-git commit -m "add prototype of a func that calc the num of leaves of a tree"
-git add 12-binary_tree_leaves.c 
-git commit -m "Write a function that counts the leaves in a binary tree"
-git push
-git status -s
-betty 9-binary_tree_height.c 
-git pull
-cd 
-cd holbertonschool-binary_trees/
-vim 13-binary_tree_nodes.c 
-vim 0-binary_tree_node.c 
-vim binary_trees.h 
-vim 2-binary_tree_insert_right.c 
-vim 3-binary_tree_delete.c 
-vim 2-binary_tree_insert_right.c 
-git clone https://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@github.com/Kraoshin/holbertonschool-sorting_algorithms.git
-vim print_array.c
-vim print_list.c
-vim sort.h
-git add .
-git status -s
-rm a.out 
-rm test.c 
-git status 
-git restore --staged .
-git status- s
-git status -s
-git log
-git logs
-git log
-git reset 45654e2a738482ef9f5d14c0bb253cb2a19fac12
-git status -s
-mv print_array.c holbertonschool-sorting_algorithms/
-ls
-mv print_list.c holbertonschool-sorting_algorithms/
-mv sort.h holbertonschool-sorting_algorithms/
-ls
-clear
-cd holbertonschool-sorting_algorithms/
-ls
-vim README.md
-git add .
-git status -s
-git commit -m "create the files needed for the correction, the header with prototypes and the README"
-git push
-git branch
-vim 0-O
-vim sort.h 
-vim 0-bubble_sort.c
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-alex@/tmp/sort$ ./bubble
-vim sort.h 
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-vim 0-bubble_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-vim 0-main.c
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-./bubble 
-vim 0-bubble_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-./bubble 
-betty 0-bubble_sort.c 
-vim 0-bubble_sort.c 
-betty 0-bubble_sort.c 
-vim 0-bubble_sort.c 
-betty 0-bubble_sort.c 
-vim 0-bubble_sort.c 
-betty 0-bubble_sort.c 
-vim 0-bubble_sort.c 
-betty 0-bubble_sort.c 
-betty sort.h 
-vim sort.h 
-betty sort.h 
-git status -s
-vim 0-O
-ls
-rm bubble 
-ls
-git status -s
-git add sort.h 
-git commit -m "add the prototype of bubble sort func"
-git add 0-O
-git commit -m "write the O notation of the time complexity"
-git status -s
-git add .
-git commit -m "Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm"
-git push
-git status -s
-vim 0-O
-git add 0-O 
-git commit -m "add the O notation of the time complexity for the average and worst case of bubble sort algorithm"
-git push
-ls
-vim sort.h 
-vim 0-O
-vim 0-bubble_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
-./bubble 
-vim 0-bubble_sort.c 
-vim sort.h 
-vim 1-insertion_sort_list.c
-vim 1-main.c
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-alex@/tmp/sort$ ./insertion
-betty 1-insertion_sort_list.c 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-./insertion 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./1
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-clear
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-vim 1-insertion_sort_list.c 
-gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-./insertion 
-betty 1-insertion_sort_list.c 
-rm insertion 
-vim 1-O
-git status -s
-rm bubble 
-git status -s
-git add sort.h 
-git commit -m "add the prototype of a func that insertion sort a doubly linked list"
-git add 1-O
-git commit -m "file containing O notation of the time complexity of insertion func"
-git add .
-git commit -m "Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm"
-git push
-vim sort.h 
-vim 2-selection_sort.c
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select
-alex@/tmp/sort$ ./select
-vim 2-main.c
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select
-alex@/tmp/sort$ ./select
-vim sort.h 
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select
-./select 
-vim 2-main.c
-vim 2-selection_sort.c 
-betty 2-selection_sort.c 
-vim 2-O
-vim 2-selection_sort.c 
-git status -s
-git add sort.h 
-git commit -m "add a prototype"
-git add 2-O
-git commit -m "add big O notation for time complexity of selection sort"
-rm select 
-git add .
-git commit -m "Write a function that sorts an array of integers in ascending order using the Selection sort algorithm"
-git push
-vim sort.h 
-vim 3-quick_sort.c
-vim 2-selection_sort.c 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-alex@/tmp/sort$ ./quick
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-vim 3-main.c
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-betty 3-quick_sort.c 
-vim 3-quick_sort.c 
-betty 3-quick_sort.c 
-vim 3-quick_sort.c 
-betty 3-quick_sort.c 
-vim 3-quick_sort.c 
-betty 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 2-selection_sort.c 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
-./quick 
-vim 3-quick_sort.c 
-betty 3-quick_sort.c 
-vim 3-O
-git status -s 
-rm quick 
-git status -s
-git add sort.h 
-betty sort.h 
-git commit -m "add prototype of the quicksort func"
-git add 3-O
-git commit -m "write the big O notation of time complexity of quicksort func"
-git add .
-git commit -m "Write a function that sorts an array of integers in ascending order using the Quick sort algorithm"
-git push
-vim 2-selection_sort.c 
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select
-alex@/tmp/sort$ ./select
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select
-./select 
-vim 2-selection_sort.c 
-git add 2-selection_sort.c 
-git commit -m "add a condition that ensure that element are swapped only if its necessary"
-git push
-betty 2-selection_sort.c 
-ls
-vim 0-bubble_sort.c 
-vim 1-insertion_sort_list.c 
-vim 2-selection_sort.c 
-vim 0-O
-vim 0-bubble_sort.c 
-ls
-rm select 
-git status -s
-vim fizzbuzz.c
-gcc fizzbuzz.c 
-vim fizzbuzz.c
-gcc fizzbuzz.c 
-vim fizzbuzz.c
-gcc fizzbuzz.c 
-./a.out 
-vim fizzbuzz.c
-rm fizzbuzz.c a.out 
-vim main.h
-vim 0-main.c
-vim 0-puts_recursion
-vim 0-puts_recursion.c
-mv 0-puts_recursion 0-puts_recursion.c
-vim 0-puts_recursion.c
-ls
-rm main.h 0-main.c 0-puts_recursion.c 
-vim test
-mv test test.c
-vim test.c 
-ls -a
-vim test.c 
-ls -la
-vim test.c 
-echo "A c" | tr -s "A" "Z" "c" "e"
-echo "A c" | tr -s "A" "Z"
-echo "A c" | tr -s "A" "Z" | tr -s "c" "e"
-vim test.c 
-gcc test.c 
-vim test.c 
-gcc test.c 
-./a.out 
-vim test.c 
-./a.out 
-gcc test.c 
-./a.out 
-rm a.out 
-vim test.c 
-vim print
-chmod a+x print 
-./print 
-vim print 
-rm print 
-vim test.c 
-ls
-rm test.c 
-ls
-cd holbertonschool-shell/
-ls
-cd io_redirections_and_filters/
-ls
-vim 26-the_biggest_fan 
-ls
-cd holbertonschool-shell/
-ls
-cd io_redirections_and_filters/
-ls
-vim 12-newest_files 
-ls
-git clone https://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@github.com/Kraoshin/holbertonschool-simple_shell.git
-ls
-cd holbertonschool-simple_shell/
-git branch Killian
-git checkout Killian
-git branch -h
-git git branch killian
-git branch killian
-git branch kraoshin
-git branch
-ls
-git pull
-vim README.md
 git add README.md 
 git commit -m "create the file README for later"
 git push
@@ -1998,3 +1549,452 @@ cd holbertonschool-higher_level_programming/
 git pull
 git status -s
 cd python-data_structures/
+/usr/bin/python3 /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/8-main.py
+ls
+cd holbertonschool-higher_level_programming/
+cd python-data_structures/
+ls
+chmod a+x 8-multiple_returns.py 8-main.py 
+ls
+git add 8-multiple_returns.py 
+git commit -m "function that returns a tuple with the length of a string and its first character."
+./8-main.py 
+chmod a+x 9-max_integer.py 9-main.py 
+ls
+./9-main.py 
+git add 9-max_integer.py 
+git commit -m " function that finds the biggest integer of a list."
+chmod a+x 10-divisible_by_2.py 10-main.py 
+./10-main.py 
+ls
+cd holbertonschool-higher_level_programming/
+ls
+cd python-data_structures/
+git status -s
+pwd
+cd holbertonschool-higher_level_programming/python-data_structures/
+ls
+git status -s
+./10-divisible_by_2.py 
+./10-main.py 
+git add 10-divisible_by_2.py 
+git commit -m "function that finds all multiples of 2 in a list."
+git push
+chmod a+x 11-main.py 
+./11-main.py 
+chmod a+x 11-delete_at.py 
+./11-main.py 
+git add 11-delete_at.py 
+git commit -m "function that deletes the item at a specific position in a list."
+ls
+chmod a+x 12-switch.py 
+./12-switch.py 
+pycodestyle --first *.py
+git add 12-switch.py 
+git commit -m "function that switch the value of two var"
+git push
+cd ..
+ls
+mkdir python-more_data_structures
+cd python-more_data_structures/
+ls
+cd ..
+ls
+cd python-data_structures/
+ls
+pwd
+cd ..
+cd python-more_data_structures/
+ls
+cd..
+ls
+cd ..
+ls
+rm -r python-more-data_structures/
+git status -s
+cd python-more_data_structures/
+ls
+chmod a+x 0-main.py 0-square_matrix_simple.py 
+ls
+cd ..
+cd python-data_structures/
+ls
+rm *main.py
+rm -r __pycache__/
+ls
+git status -s
+rm 0-square_matrix_simple.py 
+cd ..
+cd python-more_data_structures/
+ls
+git add README.md 0-main.py 0-square_matrix_simple.py 
+git commit -m "create README and a function that computes the square value of all integers of a matrix"
+rm 0-main.py 
+git add 0-main.py 
+git commit -m "delete main from git"
+git push
+git status -s
+chmod
+chmod a+x 1-main.py 1-search_replace.py 
+./1-main.py 
+git add 1-search_replace.py 
+git commit -m "function that replaces all occurrences of an element by another in a new list."
+chmod a+x 2-uniq_add.py 2-main.py 
+./2-main.py 
+git status -s
+git add 2-uniq_add.py 
+git commit -m "function that adds all unique integers in a list (only once for each integer)."
+chmod a+x 3-main.py 3-common_elements.py 
+./3-main.py 
+git status -s
+git add 3-common_elements.py 
+git commit -m "function that returns a set of common elements in two sets."
+chmod a+x 4-main.py 4-only_diff_elements.py 
+./4-main.py 
+git add 4-only_diff_elements.py 
+git commit -m "function that returns a set of all elements present in only one set."
+git status -s
+chmod a+x 5-main.py 5-number_keys.py 
+./5-main.py 
+chmod a+x 6-main.py 6-print_sorted_dictionary.py 
+./6-main.py 
+git add 6-print_sorted_dictionary.py 
+git commit -m "function that prints a dictionary by ordered keys."
+ls
+chmod a+x 7-main.py 7-update_dictionary.py 
+./7-main.py 
+ls
+git add 7-update_dictionary.py 
+git commit -m "function that replaces or adds key/value in a dictionary."
+chmod a+x 8-main.py 8-simple_delete.py 
+./8-main.py 
+git add 8-simple_delete.py 
+git commit -m "function that deletes a key in a dictionary."
+chmod a+x 9-main.py 9-multiply_by_2.py 
+./9-main.py 
+git add 9-multiply_by_2.py 
+git commit -m "function that returns a new dictionary with all values multiplied by 2"
+cmod a+x 10-best_score.py 10-main.py 
+chmod a+x 10-best_score.py 10-main.py 
+./10-main.py 
+git add 10-best_score.py 
+git commit -m "function that returns a key with the biggest integer value."
+git status -s
+chmod a+x 11-main.py 11-multiply_list_map.py 
+./11-main.py 
+git add 11-multiply_list_map.py 
+git commit -m "function that returns a list with all values multiplied by a number without using any loops."
+chmod a+x 12-roman_to_int.py 12-main.py 
+./12-main.py 
+git add 12-roman_to_int.py 
+git commit -m "function that converts a Roman numeral to an integer."
+rm *main.py
+ls
+pycodestyle --first *.py
+rm -r __pycache__/
+ls
+git status -s
+git add 5-number_keys.py 
+git commit -m "function that returns the number of keys in a dictionary."
+git push
+ls
+cd holbertonschool-higher_level_programming/
+mkdir python-exceptions
+cd python-
+cd python-exceptions/
+git add README.md 
+git commit -m "create README"
+git push
+chmod a+x 0-main.py 0-safe_print_list.py 
+./0-safe_print_list.py 
+./0-main.py 
+git add 0-safe_print_list.py 
+git commit -m "function that prints x elements of a list."
+chmod a+x 1-main.py 1-safe_print_integer.py 
+./1-main.py 
+chmod a+x 2-main.py 2-safe_print_list_integers.py 
+./2-main.py 
+git add 2-safe_print_list_integers.py 
+git commit -m "function that prints the first x elements of a list and only integers."
+git status -s
+git add 1-safe_print_integer.py 
+git commit -m "function that prints an integer with "{:d}".format()."
+ls
+chmod a+x 3-main.py 3-safe_print_division.py 
+./3-main.py 
+git add 3-safe_print_division.py 
+git commit -m "function that divides 2 integers and prints the result."
+chmod a+x 4-main.py 4-list_division.py 
+./4-main.py 
+pycodestyle --first *.py
+git status -s
+git add 4-list_division.py 
+git commit -m "function that divides element by element 2 lists."
+git push
+ls
+chmod a+x 5-main.py 5-raise_exception.py 
+./5-main.py 
+chmod a+x 6-main.py 6-raise_exception_msg.py 
+./6-main.py 
+git status -s
+git add 5-raise_exception.py
+git commit -m "function that raises a type exception."
+git add 6-raise_exception_msg.py 
+git commit -m "function that raises a name exception with a message."
+git push
+pycodestyle --first *.py
+cd ..
+mkdir python-test_driven_development
+cd python-test_driven_development/
+mkdir tests
+cd tests/
+python3 -m doctest ./tests/*
+cd..
+cd ..
+python3 -m doctest ./tests/*
+cd tests/
+ls
+rm 0-add_integer.txt 
+cd ..
+ls
+python3 -m doctest ./tests/*
+cd tests/
+ls
+cd ..
+python3 -m doctest ./tests/*
+cd tests/
+cd ..
+vim a
+ls
+python3 -m doctest ./tests/*
+ython3 -m doctest -v ./tests/0-add_integer.txt | tail -2
+python3 -m doctest -v ./tests/0-add_integer.txt | tail -2
+chmod a+x 0-main.py 0-add_integer.py 
+./0-main.py 
+python3 -m doctest -v ./tests/0-add_integer.txt | tail -2
+git status -s 
+git add README.md 
+git commit -m "create README"
+git add 0-add_integer.py 
+git commit -m "function that adds 2 integers."
+cd tests/
+git add README.md 
+git commit -m "create README"
+git add 0-add_integer.txt 
+git commit -m "different test for a function that adds 2 integers."
+git status -s
+cd //
+cd
+ls
+cd holbertonschool-higher_level_programming/
+cd python-exceptions/
+rm *main.py
+ls
+rm -r __pycache__/
+cd ..
+cd python-test_driven_development/
+ls
+git status -s
+ls
+cd holbertonschool-higher_level_programming/python-test_driven_development/
+git status -s
+git status- s
+git status
+git add 0-add_integer.py 
+git commit -m "the file does not appear on gh"
+git add 0-add_integer.py 
+git commit -m "changed nothing just forgot to push .."
+git push
+python3 -m doctest -v ./tests/0-add_integer.txt | tail -2
+ls
+cd tests/
+git add 0-add_integer.txt 
+git commit -m "add Float overflow and cannot convert float NaN to integer"
+git push
+ls
+cd holbertonschool-higher_level_programming/
+ls
+cd python-test_driven_development/
+git status -s
+git push
+ls
+cd tests/
+ls
+vim 2-main.py ..
+mv 2-main.py /..
+mv 2-main.py ../
+ls
+mv 2-matrix_divided.py ../
+ls
+cd..
+ls
+cd ..
+ls
+chmod a+x 2-main.py 2-matrix_divided.py 
+ls
+./2-main.py 
+cd tests/
+ls
+cd ..
+git status -s
+git add 2-matrix_divided.py tests/2-matrix_divided.txt 
+git commit -m "function that divides all elements of a matrix. and the doctest"
+git add 2-matrix_divided.py 
+git commit -m "modified commentary"
+git push
+git add 2-matrix_divided.py tests/2-matrix_divided.txt 
+git commit -m "documented the module as expected (i hope)"
+git pussh
+git push
+git add 2-matrix_divided.py 
+git commit -m "documented my code"
+git push
+python3 -m doctest ./tests/*
+git add tests/2-matrix_divided.txt 
+git commit -m "change all the doctest thanks to anzo"
+git push$
+git push
+git add 2-matrix_divided.py 
+git commit -m "modified the code thanks to anzo again"
+git push
+git status -s
+git add 3-say_my_name.py tests/3-say_my_name.txt 
+git commit -m "function that prints My name is <first name> <last name> and her doctest"
+git push
+pycodestyle --first 3-say_my_name.py 
+git add 3-say_my_name.py 
+git commit -m "add pycodestyle"
+git push
+ls
+cd tests/
+ls
+mv 4-main.py ..
+mv 4-print_square.py ..
+ls
+cd ..
+ls
+chmod a+x 4-main.py 
+./4-main.py 
+pycodestyle 4-print_square.py 
+pycodestyle --first 4-print_square.py 
+python3 -m doctest ./tests/*
+git status -s
+git add 4-print_square.py tests/4-print_square.txt 
+git commit -m "function that prints a square with the character # and her doctest"
+git push
+cd tests/
+mv 5-main.py ..
+ls
+cd ..
+ls
+mv 5-text_indentation.txt tests/
+ls 
+cd tests/
+ls
+cd ..
+pycodestyle --first 5-text_indentation.py 
+chmod a+x 5-main.py 
+./5-main.py 
+python3 -m doctest ./tests/*
+cd tests/
+python3 -m doctest ./tests/*
+clear
+cd ..
+git add 5-text_indentation.py 
+git add tests/5-text_indentation.txt 
+git commit -m "function that prints a text with 2 new lines after each of these characters: ., ? and : and its doctest" 
+git push
+cd tests/
+chmod a+x 6-main.py 
+./6-main.py 
+import unittest
+sudo apt install unittest
+python3 -m unittest tests.6-max_integer_test 2>&1 | tail -1
+head -7 tests/6-max_integer_test.py 
+chmod a+x 6-max_integer_test.py 
+head -7 tests/6-max_integer_test.py 
+python3 -m unittest tests.6-max_integer_test 2>&1 | tail -1
+python3 -m unittest tests.6-max_integer_test
+cd ..
+python3 -m unittest tests.6-max_integer_test
+cd tests/
+mv 6-main.py ..
+mv 6-max_integer.py 
+mv 6-max_integer.py ..
+ls
+cd ..
+ls
+python3 -m unittest tests.6-max_integer_test
+python3 -m unittest tests.6-max_integer_test 2>&1 | tail -1
+git status -s
+git add tests/6-max_integer_test.py 
+git commit -m "unittest file for the max_integer function"
+git puhs
+git push
+ls
+cd holbertonschool-higher_level_programming/
+mkdir python-classes
+cd python-classes/
+git add README.md 
+git commit -m "create README"
+git push
+chmod a+x 0-main.py 0-square.py 
+./0-main.py 
+pycodestyle --first 0-square.py 
+git add 0-square.py 
+git commit -m "empty class Square that defines a square:"
+git add 0-square.py 
+git commit -m "add commentary"
+chmod a+x 1-main.py 1-square.py 
+./1-main.py 
+git status -s
+git add 1-square.py 
+git commit -m " class Square that defines a square by: (based on 0-square.py)"
+chmod a+x 2-main.py 2-square.py 
+pycodestyle --first *.py
+git add 0-square.py 1-square.py 2-square.py 
+git commit -m "add pycodestyle"
+git status -s
+git push
+chmod a+x 2-main.py 
+./2-main.py 
+pycodestyle --first 3-square.py 
+chmod a+x 3-main.py 3-square.py 
+./3-main.py 
+git add 3-square.py 
+git commit -m "Write a class Square that defines a square by: (based on 2-square.py)"
+pycodestyle --first 4-square.py 
+chmod a+x 4-main.py 
+chmod a+x 4-square.py 
+./4-main.py 
+git add 4-square.py 
+git commit -m "Write a class Square that defines a square by: (based on 3-square.py)"
+chmod a+x 5-main.py 5-square.py 
+./5-main.py 
+git add 5-square.py 
+git commit -m "Write a class Square that defines a square by: (based on 4-square.py)"
+pycodestyle --first 6-square.py 
+git status -s 
+git add 6-square.py 
+git commit -m "Write a class Square that defines a square by: (based on 5-square.py"
+git status -s
+rm -f *main.py __pycache__/
+rm -r __pycache__/
+git status -s
+cd ../python-test_driven_development/
+ls
+rm -r *main.py 6-max_integer.py __pycache__/
+ls
+git status -s
+cd tests/
+rm -r __pycache__/
+cd ../../python-classes/
+ls
+chmod a+x 6-square.py 
+git add 6-square.py 
+git commit -m "add permissions"
+git push
+pycodestyle --first 6-square.py 
+git add 6-square.py 
+git commit -m "now the program works as intended"
+git push

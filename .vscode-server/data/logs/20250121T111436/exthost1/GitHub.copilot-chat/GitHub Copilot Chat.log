@@ -1,0 +1,118 @@
+2025-01-21 11:42:19.650 [info] Can't use the Electron fetcher in this environment.
+2025-01-21 11:42:19.650 [info] Using the Node fetch fetcher.
+2025-01-21 11:42:19.650 [info] Initializing Git extension service.
+2025-01-21 11:42:19.650 [info] Successfully activated the vscode.git extension.
+2025-01-21 11:42:19.650 [info] Enablement state of the vscode.git extension: true.
+2025-01-21 11:42:19.650 [info] Successfully registered Git commit message provider.
+2025-01-21 11:42:19.929 [info] Logged in as Kraoshin
+2025-01-21 11:42:20.957 [info] Got Copilot token for Kraoshin
+2025-01-21 11:42:21.277 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 11:42:21.277 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-21 11:42:21.282 [info] Registering default platform agent...
+2025-01-21 11:42:21.794 [info] Fetched model metadata in 827ms 658761dd-74ee-40bd-bda4-d5fa7a7daeab
+2025-01-21 11:42:21.796 [info] activationBlocker from 'languageModelAccess' took for 2022ms
+2025-01-21 11:42:32.543 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:42:32.544 [info] request done: requestId: [99184e07-c3a0-4f18-abbe-a97ca50b5162] model deployment ID: []
+2025-01-21 11:42:34.578 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:42:34.579 [info] request done: requestId: [d2d012eb-95f2-47ad-a305-f329dd228fa4] model deployment ID: []
+2025-01-21 11:42:35.281 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:42:35.281 [info] request done: requestId: [7f2d89ef-e94d-405f-a0f6-a85ae06313b4] model deployment ID: []
+2025-01-21 11:42:35.354 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:42:35.354 [info] request done: requestId: [666054be-c65c-49d1-9ac8-df8d7a7e6a35] model deployment ID: []
+2025-01-21 11:47:00.838 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:47:00.839 [info] request done: requestId: [200f3f13-b7f0-4208-91ed-7af1163c9af0] model deployment ID: []
+2025-01-21 11:47:02.789 [info] message 0 returned. finish reason: [stop]
+2025-01-21 11:47:02.789 [info] request done: requestId: [666e74d5-049c-4047-add3-549138428b8c] model deployment ID: []
+2025-01-21 11:57:12.128 [info] Fetched model metadata in 698ms d133b9b4-30e3-464e-98c5-1b098542ed13
+2025-01-21 12:06:58.779 [info] Logged in as Kraoshin
+2025-01-21 12:06:59.531 [info] Got Copilot token for Kraoshin
+2025-01-21 12:06:59.733 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 12:21:41.393 [info] Fetched model metadata in 712ms f2cd14dc-296c-4f43-a706-d3aab99e7845
+2025-01-21 12:31:26.542 [info] Logged in as Kraoshin
+2025-01-21 12:31:27.284 [info] Got Copilot token for Kraoshin
+2025-01-21 12:31:27.487 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 12:46:04.818 [info] Fetched model metadata in 701ms eddbc29c-dc30-4ae8-a15a-4127f293d7ea
+2025-01-21 12:55:45.793 [info] Logged in as Kraoshin
+2025-01-21 12:55:46.550 [info] Got Copilot token for Kraoshin
+2025-01-21 12:55:46.753 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 13:09:39.827 [info] Fetched model metadata in -309ms adc15085-c35d-40c5-a772-d2b34dedbd17
+2025-01-21 13:09:41.522 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:09:41.524 [info] request done: requestId: [8d640f38-8d63-45b8-803c-b79383797c42] model deployment ID: []
+2025-01-21 13:09:44.000 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:09:44.000 [info] request done: requestId: [77fead7c-f106-4e04-9696-3983c63d70b7] model deployment ID: []
+2025-01-21 13:19:57.798 [info] Logged in as Kraoshin
+2025-01-21 13:19:58.504 [info] Got Copilot token for Kraoshin
+2025-01-21 13:19:58.720 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 13:19:59.494 [info] Fetched model metadata in 698ms eee4c58a-1969-468a-b004-af5486ae6031
+2025-01-21 13:23:09.814 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:23:09.815 [info] request done: requestId: [f15d0d29-68b8-4578-bdaa-8f277d36a9a0] model deployment ID: []
+2025-01-21 13:23:18.349 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:23:18.350 [info] request done: requestId: [aeff0655-5d85-4c9b-95b4-79ee091d0bd3] model deployment ID: []
+2025-01-21 13:30:54.879 [info] Fetched model metadata in 718ms 2e77d517-a497-4b7a-bdad-fc64013a8992
+2025-01-21 13:30:56.468 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:30:56.469 [info] request done: requestId: [7e447e34-37b8-4ebb-881b-de4f23c0df79] model deployment ID: []
+2025-01-21 13:31:03.304 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:31:03.305 [info] request done: requestId: [85c2acc5-5c5b-4d23-b6be-6cf09bcf5d73] model deployment ID: []
+2025-01-21 13:34:55.061 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:34:55.062 [info] request done: requestId: [d032e3d4-3b7e-452f-8169-fa8f3bd4c16d] model deployment ID: []
+2025-01-21 13:34:57.918 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:34:57.918 [info] request done: requestId: [255e45fc-a588-414f-8ce8-09d92431cb11] model deployment ID: []
+2025-01-21 13:43:57.962 [info] Logged in as Kraoshin
+2025-01-21 13:43:58.719 [info] Got Copilot token for Kraoshin
+2025-01-21 13:43:58.926 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 13:43:59.753 [info] Fetched model metadata in 701ms de84e810-38b5-443d-99db-94d563aeee6c
+2025-01-21 13:48:23.793 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:48:23.794 [info] request done: requestId: [aea16586-1e65-43d6-80ba-a9c8f057c97c] model deployment ID: []
+2025-01-21 13:48:25.244 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:48:25.245 [info] request done: requestId: [3cc094de-95ff-4859-be39-b5ea9ba2e581] model deployment ID: []
+2025-01-21 13:58:20.473 [info] Fetched model metadata in 710ms 82dabf82-4a9a-4ed4-a20e-d61835088084
+2025-01-21 13:58:26.402 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:58:26.403 [info] request done: requestId: [fe811f90-93ff-4abb-8da4-f697c8a6ebea] model deployment ID: []
+2025-01-21 13:58:28.639 [info] message 0 returned. finish reason: [stop]
+2025-01-21 13:58:28.640 [info] request done: requestId: [33fc38bf-d829-4b01-93ff-f8d6b95150a9] model deployment ID: []
+2025-01-21 14:00:57.493 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:00:57.494 [info] request done: requestId: [46c536bd-f1b5-4c1e-be03-3299c1931a36] model deployment ID: []
+2025-01-21 14:01:00.404 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:01:00.405 [info] request done: requestId: [1fd4417d-805d-4985-804e-c707559e17da] model deployment ID: []
+2025-01-21 14:07:50.896 [info] Logged in as Kraoshin
+2025-01-21 14:07:51.662 [info] Got Copilot token for Kraoshin
+2025-01-21 14:07:51.890 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 14:10:44.596 [info] Fetched model metadata in 666ms 6796c477-6ca2-42e7-8bf0-1b8654c3b8bc
+2025-01-21 14:10:46.706 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:10:46.707 [info] request done: requestId: [e1b062dc-1cc9-4181-813a-dd51a68f9473] model deployment ID: []
+2025-01-21 14:10:48.782 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:10:48.783 [info] request done: requestId: [f70b0720-9cd0-4547-b385-f6510dd4d074] model deployment ID: []
+2025-01-21 14:17:43.716 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:17:43.717 [info] request done: requestId: [a03a2777-caed-4da6-b3e8-38b49984633f] model deployment ID: []
+2025-01-21 14:17:45.960 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:17:45.961 [info] request done: requestId: [c552114e-96e5-4162-b18f-50d39ee0c58b] model deployment ID: []
+2025-01-21 14:21:59.190 [info] Fetched model metadata in 711ms aadb73aa-68c0-4544-9d59-e1fe1eb0c4c8
+2025-01-21 14:22:01.264 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:22:01.264 [info] request done: requestId: [d3a0b327-b0a7-4ef7-9a84-40197cfb2c58] model deployment ID: []
+2025-01-21 14:22:03.982 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:22:03.983 [info] request done: requestId: [6698a255-6bc6-498d-b568-82e438faea6c] model deployment ID: []
+2025-01-21 14:28:26.510 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:28:26.512 [info] request done: requestId: [9dfb2bfb-c1c4-49ec-beb7-0151da8d3b3e] model deployment ID: []
+2025-01-21 14:28:34.017 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:28:34.018 [info] request done: requestId: [ee0f276f-a1dc-4299-ad0d-c338b62a6cf0] model deployment ID: []
+2025-01-21 14:31:33.367 [info] Logged in as Kraoshin
+2025-01-21 14:31:34.100 [info] Got Copilot token for Kraoshin
+2025-01-21 14:31:34.312 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 14:34:25.315 [info] Fetched model metadata in 756ms ae814291-b741-44a2-920e-1736f6bdd81e
+2025-01-21 14:34:27.477 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:34:27.478 [info] request done: requestId: [7193f23b-45f5-42ae-9875-0a245dd8142b] model deployment ID: []
+2025-01-21 14:34:31.467 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:34:31.467 [info] request done: requestId: [170b3ddb-c666-41a2-91fd-114d93de15e1] model deployment ID: []
+2025-01-21 14:42:11.839 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:42:11.842 [info] request done: requestId: [8f448736-de2e-4a13-8f1c-43afd5aab2f6] model deployment ID: []
+2025-01-21 14:42:17.998 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:42:17.998 [info] request done: requestId: [183e4735-7909-448a-8ed5-881309778576] model deployment ID: []
+2025-01-21 14:45:44.710 [info] Fetched model metadata in 721ms eb5d0a53-3ea1-4993-851a-d60344a62fb7
+2025-01-21 14:55:09.075 [info] Logged in as Kraoshin
+2025-01-21 14:55:09.844 [info] Got Copilot token for Kraoshin
+2025-01-21 14:55:10.049 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-21 14:55:57.361 [info] Fetched model metadata in 698ms 31a1346c-2488-4c19-a135-40eda87a3728
+2025-01-21 14:55:59.660 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:55:59.661 [info] request done: requestId: [f9b33a40-2c8d-45e9-b7e4-42f47428823b] model deployment ID: []
+2025-01-21 14:56:02.500 [info] message 0 returned. finish reason: [stop]
+2025-01-21 14:56:02.500 [info] request done: requestId: [56db37ce-5f5b-4a61-b2d0-b22e3649e17f] model deployment ID: []
