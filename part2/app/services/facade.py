@@ -40,8 +40,14 @@ class HBnBFacade:
         return [review for review in self.review_repo.get_all() if review.place == place_id]
     
     def update_review(self, review_id, review_data):
-        # Placeholder for logic to update a review
-        pass
+        review = self.review_repo.get(review_id)
+        if not review:
+            raise ValueError("Review not found, please enter a valid review title")
+        for key, value in review_data.items():
+            if hasattr(review, key):
+                setattr(review, key, value)
+        self.review_repo.update(review_id, review.__dict__)
+        return review
 
     def delete_review(self, review_id):
         # Placeholder for logic to delete a review
