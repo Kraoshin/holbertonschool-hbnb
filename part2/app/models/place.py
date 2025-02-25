@@ -1,16 +1,17 @@
-from basemodel import BaseModel
+from .basemodel import BaseModel
 
 class Place(BaseModel):
-    def __init__(self, title, description, price, latitude, longitude, owner):
+    def __init__(self, title, description, price, latitude, longitude, owner_id, amenities=None):
         super().__init__()
         self.title = title
         self.description = description
         self.price = price
         self.latitude = latitude
         self.longitude = longitude
-        self.owner = owner
+        self.owner = owner_id
         self.reviews = []  # List to store related reviews
-        self.amenities = []  # List to store related amenities
+        self.amenities = amenities or []  # List to store related amenities
+
 
     def validator(self):
         if  len(self.title) >= 100 and not self.title:
@@ -36,7 +37,7 @@ class Place(BaseModel):
     
     @price.setter
     def price(self, value):
-        if value < 0:
+        if value <= 0:
             raise ValueError("price must be greater than 0")
         self.__price = value
     
@@ -58,3 +59,4 @@ class Place(BaseModel):
     def longitude(self, value):
         if not (180 >= value >= -180):
             raise ValueError("longitude must be beewteen 180 and -180")
+        self.__longitude = value

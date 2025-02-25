@@ -3,19 +3,6 @@ from app.services import facade
 
 api = Namespace('places', description='Place operations')
 
-# Define the models for related entities
-amenity_model = api.model('PlaceAmenity', {
-    'id': fields.String(description='Amenity ID'),
-    'name': fields.String(description='Name of the amenity')
-})
-
-user_model = api.model('PlaceUser', {
-    'id': fields.String(description='User ID'),
-    'first_name': fields.String(description='First name of the owner'),
-    'last_name': fields.String(description='Last name of the owner'),
-    'email': fields.String(description='Email of the owner')
-})
-
 # Define the place model for input validation and documentation
 place_model = api.model('Place', {
     'title': fields.String(required=True, description='Title of the place'),
@@ -68,18 +55,19 @@ class PlaceResource(Resource):
     @api.response(404, 'Place not found')
     def get(self, place_id):
         """Get place details by ID"""
-        data_place = facade.get_place(place_id)
-        if not data_place:
-            return {"error": "Place not found"}, 404
-        return {
-            "id": data_place.id,
-            "title": data_place.title,
-            "description": data_place.description,
-            "price": data_place.price,
-            "latitude": data_place.latitude,
-            "longgitude": data_place.longitude,
-            "owner": data_place.owner,
-        }, 200
+        try:
+            data_place = facade.get_place(place_id)
+            return {
+                "id": data_place.id,
+                "title": data_place.title,
+                "description": data_place.description,
+                "price": data_place.price,
+                "latitude": data_place.latitude,
+                "longgitude": data_place.longitude,
+                "owner": data_place.owner,
+            }, 200
+        except ValueError as error:
+            return {"error": str(error)}, 404
 
     @api.expect(place_model)
     @api.response(200, 'Place updated successfully')
@@ -87,16 +75,13 @@ class PlaceResource(Resource):
     @api.response(400, 'Invalid input data')
     def put(self, place_id):
         """Update a place's information"""
-        data_place = api.payload
-        if not data_place:
-            return {'message': "Invalid input data"}, 400
-        
-        place_up = facade.update_place(place_id)
-        if not place_up:
-            return {'message': "Place not found"}, 404
-        
-        return {
-            "title": place_up.title,
-            "description": place_up.description,
-            "price": place_up.price,
-        }, 200
+        try:
+            data_place = api.payload
+            place_up = facade.update_place(place_id, data_place)
+            return {
+                "title": place_up.title,
+                "description": place_up.description,
+                "price": place_up.price,
+            }, 200
+        except ValueError as error:
+            return {"error": str(error)}, 404
