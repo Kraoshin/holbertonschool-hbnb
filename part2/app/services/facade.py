@@ -51,8 +51,8 @@ class HBnBFacade:
 
     def delete_review(self, review_id):
         review = self.review_repo.get(review_id)
-            if not review:
-                return("Review not found, please enter a valid review title")
+        if not review:
+            return("Review not found, please enter a valid review title")
         self.review_repo.delete(review_id)
         return {'message': 'Review deleted successfully'}
         
