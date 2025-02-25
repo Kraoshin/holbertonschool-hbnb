@@ -11,24 +11,24 @@ class HBnBFacade:
     #Place facade
 
     def create_place(self, place_data):
-        # the function crrate a new place with the data we provided
+        """the function crrate a new place with the data we provided"""
         new_place = Place(**place_data)
         self.place_repo.add(new_place)
         return new_place
 
     def get_place(self, place_id):
-        # The function get a place with place_id
+        """The function get a place with place_id"""
         place = self.place_repo.get(place_id)
         if not place:
             raise ValueError("Place not found")
         return place
 
     def get_all_places(self):
-        # The function get all places in the repo
+        """The function get all places in the repo"""
         return self.place_repo.get_all()
 
     def update_place(self, place_id, place_data):
-        # the function will update a place with new data
+        """the function will update a place with new data"""
         place = self.place_repo.get(place_id)
         if not place:
             raise ValueError("Place not found")
