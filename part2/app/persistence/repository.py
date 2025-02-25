@@ -50,3 +50,22 @@ class InMemoryRepository(Repository):
 
     def get_by_attribute(self, attr_name, attr_value):
         return next((obj for obj in self._storage.values() if getattr(obj, attr_name) == attr_value), None)
+
+    def __init__(self):
+        self.users = {}
+
+    def add(self, user):
+        self.users[user.id] = user
+
+    def get(self, user_id):
+        return self.users.get(user_id)
+
+    def get_all(self):
+        return list(self.users.values())  # Return all users as a list
+
+    def get_by_attribute(self, attribute, value):
+        return next((user for user in self.users.values() if getattr(user, attribute) == value), None)
+
+    def update(self, user):
+        if user.id in self.users:
+            self.users[user.id] = user
