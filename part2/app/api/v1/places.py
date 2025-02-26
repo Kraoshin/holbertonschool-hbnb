@@ -30,7 +30,7 @@ class PlaceList(Resource):
                 "description": new_place.description,
                 "price": new_place.price,
                 "latitude": new_place.latitude,
-                "longgitude": new_place.longitude,
+                "longitude": new_place.longitude,
                 "owner": new_place.owner,
             }, 201
         except ValueError as error:
@@ -63,7 +63,7 @@ class PlaceResource(Resource):
                 "description": data_place.description,
                 "price": data_place.price,
                 "latitude": data_place.latitude,
-                "longgitude": data_place.longitude,
+                "longitude": data_place.longitude,
                 "owner": data_place.owner,
             }, 200
         except ValueError as error:
