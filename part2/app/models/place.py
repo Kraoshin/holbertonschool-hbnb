@@ -1,4 +1,5 @@
 from .basemodel import BaseModel
+from .user import User
 
 class Place(BaseModel):
     def __init__(self, title, description, price, latitude, longitude, owner_id, amenities=None):
@@ -11,6 +12,7 @@ class Place(BaseModel):
         self.owner = owner_id
         self.reviews = []  # List to store related reviews
         self.amenities = amenities or []  # List to store related amenities
+        self.validator()
 
 
     def validator(self):
@@ -22,6 +24,8 @@ class Place(BaseModel):
             raise ValueError("Latitude must be beewteen 90 and -90")
         if not (180 >= self.longitude >= -180):
             raise ValueError("Longitude must be beewteen 180 and -180")
+        if isinstance (self.owner, User):
+            raise ValueError("owner must be an instance of User")
 
     def add_review(self, review):
         """Add a review to the place."""
