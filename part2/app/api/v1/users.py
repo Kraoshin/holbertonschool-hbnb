@@ -56,17 +56,10 @@ class UserResource(Resource):
         """Update user details by ID"""
         user_data = api.payload
         try:
-            user = facade.get_user(user_id)
+            user = facade.update_user(user_id, user_data)
             
             if not user:
                 return {'error': 'User not found'}, 404
-
-            user.first_name = user_data['first_name']
-            user.last_name = user_data['last_name']
-            user.email = user_data['email']
-
-            facade.user_repo.update(user)
-
             return {'id': user.id, 'first_name': user.first_name, 'last_name': user.last_name, 'email': user.email}, 200
         except ValueError as error:
             return {'error': str(error)}, 400
