@@ -249,7 +249,6 @@ Expected Response:
 201 Created: When the amenity is successfully created.
 400 Bad Request: If input data is invalid.
 
-
 # Setup and Installation
 
 # 1. Clone the repository:
