@@ -34,6 +34,7 @@ hbnb/
 ├── README.md
 
 
+
 # Explaination of key Directories and files
 
 .app/: Contains the main application components:
