@@ -22,7 +22,7 @@ In this project we have implemented the phase of the application based on the de
     │   │   ├── place.py
     │   │   ├── review.py
     │   │   ├── amenity.py
-    │   │   ├──basemodel.py
+    │   │   ├── basemodel.py
     │   ├── services/
     │   │   ├── __init__.py
     │   │   ├── facade.py
