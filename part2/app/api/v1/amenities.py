@@ -1,6 +1,5 @@
 from flask_restx import Namespace, Resource, fields
-from app.services.facade import HBnBFacade
-from app import facade
+from app.services import facade
 
 
 api = Namespace('amenities', description='Amenity operations')
@@ -19,8 +18,11 @@ class AmenityList(Resource):
     def post(self):
         """Create a new amenity"""
         amenity_data = api.payload
-        new_amenity = facade.create_amenity(amenity_data)
-        return {'id': new_amenity.id, 'name': new_amenity.name}, 201
+        try:
+            new_amenity = facade.create_amenity(amenity_data)
+            return {'id': new_amenity.id, 'name': new_amenity.name}, 201
+        except ValueError as error:
+            return {'error': str(error)}, 400
 
     @api.response(200, 'List of amenities retrieved successfully')
     def get(self):
@@ -40,17 +42,15 @@ class AmenityList(Resource):
                 return {'error': 'Amenity not found'}, 404
             return {'id': amenity.id, 'name': amenity.name}, 200
 
-        @api.epect(amenity_model, validate=True)
+        @api.expect(amenity_model, validate=True)
         @api.response(200, 'Amenity updated successfully')
         @api.response(404, 'Amenity not found')
         @api.response(400, 'Invalid input data')
         def put(self, amenity_id):
             """Update an amenity's information"""
             amenity_data = api.payload
-            amenity = facade.get_amenity(amenity_id)
+            amenity = facade.update_amenity(amenity_id, amenity_data)
             if not amenity:
                 return {'error': 'Amenity not found'}, 404
-            updated_amenity = facade.update_amenity
-            (amenity_id, amenity_data['name'])
-            return {'id': updated_amenity.id,
-                    'name': updated_amenity.name}, 200
+            return {'id': amenity.id,
+                    'name': amenity.name}, 200
