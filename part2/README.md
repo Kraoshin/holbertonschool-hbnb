@@ -61,9 +61,6 @@ The user entity, he has a unique id and can create/interact with places review a
 
 ### How to create a user:
 
-### Create a User
-
-POST /api/v1/users/
 Content-Type: application/json
 
     {
@@ -74,6 +71,7 @@ Content-Type: application/json
 
 
 Expected response:
+
     {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "first_name": "John",
@@ -81,7 +79,7 @@ Expected response:
     "email": "john.doe@example.com"
     }
 
-// 201 Created
+    // 201 Created
 
 ### Possible Status Codes:
 
@@ -90,7 +88,6 @@ Expected response:
 
 ### Retrieve a User by ID
 
-GET /api/v1/users/<user_id>
 Content-Type: application/json
 
 Expected Response:
@@ -102,18 +99,15 @@ Expected Response:
     "email": "john.doe@x.com"
     }
 
-// 200 OK
+    // 200 OK
 
 ### Possible Status Codes:
 
 200 OK: When the user is successfully retrieved.
 404 Not Found: If the user does not exist.
 
-### Testing your endpoints:
-
 ### Retrieve a List of Users
 
-GET /api/v1/users/
 Content-Type: application/json
 
 Expected Response:
@@ -135,7 +129,6 @@ Expected Response:
 
 ### Update a User
 
-PUT /api/v1/users/<user_id>
 Content-Type: application/json
 
     {
@@ -145,6 +138,7 @@ Content-Type: application/json
     }
 
 Expected Response:
+
     {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "first_name": "Jane",
@@ -166,7 +160,6 @@ The place is created by users and own reviews and amenities
 
 ### Register a New Place
 
-POST /api/v1/places/
 Content-Type: application/json
 
     {
@@ -179,6 +172,7 @@ Content-Type: application/json
     }
 
 Expected Response:
+
     {
     "id": "1fa85f64-5717-4562-b3fc-2c963f66afa6",
     "title": "Cozy Apartment",
@@ -202,7 +196,6 @@ Reviews are created by the user to rate places
 
 ### Register a New Review
 
-POST /api/v1/reviews/
 Content-Type: application/json
 
     {
@@ -233,7 +226,7 @@ Expected Response:
 Amenities are create by users and add to the place by the user too
 
 ### Register a New Amenity
-POST /api/v1/amenities/
+
 Content-Type: application/json
 
     {
