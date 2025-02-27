@@ -4,19 +4,29 @@ from app.models.user import User
 
 
 class Review(BaseModel):
-    def __init__(self, text, rating, place_id, user_id):
+    def __init__(self, text, rating, user_id, place_id):
         super().__init__()
         self.text = text
         self.rating = rating
-        self.place_id = place_id
         self.user_id = user_id
+        self.place_id = place_id
 
-    def exceptions (self):
-        if not self.text:
-            raise ValueError("You must provide a text for the review")
-        if not (1 <= self.rating <= 5):
-            raise ValueError("The rating must be between 1 and 5")
-        if not isinstance(self.place, Place):
-            raise ValueError("Places not found, please enter a valid place")
-        if not isinstance(self.user, User):
-            raise ValueError("User not found, please enter a valid username")
+    @property
+    def text(self):
+        return self._text
+
+    @text.setter
+    def text(self, value):
+        if not value and len(value) > 50:
+            raise ValueError("Text must be less than 50 characters")
+        self._text = value
+
+    @property
+    def rating(self):
+        return self._rating
+
+    @rating.setter
+    def rating(self, value):
+        if not value and not (1 <= value <= 5):
+            raise ValueError("Rating must be between 1 and 5")
+        self._rating = value
