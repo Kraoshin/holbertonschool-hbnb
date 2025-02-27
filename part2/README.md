@@ -38,9 +38,13 @@ hbnb/
 # Explaination of key Directories and files
 
 .app/: Contains the main application components:
-\t.api/: Handles API rounting and versioning.
+
+    .api/: Handles API rounting and versioning.
+
 .models/: Defines business logic classes, for User, Place, Review, and Amenities.
+
 .services/: Implements the facade pattern to act as bridge beetween layers.
+
 .persistence: Contains the in-memory repository that is intended to change for a database later
 
 .run.py: Entry point of this application
