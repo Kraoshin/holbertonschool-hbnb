@@ -39,7 +39,7 @@ hbnb/
 
 .app/: Contains the main application components:
 
-    .api/: Handles API rounting and versioning.
+.api/: Handles API rounting and versioning.
 
 .models/: Defines business logic classes, for User, Place, Review, and Amenities.
 
@@ -63,23 +63,23 @@ The user entity, he has a unique id and can create/interact with places review a
 
 ### Create a User
 
-POST /api/v1/users/
-Content-Type: application/json
+    POST /api/v1/users/
+    Content-Type: application/json
 
-{
-  "first_name": "John",
-  "last_name": "Doe",
-  "email": "john.doe@example.com"
-}
+    {
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com"
+    }
 
 
 Expected response:
-{
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "first_name": "John",
-  "last_name": "Doe",
-  "email": "john.doe@example.com"
-}
+    {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com"
+    }
 
 // 201 Created
 
