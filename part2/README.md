@@ -5,33 +5,33 @@ In this project we have implemented the phase of the application based on the de
 
 # Project Structure
 
-hbnb/
-├── app/
-│   ├── __init__.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   ├── v1/
-│   │       ├── __init__.py
-│   │       ├── users.py
-│   │       ├── places.py
-│   │       ├── reviews.py
-│   │       ├── amenities.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   ├── place.py
-│   │   ├── review.py
-│   │   ├── amenity.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── facade.py
-│   ├── persistence/
-│       ├── __init__.py
-│       ├── repository.py
-├── run.py
-├── config.py
-├── requirements.txt
-├── README.md
+    hbnb/
+    ├── app/
+    │   ├── __init__.py
+    │   ├── api/
+    │   │   ├── __init__.py
+    │   │   ├── v1/
+    │   │       ├── __init__.py
+    │   │       ├── users.py
+    │   │       ├── places.py
+    │   │       ├── reviews.py
+    │   │       ├── amenities.py
+    │   ├── models/
+    │   │   ├── __init__.py
+    │   │   ├── user.py
+    │   │   ├── place.py
+    │   │   ├── review.py
+    │   │   ├── amenity.py
+    │   ├── services/
+    │   │   ├── __init__.py
+    │   │   ├── facade.py
+    │   ├── persistence/
+    │       ├── __init__.py
+    │       ├── repository.py
+    ├── run.py
+    ├── config.py
+    ├── requirements.txt
+    ├── README.md
 
 
 
@@ -63,8 +63,8 @@ The user entity, he has a unique id and can create/interact with places review a
 
 ### Create a User
 
-    POST /api/v1/users/
-    Content-Type: application/json
+POST /api/v1/users/
+Content-Type: application/json
 
     {
     "first_name": "John",
@@ -95,12 +95,12 @@ Content-Type: application/json
 
 Expected Response:
 
-{
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "first_name": "John",
-  "last_name": "Doe",
-  "email": "john.doe@x.com"
-}
+    {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@x.com"
+    }
 
 // 200 OK
 
@@ -111,20 +111,21 @@ Expected Response:
 
 ### Testing your endpoints:
 
-Retrieve a List of Users (GET /api/v1/users/)
+### Retrieve a List of Users
+
 GET /api/v1/users/
 Content-Type: application/json
 
 Expected Response:
-[
-  {
-    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "first_name": "John",
-    "last_name": "Doe",
-    "email": "john.doe@example.com"
-  },
-  ...
-]
+    [
+    {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com"
+    },
+    ...
+    ]
 
 // 200 OK
 
@@ -137,19 +138,19 @@ Expected Response:
 PUT /api/v1/users/<user_id>
 Content-Type: application/json
 
-{
-  "first_name": "Jane",
-  "last_name": "Doe",
-  "email": "jane.doe@example.com"
-}
+    {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "jane.doe@example.com"
+    }
 
 Expected Response:
-{
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "first_name": "Jane",
-  "last_name": "Doe",
-  "email": "jane.doe@example.com"
-}
+    {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "jane.doe@example.com"
+    }
 
 // 200 OK
 
@@ -168,25 +169,25 @@ The place is created by users and own reviews and amenities
 POST /api/v1/places/
 Content-Type: application/json
 
-{
-  "title": "Cozy Apartment",
-  "description": "A nice place to stay",
-  "price": 100.0,
-  "latitude": 37.7749,
-  "longitude": -122.4194,
-  "owner_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-}
+    {
+    "title": "Cozy Apartment",
+    "description": "A nice place to stay",
+    "price": 100.0,
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "owner_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
 
 Expected Response:
-{
-  "id": "1fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "title": "Cozy Apartment",
-  "description": "A nice place to stay",
-  "price": 100.0,
-  "latitude": 37.7749,
-  "longitude": -122.4194,
-  "owner_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-}
+    {
+    "id": "1fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "title": "Cozy Apartment",
+    "description": "A nice place to stay",
+    "price": 100.0,
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "owner_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
 
 // 201 Created
 
@@ -204,21 +205,22 @@ Reviews are created by the user to rate places
 POST /api/v1/reviews/
 Content-Type: application/json
 
-{
-  "text": "Great place to stay!",
-  "rating": 5,
-  "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "place_id": "1fa85f64-5717-4562-b3fc-2c963f66afa6"
-}
+    {
+    "text": "Great place to stay!",
+    "rating": 5,
+    "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "place_id": "1fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+
 Expected Response:
 
-{
-  "id": "2fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "text": "Great place to stay!",
-  "rating": 5,
-  "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "place_id": "1fa85f64-5717-4562-b3fc-2c963f66afa6"
-}
+    {
+    "id": "2fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "text": "Great place to stay!",
+    "rating": 5,
+    "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "place_id": "1fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
 
 // 201 Created
 ### Possible Status Codes:
@@ -234,14 +236,16 @@ Amenities are create by users and add to the place by the user too
 POST /api/v1/amenities/
 Content-Type: application/json
 
-{
-  "name": "Wi-Fi"
-}
+    {
+    "name": "Wi-Fi"
+    }
+
 Expected Response:
-{
-  "id": "1fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "name": "Wi-Fi"
-}
+
+    {
+    "id": "1fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "Wi-Fi"
+    }
 
 // 201 Created
 
@@ -255,13 +259,12 @@ Expected Response:
 
 # 1. Clone the repository:
 
-```https://github.com/Kraoshin/holbertonschool-hbnb.git```
+    git clone https://github.com/Kraoshin/holbertonschool-hbnb.git
 
 # 2. Install Requirements:
 
-```pip install -r requirements.txt```
+    pip install -r requirements.txt
 
 # 3. Run the Application:
 
-```python run.py```
-
+    python run.py
