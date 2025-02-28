@@ -27,11 +27,11 @@ class UserList(Resource):
         try:
         
             user_data = api.payload
-            if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ -\']+$', user_data["first_name"]) or user_data["first_name"].strip() == "":
+            if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]+$', user_data["first_name"]) or user_data["first_name"].strip() == "":
                 return {"error": "First name can only contain letters and spaces and cannot be empty"}, 400
 
             # Check if last_name contains only letters and spaces and is not empty or only spaces
-            if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ -\']+$', user_data['last_name']) or user_data['last_name'].strip() == "":
+            if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]+$', user_data['last_name']) or user_data['last_name'].strip() == "":
                 return {'error': 'Last name can only contain letters and spaces and cannot be empty'}, 400
             
             existing_user = facade.get_user_by_email(user_data['email'])
