@@ -99,10 +99,16 @@ class HBnBFacade:
         if ('first_name' in user_data and len(user_data['first_name']) > 50)\
                 or not user_data['first_name']:
             raise ValueError("First name is required with max 50 characters.")
+        
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['first_name']) or user_data['first_name'].strip() == "":
+            raise ValueError("The first name is invalid.")
 
         if ('last_name' in user_data and len(user_data['last_name']) > 50)\
                 or not user_data['last_name']:
             raise ValueError("Last name is required with max 50 characters.")
+        
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['last_name']) or user_data['last_name'].strip() == "":
+            raise ValueError("The last name is invalid.")
 
         if not user_data['email']:
             raise ValueError("Email is required.")

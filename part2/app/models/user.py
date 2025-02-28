@@ -44,6 +44,8 @@ class User(BaseModel):
     def first_name(self, value):
         if not value or len(value) > 50:
             raise ValueError("First name is required with max 50 characters.")
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', value) or value.strip() == "":
+            raise ValueError("The first name is invalid.")
         self._first_name = value
 
     @property
@@ -54,4 +56,6 @@ class User(BaseModel):
     def last_name(self, value):
         if not value or len(value) > 50:
             raise ValueError("Last name is required with max 50 characters.")
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', value) or value.strip() == "":
+            raise ValueError("The last name is invalid.")
         self._last_name = value
