@@ -99,10 +99,16 @@ class HBnBFacade:
         if ('first_name' in user_data and len(user_data['first_name']) > 50)\
                 or not user_data['first_name']:
             raise ValueError("First name is required with max 50 characters.")
+        
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['first_name']) or user_data['first_name'].strip() == "":
+            raise ValueError("The first name is invalid.")
 
         if ('last_name' in user_data and len(user_data['last_name']) > 50)\
                 or not user_data['last_name']:
             raise ValueError("Last name is required with max 50 characters.")
+        
+        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['last_name']) or user_data['last_name'].strip() == "":
+            raise ValueError("The last name is invalid.")
 
         if not user_data['email']:
             raise ValueError("Email is required.")
@@ -155,8 +161,8 @@ class HBnBFacade:
     def update_review(self, review_id, review_update):
         review = self.review_repo.get(review_id)
         if not review:
-            raise KeyError("Review not found, please enter \
-                            a valid review title")
+            raise KeyError("Review not found, please enter"
+                            "a valid review title")
         if ('text' in review_update and len(review_update['text']) > 1000) \
                 or not review_update['text']:
             raise ValueError("Text must be less than 1000 characters")
@@ -199,8 +205,8 @@ class HBnBFacade:
         if not amenity:
             raise KeyError("Amenity not found")
         if not amenity_data['name'] or len(amenity_data['name']) > 50:
-            raise ValueError("Name must be a required with a maximum of \
-                            50 characters")
+            raise ValueError("Name must be a required with a maximum of"
+                            "50 characters")
 
         for key, value in amenity_data.items():
             if hasattr(amenity, key):
