@@ -155,8 +155,8 @@ class HBnBFacade:
     def update_review(self, review_id, review_update):
         review = self.review_repo.get(review_id)
         if not review:
-            raise KeyError("Review not found, please enter \
-                            a valid review title")
+            raise KeyError("Review not found, please enter"
+                            "a valid review title")
         if ('text' in review_update and len(review_update['text']) > 1000) \
                 or not review_update['text']:
             raise ValueError("Text must be less than 1000 characters")
@@ -199,8 +199,8 @@ class HBnBFacade:
         if not amenity:
             raise KeyError("Amenity not found")
         if not amenity_data['name'] or len(amenity_data['name']) > 50:
-            raise ValueError("Name must be a required with a maximum of \
-                            50 characters")
+            raise ValueError("Name must be a required with a maximum of"
+                            "50 characters")
 
         for key, value in amenity_data.items():
             if hasattr(amenity, key):

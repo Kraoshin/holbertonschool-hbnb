@@ -16,5 +16,5 @@ class Amenity(BaseModel):
 
     def validator(self):
         if not self.name or len(self.name) > 50:
-            raise ValueError("Name must be a required with a maximum of \
-                             50 characters")
+            raise ValueError("Name must be a required with a" 
+                             "maximum of 50 characters")
