@@ -8,8 +8,8 @@ class Review(BaseModel):
         super().__init__()
         self.text = text
         self.rating = rating
-        self.user_id = user_id
-        self.place_id = place_id
+        self._user_id = user_id
+        self._place_id = place_id
 
     @property
     def text(self):
@@ -27,6 +27,26 @@ class Review(BaseModel):
 
     @rating.setter
     def rating(self, value):
-        if not value and not (1 <= value <= 5):
+        if not value or not (1 <= value <= 5):
             raise ValueError("Rating must be between 1 and 5")
         self._rating = value
+
+@property
+def user_id(self):
+    return self._user_id
+    
+@user_id.setter
+def user_id(self, value):
+    if not isinstance(value, User):
+        raise ValueError("User not found, please enter a valid username")
+    self._user_id = value
+
+@property
+def place_id(self):
+    return self._place_id
+    
+@place_id.setter
+def place_id(self, value):
+    if not isinstance(value, Place):
+        raise ValueError("Place not found, please enter a valid place")
+    self._place_id = value
