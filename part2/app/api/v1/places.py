@@ -25,7 +25,7 @@ place_model = api.model('Place', {
     'owner_id': fields.String(required=True,
                               description='ID of the owner'),
     'amenities': fields.List(fields.String, required=True,
-                             description="List of amenities ID's")
+                             description="List of amenities ID's"),
     'reviews': fields.List(fields.Nested(review_model),
                            description='List of reviews')
 })
