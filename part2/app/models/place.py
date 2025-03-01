@@ -27,6 +27,18 @@ class Place(BaseModel):
         self.amenities.append(amenity)
 
     @property
+    def title(self):
+        return self.__title
+    
+    @title.setter
+    def title(self, value):
+        if not value:
+            raise ValueError("title is required")
+        if len(value) > 100:
+            raise ValueError("title must be less than 100 characters")
+        self.__title = value
+
+    @property
     def price(self):
         return self.__price
 
