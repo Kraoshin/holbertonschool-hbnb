@@ -44,6 +44,7 @@ class HBnBFacade:
     def update_place(self, place_id, place_data):
         """the function will update a place with new data"""
         place = self.place_repo.get(place_id)
+       
         if not place:
             raise KeyError("Place not found")
 
@@ -156,12 +157,19 @@ class HBnBFacade:
         if not place:
             raise ValueError("Place not found, please enter a valid place")
         return [review for review in self.review_repo.get_all()
-                if review.place_id == place_id]
+                if review._place_id == place_id]
 
     def update_review(self, review_id, review_update):
+        user = self.get_user(review_update['user_id'])
+        if not user:
+            raise KeyError("User not found")
+        place = self.get_place(review_update['place_id'])
+        if not place:
+            raise KeyError("Place not found")
+        
         review = self.review_repo.get(review_id)
         if not review:
-            raise KeyError("Review not found, please enter"
+            raise KeyError("Review not found, please enter "
                             "a valid review title")
         if ('text' in review_update and len(review_update['text']) > 1000) \
                 or not review_update['text']:
@@ -170,6 +178,12 @@ class HBnBFacade:
         if 'rating' in review_update and not \
                 (1 <= review_update['rating'] <= 5):
             raise ValueError("Rating must be between 1 and 5")
+        
+        if not isinstance(user, User):
+            raise ValueError("User not found, please enter a valid user")
+        
+        if not isinstance(place, Place):
+            raise ValueError("Place not found, please enter a valid place")
 
         for key, value in review_update.items():
             if hasattr(review, key):
@@ -205,7 +219,7 @@ class HBnBFacade:
         if not amenity:
             raise KeyError("Amenity not found")
         if not amenity_data['name'] or len(amenity_data['name']) > 50:
-            raise ValueError("Name must be a required with a maximum of"
+            raise ValueError("Name must be a required with a maximum of "
                             "50 characters")
 
         for key, value in amenity_data.items():
