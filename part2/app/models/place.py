@@ -13,8 +13,8 @@ class Place(BaseModel):
         self.latitude = latitude
         self.longitude = longitude
         self.owner_id = owner_id
-        self.reviews = []  # List to store related reviews
-        self.amenities = amenities or []  # List to store related amenities
+        self.reviews = []
+        self.amenities = amenities or []
 
     def add_review(self, review):
         """Add a review to the place."""

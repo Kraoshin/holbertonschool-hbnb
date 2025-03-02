@@ -19,6 +19,7 @@ class HBnBFacade:
         Owner = self.get_user(place_data['owner_id'])
         if not Owner:
             raise ValueError("Owner not found")
+
         new_place = Place(
             title=place_data['title'],
             description=place_data['description'],
@@ -27,6 +28,12 @@ class HBnBFacade:
             longitude=place_data['longitude'],
             owner_id=Owner.id
         )
+        if 'amenities' in place_data:
+            for amenity_id in place_data['amenities']:
+                amenity = self.amenity_repo.get(amenity_id)
+                if not amenity:
+                    raise ValueError("Amenity not found")
+                new_place.add_amenity(amenity)
         self.place_repo.add(new_place)
         return new_place
 
@@ -70,6 +77,13 @@ class HBnBFacade:
         if 'owner_id' in place_data and \
                 not self.user_repo.get(place_data['owner_id']):
             raise ValueError("Owner not found, please enter a valid owner")
+        
+        if 'amenities' in place_data:
+            for amenity_id in place_data['amenities']:
+                amenity = self.amenity_repo.get(amenity_id)
+                if not amenity:
+                    raise ValueError("Amenity not found")
+                place.add_amenity(amenity)
 
         for keys, value in place_data.items():
             if hasattr(place, keys):
@@ -139,6 +153,7 @@ class HBnBFacade:
             user_id=user.id,
             place_id=place.id
         )
+        review.add_review(place.id)
         self.review_repo.add(review)
         return review
 

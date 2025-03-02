@@ -4,6 +4,13 @@ from app.services import facade
 api = Namespace('places', description='Place operations')
 
 
+review_model = api.model('PlaceReview', {
+    'id': fields.String(description='Review ID'),
+    'text': fields.String(description='Text of the review'),
+    'rating': fields.Integer(description='Rating of the place (1-5)'),
+    'user_id': fields.String(description='ID of the user')
+})
+
 # Define the place model for input validation and documentation
 place_model = api.model('Place', {
     'title': fields.String(required=True,
@@ -18,7 +25,9 @@ place_model = api.model('Place', {
     'owner_id': fields.String(required=True,
                               description='ID of the owner'),
     'amenities': fields.List(fields.String, required=True,
-                             description="List of amenities ID's")
+                             description="List of amenities ID's"),
+    'reviews': fields.List(fields.Nested(review_model), 
+                             description='List of reviews')
 })
 
 
@@ -32,6 +41,7 @@ class PlaceList(Resource):
         data_place = api.payload
         try:
             new_place = facade.create_place(data_place)
+            amenities = [amenity.id for amenity in data_place.amenities ]
             return {
                 "id": new_place.id,
                 "title": new_place.title,
@@ -40,6 +50,7 @@ class PlaceList(Resource):
                 "latitude": new_place.latitude,
                 "longitude": new_place.longitude,
                 "owner_id": new_place.owner_id,
+                'amenities': amenities
             }, 201
         except ValueError as error:
             return {"error": str(error)}, 400
@@ -66,6 +77,7 @@ class PlaceResource(Resource):
         """Get place details by ID"""
         try:
             data_place = facade.get_place(place_id)
+            amenities = [amenity.id for amenity in data_place.amenities]
             return {
                 "id": data_place.id,
                 "title": data_place.title,
@@ -74,6 +86,7 @@ class PlaceResource(Resource):
                 "latitude": data_place.latitude,
                 "longitude": data_place.longitude,
                 "owner_id": data_place.owner_id,
+                'amenities': amenities
             }, 200
         except ValueError as error:
             return {"error": str(error)}, 404
@@ -87,12 +100,15 @@ class PlaceResource(Resource):
         try:
             data_place = api.payload
             place_up = facade.update_place(place_id, data_place)
+            amenities = [amenity.id for amenity in place_up.amenities]
             return {
                 "title": place_up.title,
                 "description": place_up.description,
                 "price": place_up.price,
                 "latitude": place_up.latitude,
-                "longitude": place_up.longitude
+                "longitude": place_up.longitude,
+                "owner_id": place_up.owner_id,
+                "amenities": amenities
             }, 200
         except ValueError as error:
             return {"error": str(error)}, 400
