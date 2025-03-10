@@ -94,19 +94,21 @@ class PlaceResource(Resource):
     def put(self, place_id):
         """Update a place's information"""
         cur_user = get_jwt_identity()
-
-        try:
-            data_place = api.payload
-            place_up = facade.update_place(place_id, data_place)
-            return {
-                "title": place_up.title,
-                "description": place_up.description,
-                "price": place_up.price,
-                "latitude": place_up.latitude,
-                "longitude": place_up.longitude,
-                "owner_id": place_up.owner_id
+        place = facade.get_place(place_id)
+        if not place:
+            return {'message': 'Invalid input data'}, 400
+        if place.owner_id != cur_user['id']:
+            return {'error': 'Unauthorized action'}, 403
+        updated_data = api.payload
+        updated_place = facade.update_place(place_id, updated_data)
+        if not updated_place:
+            return {'message': 'Place not found'}, 404
+        
+        return {
+            "title": updated_place.title,
+            "description": updated_place.description,
+            "price": updated_place.price,
+            "latitude": updated_place.latitude,
+            "longitude": updated_place.longitude,
+            "owner_id": updated_place.owner_id
             }, 200
-        except ValueError as error:
-            return {"error": str(error)}, 400
-        except KeyError as error:
-            return {"error": str(error)}, 404
