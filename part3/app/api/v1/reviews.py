@@ -1,5 +1,6 @@
 from flask_restx import Namespace, Resource, fields
 from app.services import facade
+from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
 
 api = Namespace('reviews', description='Review operations')
 
@@ -19,8 +20,10 @@ class ReviewList(Resource):
     @api.expect(review_model)
     @api.response(201, 'Review successfully created')
     @api.response(400, 'Invalid input data')
+    @jwt_required()
     def post(self):
         """Register a new review"""
+        cur_user = get_jwt_identity()
         review_data = api.payload
         if ('text' not in review_data or 'rating' not in review_data or
                 'user_id' not in review_data or 'place_id' not in review_data):
@@ -77,8 +80,15 @@ class ReviewResource(Resource):
     @api.response(200, 'Review updated successfully')
     @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
+    @jwt_required()
     def put(self, review_id):
         """Update a review's information"""
+        cur_user = get_jwt_identity()
+        review = facade.get_review(review_id)
+        if not review:
+            return {'error': 'Review not found'}, 404
+        if review.user_id != cur_user['id']:
+            return {'error': 'Unauthorized action'}, 403
         review_update = api.payload
         try:
             updated_review = facade.update_review(review_id, review_update)
@@ -91,14 +101,17 @@ class ReviewResource(Resource):
             }, 200
         except ValueError as error:
             return {'error': str(error)}, 400
-        except KeyError as error:
-            return {'error': str(error)}, 404
         
 
     @api.response(200, 'Review deleted successfully')
     @api.response(404, 'Review not found')
+    @jwt_required()
     def delete(self, review_id):
         """Delete a review"""
+        cur_user = get_jwt_identity()
+        review = facade.get_review(review_id)
+        if review.user_id != cur_user['id']:
+            return {'error': 'Unauthorized action'}, 403
         try:
             deleted_review = facade.delete_review(review_id)
             if deleted_review:
@@ -119,6 +132,7 @@ class PlaceReviewList(Resource):
             return [
                 {
                     'text': review.text,
+                    'id': review.id,
                     'rating': review.rating
                 } for review in place_reviews
             ], 200
