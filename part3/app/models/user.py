@@ -59,3 +59,11 @@ class User(BaseModel):
         if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', value) or value.strip() == "":
             raise ValueError("The last name is invalid.")
         self._last_name = value
+    
+    def verify_password(self, password):
+        """Verifies if the provided password matches the hashed password"""
+        return bcrypt.check_password_hash(self.password, password)
+
+    def hash_password(self, password):
+        """Hashes the password before storing it."""
+        self.password = bcrypt.generate_password_hash(password).decode('utf-8')
