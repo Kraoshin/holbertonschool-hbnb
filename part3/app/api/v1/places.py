@@ -1,15 +1,9 @@
 from flask_restx import Namespace, Resource, fields
 from app.services import facade
+from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
 
 api = Namespace('places', description='Place operations')
 
-
-review_model = api.model('PlaceReview', {
-    'id': fields.String(description='Review ID'),
-    'text': fields.String(description='Text of the review'),
-    'rating': fields.Integer(description='Rating of the place (1-5)'),
-    'user_id': fields.String(description='ID of the user')
-})
 
 # Define the place model for input validation and documentation
 place_model = api.model('Place', {
@@ -26,22 +20,23 @@ place_model = api.model('Place', {
                               description='ID of the owner'),
     'amenities': fields.List(fields.String, required=True,
                              description="List of amenities ID's"),
-    'reviews': fields.List(fields.Nested(review_model), 
-                             description='List of reviews')
 })
 
 
 @api.route('/')
 class PlaceList(Resource):
+    @jwt_required()
     @api.expect(place_model)
     @api.response(201, 'Place successfully created')
     @api.response(400, 'Invalid input data')
     def post(self):
         """Register a new place"""
+        cur_user = get_jwt_identity()
         data_place = api.payload
+        data['owner_id'] = cur_user['id']
+        place_data = api.payload
         try:
             new_place = facade.create_place(data_place)
-            amenities = [amenity.id for amenity in data_place.amenities ]
             return {
                 "id": new_place.id,
                 "title": new_place.title,
@@ -50,7 +45,6 @@ class PlaceList(Resource):
                 "latitude": new_place.latitude,
                 "longitude": new_place.longitude,
                 "owner_id": new_place.owner_id,
-                'amenities': amenities
             }, 201
         except ValueError as error:
             return {"error": str(error)}, 400
@@ -63,8 +57,11 @@ class PlaceList(Resource):
             {
                 "id": all_place.id,
                 "title": all_place.title,
+                "description": all_place.description,
+                "price": all_place.price,
                 "latitude": all_place.latitude,
-                "longitude": all_place.longitude
+                "longitude": all_place.longitude,
+                "owner_id": all_place.owner_id,
             } for all_place in places
         ]
 
@@ -77,7 +74,6 @@ class PlaceResource(Resource):
         """Get place details by ID"""
         try:
             data_place = facade.get_place(place_id)
-            amenities = [amenity.id for amenity in data_place.amenities]
             return {
                 "id": data_place.id,
                 "title": data_place.title,
@@ -85,8 +81,7 @@ class PlaceResource(Resource):
                 "price": data_place.price,
                 "latitude": data_place.latitude,
                 "longitude": data_place.longitude,
-                "owner_id": data_place.owner_id,
-                'amenities': amenities
+                "owner_id": data_place.owner_id
             }, 200
         except ValueError as error:
             return {"error": str(error)}, 404
@@ -95,20 +90,21 @@ class PlaceResource(Resource):
     @api.response(200, 'Place updated successfully')
     @api.response(404, 'Place not found')
     @api.response(400, 'Invalid input data')
+    @jwt_required()
     def put(self, place_id):
         """Update a place's information"""
+        cur_user = get_jwt_identity()
+
         try:
             data_place = api.payload
             place_up = facade.update_place(place_id, data_place)
-            amenities = [amenity.id for amenity in place_up.amenities]
             return {
                 "title": place_up.title,
                 "description": place_up.description,
                 "price": place_up.price,
                 "latitude": place_up.latitude,
                 "longitude": place_up.longitude,
-                "owner_id": place_up.owner_id,
-                "amenities": amenities
+                "owner_id": place_up.owner_id
             }, 200
         except ValueError as error:
             return {"error": str(error)}, 400
