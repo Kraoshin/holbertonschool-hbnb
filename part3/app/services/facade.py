@@ -1,18 +1,19 @@
+from app.persistence.repository import InMemoryRepository, SQLAlchemyRepository
 from app.services.user_repo import UserRepository
-from app.persistence.repository import SQLAlchemyRepository
 from app.models.place import Place
 from app.models.user import User
 from app.models.review import Review
 from app.models.amenity import Amenity
+from app import bcrypt
 import re
 
 
 class HBnBFacade:
     def __init__(self):
         self.user_repo = UserRepository()
-        self.place_repo = SQLAlchemyRepository(Place)
-        self.review_repo = SQLAlchemyRepository(Review)
-        self.amenity_repo = SQLAlchemyRepository(Amenity)
+        self.place_repo = InMemoryRepository()
+        self.review_repo = InMemoryRepository()
+        self.amenity_repo = InMemoryRepository()
 
     """Place facade"""
     def create_place(self, place_data):
@@ -94,10 +95,8 @@ class HBnBFacade:
         return place
 
     """User facade"""
-
     def create_user(self, user_data):
         user = User(**user_data)
-        user.hash_password(user_data['password'])
         self.user_repo.add(user)
         return user
 
@@ -105,7 +104,7 @@ class HBnBFacade:
         return self.user_repo.get(user_id)
 
     def get_user_by_email(self, email):
-        return self.user_repo.get_user_by_email(email)
+        return self.user_repo.get_by_attribute('email', email)
 
     def get_all_users(self):
         return self.user_repo.get_all()
@@ -139,6 +138,14 @@ class HBnBFacade:
             if hasattr(user, keys):
                 setattr(user, keys, value)
         return user
+    
+    def verify_password(self, password):
+        """Verifies if the provided password matches the hashed password"""
+        return bcrypt.check_password_hash(self.password, password)
+
+    def hash_password(self, password):
+        """Hashes the password before storing it."""
+        self.password = bcrypt.generate_password_hash(password).decode('utf-8')
 
     """Review facade"""
     def create_review(self, review_data):

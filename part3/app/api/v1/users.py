@@ -1,7 +1,6 @@
 from flask_restx import Namespace, Resource, fields
 from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
 from app.services import facade
-from app.models.user import User
 
 
 api = Namespace('users', description='User operations')
@@ -15,7 +14,7 @@ user_model = api.model('User', {
                                description='Last name of the user'),
     'email': fields.String(required=True,
                            description='Email of the user'),
-    'password': fields.String(required=TRUE,
+    'password': fields.String(required=True,
                               description='Password of the user')
 })
 
@@ -34,7 +33,7 @@ class UserList(Resource):
             if existing_user:
                 return {'error': 'Email already registered'}, 400
 
-            hash_password = User.hash_password(user_data['password'])
+            hash_password = facade.hash_password(user_data['password'])
             user_data['password'] = hash_password
             
             new_user = facade.create_user(user_data)
