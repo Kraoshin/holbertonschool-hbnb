@@ -51,3 +51,104 @@
 2025-03-11 10:45:53.754 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
 2025-03-11 10:46:19.037 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
 2025-03-11 10:47:23.039 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-11 10:54:35.918 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-11 10:54:40.075 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-11 11:01:40.658 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/pra_repo.py
+2025-03-11 11:02:16.479 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/pra_repo.py
+2025-03-11 11:04:01.483 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/pra_repo.py
+2025-03-11 11:04:07.332 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/pra_repo.py
+2025-03-11 11:12:01.666 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:14:23.990 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:15:09.410 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:25:47.214 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:38:42.533 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:40:11.468 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 11:42:07.722 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py
+2025-03-11 12:02:23.068 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:23.069 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:38.489 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:38.489 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:53.294 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:53.294 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:57.819 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-11 12:02:57.819 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt

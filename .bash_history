@@ -1,33 +1,3 @@
-vim 6-concat.py 
-pycodestyle --first *.py 
-vim 7-edges.py 
-pycodestyle --first *.py 
-vim 8-concat_edges.py 
-pycodestyle --first *.py 
-vim 8-concat_edges.py 
-pycodestyle --first *.py 
-vim 9-easter_egg.py 
-pycodestyle --first *.py 
-vim 2-print.py 
-ls
-rm 2-print.py 3-print_number.py 4-print_float.py 5-print_string.py 6-concat.py 7-edges.py 8-concat_edges.py 9-easter_egg.py 
-ls
-git add .
-git status -s "delete everything since checker is broken"
-git push
-git push -f
-ls
-git pull
-git status -s
-git add .
-git commit -m "delete everything bc of checker"
-git push
-vim 2-print.py
-pycodestyle --first 2-print.py 
-vim 3-print_number.py
-pycodestyle --first
-pycodestyle --first 3-print_number.py 
-vim 4-print_float.py
 pycodestyle --first 4-print_float.py 
 vim 5-print_string.py
 pycodestyle --first 5-print_string.py 
@@ -1997,4 +1967,34 @@ git commit -m "update the users classes to add security layers using jwt auth"
 git push origin kraoshin 
 git add part3/app/api/v1/places.py 
 git commit -m "add a check to ensure that the one creating the place is the one connected"
+git push origin kraoshin 
+cd holbertonschool-hbnb/
+git pull origin cyprien 
+git status -s
+git add part3/app/services/user_repo.py 
+git commit -m "create a user repository as specified in the instruction"
+git add part3/app/api/v1/users.py 
+git commit -m "modified playload to payload"
+git status -s
+git add part3/app/models/basemodel.py 
+git commit -m "make the basemodel class to inherit from sqlalch"
+git add part3/app/models/user.py 
+git status -s
+git commit -m "make the user model use db model"
+git add part3/app/services/facade.py 
+git commit -m "update user method to work with a db"
+git push origin kraoshin 
+git status -s
+git add part3/app/models/place.py 
+git commit -m "modified the value from int to float"
+git status -s
+git add part3/requirements.txt 
+git commit -m "add sqlalchemy in the file"
+git add part3/app/services/pra_repo.py 
+git commit -m "create the repo for place/review/amenity to interact with the database"
+git add part3/app/services/relationship.py 
+git commit -m "create the file that create all the relationship between classes in the db"
+git status -s
+git add part3/test/Test.sql 
+git commit -m "create a SQL file to test the db interaction"
 git push origin kraoshin 
