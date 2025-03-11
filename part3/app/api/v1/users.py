@@ -1,4 +1,5 @@
 from flask_restx import Namespace, Resource, fields
+from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
 from app.services import facade
 from app.models.user import User
 
@@ -78,6 +79,57 @@ class UserResource(Resource):
         user_data = api.payload
         if 'email' in user_data or 'password' in user_data:
             return {'error': 'You cannot modify email or password'}, 400
+        updated_user = facade.update_user(user_id, user_data)
+        if not updated_user:
+            return {'error': 'User not found'}, 404
+        return {
+            'id': updated_user.id,
+            'first_name': updated_user.first_name,
+            'last_name': updated_user.last_name,
+            'email': updated_user.email
+        }, 200
+
+@api.route('/users/')
+class AdminUserCreate(Resource):
+    @jwt_required()
+    def post(self):
+        current_user = get_jwt_identity()
+        if not current_user.get('is_admin'):
+            return {'error': 'Admin privileges required'}, 403
+
+        user_data = api.playload
+        email = user_data.get('email')
+
+        # Check if email is already in use
+        if facade.get_user_by_email(email):
+            return {'error': 'Email already registered'}, 400
+
+        hash_password = User.hash_password(user_data['password'])
+        user_data['password'] = hash_password
+
+        new_user = facade.create_user(user_data)
+        return {'id': new_user.id, 'first_name': new_user.first_name,
+                'last_name': new_user.last_name,
+                'email': new_user.email}, 201
+
+
+@api.route('/users/<user_id>')
+class AdminUserModify(Resource):
+    @jwt_required()
+    def put(self, user_id):
+        current_user = get_jwt_identity()
+        if not current_user.get('is_admin'):
+            return {'error': 'Admin privileges required'}, 403
+
+        data = api.playload
+        email = data.get('email')
+
+        # Ensure email uniqueness
+        if email:
+            existing_user = facade.get_user_by_email(email)
+            if existing_user and existing_user.id != user_id:
+                return {'error': 'Email already in use'}, 400
+
         updated_user = facade.update_user(user_id, user_data)
         if not updated_user:
             return {'error': 'User not found'}, 404
