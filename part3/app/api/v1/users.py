@@ -121,7 +121,7 @@ class AdminUserModify(Resource):
         if not current_user.get('is_admin'):
             return {'error': 'Admin privileges required'}, 403
 
-        data = api.playload
+        data = api.payload
         email = data.get('email')
 
         # Ensure email uniqueness
@@ -130,7 +130,7 @@ class AdminUserModify(Resource):
             if existing_user and existing_user.id != user_id:
                 return {'error': 'Email already in use'}, 400
 
-        updated_user = facade.update_user(user_id, user_data)
+        updated_user = facade.update_user(user_id, data)
         if not updated_user:
             return {'error': 'User not found'}, 404
         return {
