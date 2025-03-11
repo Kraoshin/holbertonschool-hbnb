@@ -1,10 +1,8 @@
 from app import db, bcrypt
-import uuid
 from .basemodel import BaseModel
 
 
-class User(BaseModel):
-     
+class User(BaseModel):     
     __tablename__ = 'users'
 
     first_name = db.Column(db.String(50), nullable=False)
