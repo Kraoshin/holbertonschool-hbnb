@@ -1,0 +1,20 @@
+2025-02-28 09:57:48.968 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-28 09:57:49.464 [info] [Info  - 9:57:49 AM] (13233) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-28 09:57:49.477 [info] [Info  - 9:57:49 AM] (13233) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-28 09:57:49.489 [info] [Info  - 9:57:49 AM] (13233) Starting service instance "kraoshin"
+2025-02-28 09:57:49.534 [info] [Info  - 9:57:49 AM] (13233) Setting environmentName for service "kraoshin": "3.12.3 (part2 venv)"
+2025-02-28 09:57:49.539 [info] [Info  - 9:57:49 AM] (13233) Setting pythonPath for service "kraoshin": "/home/kraoshin/holbertonschool-hbnb/part2/bin/python"
+2025-02-28 09:57:49.540 [info] [Info  - 9:57:49 AM] (13233) No include entries specified; assuming /home/kraoshin
+2025-02-28 09:57:49.541 [info] [Info  - 9:57:49 AM] (13233) Auto-excluding **/node_modules
+2025-02-28 09:57:49.541 [info] [Info  - 9:57:49 AM] (13233) Auto-excluding **/__pycache__
+2025-02-28 09:57:49.544 [info] [Info  - 9:57:49 AM] (13233) Auto-excluding **/.*
+2025-02-28 09:57:49.566 [info] [Info  - 9:57:49 AM] (13233) Assuming Python version 3.12.3.final.0
+2025-02-28 09:57:49.623 [info] [Info  - 9:57:49 AM] (13233) Auto-excluding /home/kraoshin/holbertonschool-hbnb/part2
+2025-02-28 09:57:49.655 [info] [Info  - 9:57:49 AM] (13233) Found 128 source files
+2025-02-28 09:57:50.059 [info] [Info  - 9:57:50 AM] (13233) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-28 09:57:50.061 [info] [Info  - 9:57:50 AM] (13233) Background analysis(1) started
+2025-02-28 09:57:50.158 [info] [Info  - 9:57:50 AM] (13233) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-28 09:57:50.158 [info] [Info  - 9:57:50 AM] (13233) Indexing(2) started
+2025-02-28 09:57:50.535 [info] [Info  - 9:57:50 AM] (13233) scanned(2) 44 files over 1 exec env
+2025-02-28 09:57:50.739 [info] [Info  - 9:57:50 AM] (13233) indexed(2) 44 files over 1 exec env
+2025-02-28 09:57:50.768 [info] [Info  - 9:57:50 AM] (13233) Indexing finished(2).

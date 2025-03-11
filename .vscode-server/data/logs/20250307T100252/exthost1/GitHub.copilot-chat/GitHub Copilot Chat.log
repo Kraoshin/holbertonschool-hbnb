@@ -1,0 +1,26 @@
+2025-03-07 10:02:58.157 [info] Can't use the Electron fetcher in this environment.
+2025-03-07 10:02:58.157 [info] Using the Node fetch fetcher.
+2025-03-07 10:02:58.157 [info] Initializing Git extension service.
+2025-03-07 10:02:58.157 [info] Successfully activated the vscode.git extension.
+2025-03-07 10:02:58.157 [info] Enablement state of the vscode.git extension: true.
+2025-03-07 10:02:58.157 [info] Successfully registered Git commit message provider.
+2025-03-07 10:02:58.769 [info] Logged in as Kraoshin
+2025-03-07 10:03:04.145 [info] Got Copilot token for Kraoshin
+2025-03-07 10:03:05.335 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-03-07 10:03:05.335 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-07 10:03:05.346 [info] Registering default platform agent...
+2025-03-07 10:03:06.388 [info] Fetched model metadata in 2229ms 9b8b2787-42a0-4e3b-b5b1-11e6024f9cc0
+2025-03-07 10:03:06.390 [info] activationBlocker from 'languageModelAccess' took for 7790ms
+2025-03-07 10:06:02.749 [info] message 0 returned. finish reason: [stop]
+2025-03-07 10:06:02.751 [info] request done: requestId: [74cbf93d-f555-4894-a5dc-c1306bc657bf] model deployment ID: []
+2025-03-07 10:06:23.420 [info] message 0 returned. finish reason: [stop]
+2025-03-07 10:06:23.421 [info] request done: requestId: [4c63e51a-8c7b-495e-8292-47f152a40597] model deployment ID: []
+2025-03-07 10:18:45.847 [info] Fetched model metadata in 539ms 1874a282-085a-4008-a10c-503ae3ff052d
+2025-03-07 10:29:11.025 [info] Logged in as Kraoshin
+2025-03-07 10:29:11.840 [info] Got Copilot token for Kraoshin
+2025-03-07 10:29:12.051 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-03-07 10:44:54.830 [info] Fetched model metadata in 592ms 8ba3dcb6-a2e8-4869-afc4-832b18008907
+2025-03-07 10:55:24.287 [info] Logged in as Kraoshin
+2025-03-07 10:55:24.957 [info] Got Copilot token for Kraoshin
+2025-03-07 10:55:25.169 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-03-07 10:55:25.760 [info] Fetched model metadata in 485ms f53e68d4-a75d-4b66-8160-f2705e499225

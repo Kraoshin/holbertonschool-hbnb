@@ -1,0 +1,11 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "files.insertFinalNewline": true,
+    "python.terminal.activateEnvironment": false,
+    "workbench.settings.applyToAllProfiles": [
+        "python.terminal.activateEnvironment"
+    ]
+}

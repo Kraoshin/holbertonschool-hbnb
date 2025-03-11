@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python",
+    "prefix": "/home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv",
+    "version": "3.12.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python",
+      "/home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python3",
+      "/home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python3.12"
+    ]
+  },
+  "symlinks": []
+}

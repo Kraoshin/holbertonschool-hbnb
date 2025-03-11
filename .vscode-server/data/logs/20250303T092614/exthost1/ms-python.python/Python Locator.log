@@ -1,0 +1,20 @@
+2025-03-03 09:26:20.499 [info] Starting Python Locator /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python-env-tools/bin/pet server
+2025-03-03 09:26:23.373 [info] Discovered env: /usr/bin/python3
+2025-03-03 09:26:23.375 [info] Discovered env: /home/kraoshin/venv/bin/python
+2025-03-03 09:26:23.385 [info] Discovered env: /bin/python3
+2025-03-03 09:26:23.422 [info] Discovered env: /home/kraoshin/holbertonschool-hbnb/bin/python
+2025-03-03 09:26:24.984 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-03 09:26:25.109 [info] Locator Conda took 4.087275717s
+2025-03-03 09:26:25.127 [info] Locator Homebrew took 312.702µs
+2025-03-03 09:26:25.151 [info] Locator LinuxGlobal took 51.391025ms
+2025-03-03 09:26:25.267 [info] Locator PipEnv took 31.559µs
+2025-03-03 09:26:25.289 [info] Locator Poetry took 21.887258ms
+2025-03-03 09:26:25.335 [info] Locator PyEnv took 23.32115ms
+2025-03-03 09:26:25.378 [info] Locator Venv took 13.034µs
+2025-03-03 09:26:25.456 [info] Locator VirtualEnv took 121.215µs
+2025-03-03 09:26:25.466 [info] Locator VirtualEnvWrapper took 75.341µs
+2025-03-03 09:26:25.505 [info] Locator GlobalVirtualEnvs took 1.508559ms
+2025-03-03 09:26:25.558 [info] Locator Locators took 4.087610941s
+2025-03-03 09:26:26.888 [info] Locator Path took 298.73421ms
+2025-03-03 09:26:26.944 [info] Locator Workspaces took 149.386511ms
+2025-03-03 09:26:26.996 [info] Refresh completed in 4087ms

@@ -1,0 +1,18 @@
+2025-02-28 10:26:38.508 [info] Can't use the Electron fetcher in this environment.
+2025-02-28 10:26:38.508 [info] Using the Node fetch fetcher.
+2025-02-28 10:26:38.508 [info] Initializing Git extension service.
+2025-02-28 10:26:38.508 [info] Successfully activated the vscode.git extension.
+2025-02-28 10:26:38.508 [info] Enablement state of the vscode.git extension: true.
+2025-02-28 10:26:38.508 [info] Successfully registered Git commit message provider.
+2025-02-28 10:26:39.922 [info] Logged in as Kraoshin
+2025-02-28 10:26:42.473 [info] Got Copilot token for Kraoshin
+2025-02-28 10:26:43.213 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-28 10:26:43.213 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-28 10:26:43.224 [info] Registering default platform agent...
+2025-02-28 10:26:43.724 [info] Fetched model metadata in 1236ms 89991dc9-78a0-4f87-97e9-3e994e1f1cb7
+2025-02-28 10:26:43.726 [info] activationBlocker from 'languageModelAccess' took for 3820ms
+2025-02-28 10:29:16.217 [info] Request ID for failed request: cae14c27-9428-4f5c-9a0f-958e718a8b56
+2025-02-28 10:29:16.218 [error] Request Failed: 400 {"error":{"message":"prompt token count of 12288 exceeds the limit of 12288","param":"","code":"","type":""}}
+
+2025-02-28 10:30:05.725 [info] message 0 returned. finish reason: [stop]
+2025-02-28 10:30:05.727 [info] request done: requestId: [473d06e9-ca61-408d-9f98-4fd987caa359] model deployment ID: []

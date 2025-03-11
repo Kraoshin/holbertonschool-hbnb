@@ -1,0 +1,64 @@
+2025-03-07 10:02:58.157 [info] Experiment 'pythonaacf' is active
+2025-03-07 10:02:58.157 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-03-07 10:02:58.157 [info] Experiment 'pythonSurveyNotification' is active
+2025-03-07 10:02:58.157 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-07 10:02:58.157 [info] Experiment 'pythonTestAdapter' is active
+2025-03-07 10:02:58.157 [info] Native locator: Refresh started
+2025-03-07 10:02:58.157 [info] Native locator: Refresh started
+2025-03-07 10:02:58.157 [info] > pyenv which python
+2025-03-07 10:02:58.157 [info] cwd: .
+2025-03-07 10:03:00.666 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/.vscode-server/extensions/.d7663290-2f98-43ac-b731-b3cd07b6c7dd/python_files/pyproject.toml
+2025-03-07 10:03:02.567 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/.vscode-server/extensions/.d7663290-2f98-43ac-b731-b3cd07b6c7dd/python_files/.vscode/settings.json
+2025-03-07 10:03:07.092 [info] Python interpreter path: /bin/python3
+2025-03-07 10:03:07.864 [info] Starting Pylance language server.
+2025-03-07 10:03:08.704 [info] Native locator: Refresh finished in 11997 ms
+2025-03-07 10:10:13.112 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/9-model_state_filter_a.py
+2025-03-07 10:11:55.870 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/9-model_state_filter_a.py
+2025-03-07 10:13:43.527 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/9-model_state_filter_a.py
+2025-03-07 10:18:30.301 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/10-model_state_my_get.py
+2025-03-07 10:21:08.096 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/10-model_state_my_get.py
+2025-03-07 10:21:14.830 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/10-model_state_my_get.py
+2025-03-07 10:25:34.515 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/11-model_state_insert.py
+2025-03-07 10:26:27.755 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/11-model_state_insert.py
+2025-03-07 10:26:44.439 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/11-model_state_insert.py
+2025-03-07 10:30:38.438 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:32:45.726 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:33:03.984 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:33:17.085 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:33:17.457 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:33:34.720 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:33:39.395 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:36:40.613 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:36:55.336 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:37:10.828 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:37:11.123 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:37:25.036 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:37:34.547 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/12-model_state_update_id_2.py
+2025-03-07 10:38:35.847 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:38:40.675 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:39:59.571 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:40:34.342 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:40:49.992 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:40:59.457 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/13-model_state_delete_a.py
+2025-03-07 10:43:15.392 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 10:45:22.616 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 10:45:28.921 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 10:45:30.441 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 10:47:10.207 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 10:47:31.107 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 10:47:35.058 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 10:47:36.278 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 10:49:32.551 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 10:56:38.364 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 10:56:43.086 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:01:14.341 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:01:42.703 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:02:37.317 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:02:40.232 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:03:31.182 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 11:03:43.868 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 11:03:57.940 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:07:02.279 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 11:09:19.762 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/model_city.py
+2025-03-07 11:09:43.798 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py
+2025-03-07 11:09:48.776 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/14-model_city_fetch_by_state.py

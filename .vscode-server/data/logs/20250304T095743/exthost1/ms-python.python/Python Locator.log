@@ -1,0 +1,62 @@
+2025-03-04 10:01:16.439 [info] Starting Python Locator /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python-env-tools/bin/pet server
+2025-03-04 10:01:16.464 [info] Discovered env: /home/kraoshin/venv/bin/python
+2025-03-04 10:01:16.472 [info] Discovered env: /usr/bin/python3
+2025-03-04 10:01:16.473 [info] Discovered env: /bin/python3
+2025-03-04 10:01:16.475 [info] Discovered env: /home/kraoshin/holbertonschool-hbnb/bin/python
+2025-03-04 10:01:16.475 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:01:21.886 [info] Locator Conda took 3.449415957s
+2025-03-04 10:01:21.886 [info] Locator Homebrew took 489.202µs
+2025-03-04 10:01:21.886 [info] Locator LinuxGlobal took 48.490417ms
+2025-03-04 10:01:21.886 [info] Locator PipEnv took 217.665µs
+2025-03-04 10:01:21.886 [info] Locator Poetry took 20.14117ms
+2025-03-04 10:01:21.886 [info] Locator PyEnv took 20.644561ms
+2025-03-04 10:01:21.886 [info] Locator Venv took 44.578µs
+2025-03-04 10:01:21.886 [info] Locator VirtualEnv took 14.832µs
+2025-03-04 10:01:21.886 [info] Locator VirtualEnvWrapper took 48.049µs
+2025-03-04 10:01:21.886 [info] Locator GlobalVirtualEnvs took 1.000803ms
+2025-03-04 10:01:21.886 [info] Locator Locators took 3.449796515s
+2025-03-04 10:01:21.886 [info] Locator Path took 252.36023ms
+2025-03-04 10:01:21.886 [info] Locator Workspaces took 122.343891ms
+2025-03-04 10:01:21.886 [info] Refresh completed in 3449ms
+2025-03-04 10:31:43.299 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:32:33.470 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:41:23.494 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:45:27.808 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:47:13.308 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:53:47.226 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 10:57:36.222 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:08:15.983 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:09:55.329 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:12:16.288 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:13:26.083 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:14:20.602 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:16:33.224 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:18:05.739 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:19:27.368 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:21:31.560 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:22:50.553 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:24:07.285 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:24:49.773 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:27:14.114 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:36:17.527 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:36:47.948 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 11:38:22.298 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:20:56.696 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:23:06.992 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:32:05.145 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:37:04.753 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:38:58.247 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:41:00.827 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:43:17.674 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 14:59:41.423 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:11:43.657 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:17:03.835 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:21:50.830 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:24:38.784 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:29:22.784 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:31:40.756 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:36:16.547 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:37:44.325 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:41:19.611 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:49:01.199 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python
+2025-03-04 15:50:40.729 [info] Resolved Python Environment /home/kraoshin/holbertonschool-hbnb/part2/venv/bin/python

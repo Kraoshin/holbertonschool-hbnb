@@ -1,0 +1,81 @@
+2025-03-11 10:17:15.261 [info] [Info  - 10:17:15 AM] (1295) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist
+2025-03-11 10:17:15.330 [info] [Info  - 10:17:15 AM] (1295) Pylance language server 2025.3.1 (pyright version 1.1.396, commit 3e2236a7) starting
+2025-03-11 10:17:15.339 [info] [Info  - 10:17:15 AM] (1295) Starting service instance "kraoshin"
+2025-03-11 10:17:15.388 [info] [Info  - 10:17:15 AM] (1295) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-11 10:17:15.389 [info] [Info  - 10:17:15 AM] (1295) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-11 10:17:15.389 [info] [Info  - 10:17:15 AM] (1295) No include entries specified; assuming /home/kraoshin
+2025-03-11 10:17:15.389 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:17:15.390 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:17:15.390 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:17:15.416 [info] [Info  - 10:17:15 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:17:15.483 [info] (Client) Pylance async client (2025.3.1) started with python extension (2025.2.0)
+2025-03-11 10:17:15.545 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 10:17:15.545 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 10:17:15.547 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding /home/kraoshin/venv
+2025-03-11 10:17:15.547 [info] [Info  - 10:17:15 AM] (1295) Found 144 source files
+2025-03-11 10:17:15.554 [info] [Info  - 10:17:15 AM] (1295) virtual workspace: vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 10:17:15.555 [info] [Info  - 10:17:15 AM] (1295) Starting service instance "<default>"
+2025-03-11 10:17:15.594 [info] [Info  - 10:17:15 AM] (1295) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 10:17:15.594 [info] [Info  - 10:17:15 AM] (1295) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 10:17:15.594 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:17:15.594 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:17:15.594 [info] [Info  - 10:17:15 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:17:15.619 [info] [Info  - 10:17:15 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:17:15.671 [info] [Error - 10:17:15 AM] (1295) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-11 10:17:15.671 [info] [Info  - 10:17:15 AM] (1295) No source files found.
+2025-03-11 10:17:16.076 [info] [Info  - 10:17:16 AM] (1295) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist
+2025-03-11 10:17:16.076 [info] [Info  - 10:17:16 AM] (1295) Background analysis(1) started
+2025-03-11 10:17:16.077 [info] [Info  - 10:17:16 AM] (1295) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist (index)
+2025-03-11 10:17:16.077 [info] [Info  - 10:17:16 AM] (1295) Indexing(2) started
+2025-03-11 10:17:16.497 [info] [Info  - 10:17:16 AM] (1295) scanned(2) 98 files over 1 exec env
+2025-03-11 10:17:16.676 [info] [Info  - 10:17:16 AM] (1295) indexed(2) 98 files over 1 exec env
+2025-03-11 10:17:16.716 [info] [Info  - 10:17:16 AM] (1295) Indexing finished(2).
+2025-03-11 10:35:06.264 [info] [Info  - 10:35:06 AM] (1295) Starting service instance "<default>"
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) No include entries specified; assuming /<default workspace root>
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:35:06.342 [info] [Info  - 10:35:06 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:35:06.373 [info] [Info  - 10:35:06 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:35:06.464 [info] [Error - 10:35:06 AM] (1295) File or directory "/<default workspace root>" does not exist.
+2025-03-11 10:35:06.464 [info] [Info  - 10:35:06 AM] (1295) No source files found.
+2025-03-11 10:35:06.679 [info] [Info  - 10:35:06 AM] (1295) Background analysis(3) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist
+2025-03-11 10:35:06.680 [info] [Info  - 10:35:06 AM] (1295) Background analysis(3) started
+2025-03-11 10:42:29.384 [info] [Info  - 10:42:29 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 10:42:29.393 [info] [Info  - 10:42:29 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 10:42:29.413 [info] [Info  - 10:42:29 AM] (1295) Auto-excluding /home/kraoshin/venv
+2025-03-11 10:42:29.438 [info] [Info  - 10:42:29 AM] (1295) Found 148 source files
+2025-03-11 10:52:27.918 [info] [Info  - 10:52:27 AM] (1295) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-11 10:52:27.918 [info] [Info  - 10:52:27 AM] (1295) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-11 10:52:27.919 [info] [Info  - 10:52:27 AM] (1295) No include entries specified; assuming /home/kraoshin
+2025-03-11 10:52:27.919 [info] [Info  - 10:52:27 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:52:27.919 [info] [Info  - 10:52:27 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:52:27.919 [info] [Info  - 10:52:27 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:52:27.944 [info] [Info  - 10:52:27 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:52:28.003 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 10:52:28.013 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 10:52:28.042 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding /home/kraoshin/venv
+2025-03-11 10:52:28.061 [info] [Info  - 10:52:28 AM] (1295) Found 150 source files
+2025-03-11 10:52:28.109 [info] [Info  - 10:52:28 AM] (1295) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 10:52:28.109 [info] [Info  - 10:52:28 AM] (1295) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 10:52:28.109 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:52:28.109 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:52:28.109 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:52:28.134 [info] [Info  - 10:52:28 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:52:28.182 [info] [Error - 10:52:28 AM] (1295) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-11 10:52:28.183 [info] [Info  - 10:52:28 AM] (1295) No source files found.
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) No include entries specified; assuming /<default workspace root>
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/node_modules
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/__pycache__
+2025-03-11 10:52:28.397 [info] [Info  - 10:52:28 AM] (1295) Auto-excluding **/.*
+2025-03-11 10:52:28.427 [info] [Info  - 10:52:28 AM] (1295) Assuming Python version 3.12.3.final.0
+2025-03-11 10:52:28.488 [info] [Error - 10:52:28 AM] (1295) File or directory "/<default workspace root>" does not exist.
+2025-03-11 10:52:28.488 [info] [Info  - 10:52:28 AM] (1295) No source files found.
+2025-03-11 10:52:28.554 [info] [Info  - 10:52:28 AM] (1295) Indexer background runner(4) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist (index)
+2025-03-11 10:52:28.554 [info] [Info  - 10:52:28 AM] (1295) Indexing(4) started
+2025-03-11 10:52:28.803 [info] [Info  - 10:52:28 AM] (1295) scanned(4) 98 files over 1 exec env
+2025-03-11 10:52:29.030 [info] [Info  - 10:52:29 AM] (1295) indexed(4) 98 files over 1 exec env
+2025-03-11 10:52:29.053 [info] [Info  - 10:52:29 AM] (1295) Indexing finished(4).

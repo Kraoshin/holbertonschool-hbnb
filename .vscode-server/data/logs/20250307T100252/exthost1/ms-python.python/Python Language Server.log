@@ -1,0 +1,76 @@
+2025-03-07 10:03:07.646 [info] [Info  - 10:03:07 AM] (1216) Server root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-03-07 10:03:07.702 [info] [Info  - 10:03:07 AM] (1216) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-03-07 10:03:07.747 [info] [Info  - 10:03:07 AM] (1216) Starting service instance "kraoshin"
+2025-03-07 10:03:07.862 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-03-07 10:03:10.096 [info] [Info  - 10:03:10 AM] (1216) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-07 10:03:10.096 [info] [Info  - 10:03:10 AM] (1216) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-07 10:03:10.096 [info] [Info  - 10:03:10 AM] (1216) No include entries specified; assuming /home/kraoshin
+2025-03-07 10:03:10.097 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/node_modules
+2025-03-07 10:03:10.097 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/__pycache__
+2025-03-07 10:03:10.097 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/.*
+2025-03-07 10:03:10.113 [info] [Info  - 10:03:10 AM] (1216) Assuming Python version 3.12.3.final.0
+2025-03-07 10:03:10.171 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:03:10.176 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:03:10.183 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:03:10.207 [info] [Info  - 10:03:10 AM] (1216) Found 137 source files
+2025-03-07 10:03:10.233 [info] [Info  - 10:03:10 AM] (1216) virtual workspace: vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-07 10:03:10.233 [info] [Info  - 10:03:10 AM] (1216) Starting service instance "<default>"
+2025-03-07 10:03:10.447 [info] [Info  - 10:03:10 AM] (1216) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-07 10:03:10.447 [info] [Info  - 10:03:10 AM] (1216) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-07 10:03:10.448 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/node_modules
+2025-03-07 10:03:10.448 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/__pycache__
+2025-03-07 10:03:10.448 [info] [Info  - 10:03:10 AM] (1216) Auto-excluding **/.*
+2025-03-07 10:03:10.477 [info] [Info  - 10:03:10 AM] (1216) Assuming Python version 3.12.3.final.0
+2025-03-07 10:03:10.519 [info] [Error - 10:03:10 AM] (1216) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-07 10:03:10.519 [info] [Info  - 10:03:10 AM] (1216) No source files found.
+2025-03-07 10:03:10.858 [info] [Info  - 10:03:10 AM] (1216) Background analysis(1) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-03-07 10:03:10.858 [info] [Info  - 10:03:10 AM] (1216) Background analysis(1) started
+2025-03-07 10:03:10.859 [info] [Info  - 10:03:10 AM] (1216) Indexer background runner(2) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-03-07 10:03:10.859 [info] [Info  - 10:03:10 AM] (1216) Indexing(2) started
+2025-03-07 10:03:11.344 [info] [Info  - 10:03:11 AM] (1216) scanned(2) 98 files over 1 exec env
+2025-03-07 10:03:11.510 [info] [Info  - 10:03:11 AM] (1216) indexed(2) 98 files over 1 exec env
+2025-03-07 10:03:11.540 [info] [Info  - 10:03:11 AM] (1216) Indexing finished(2).
+2025-03-07 10:04:03.861 [info] [Info  - 10:04:03 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:04:03.863 [info] [Info  - 10:04:03 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:04:03.868 [info] [Info  - 10:04:03 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:04:03.876 [info] [Info  - 10:04:03 AM] (1216) Found 137 source files
+2025-03-07 10:08:16.681 [info] [Info  - 10:08:16 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:08:16.683 [info] [Info  - 10:08:16 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:08:16.687 [info] [Info  - 10:08:16 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:08:16.697 [info] [Info  - 10:08:16 AM] (1216) Found 139 source files
+2025-03-07 10:14:11.481 [info] [Info  - 10:14:11 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:14:11.483 [info] [Info  - 10:14:11 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:14:11.499 [info] [Info  - 10:14:11 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:14:11.530 [info] [Info  - 10:14:11 AM] (1216) Found 139 source files
+2025-03-07 10:23:27.002 [info] [Info  - 10:23:27 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:23:27.005 [info] [Info  - 10:23:27 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:23:27.019 [info] [Info  - 10:23:27 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:23:27.043 [info] [Info  - 10:23:27 AM] (1216) Found 140 source files
+2025-03-07 10:30:18.434 [info] [Info  - 10:30:18 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:30:18.437 [info] [Info  - 10:30:18 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:30:18.452 [info] [Info  - 10:30:18 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:30:18.481 [info] [Info  - 10:30:18 AM] (1216) Found 141 source files
+2025-03-07 10:38:20.063 [info] [Info  - 10:38:20 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:38:20.066 [info] [Info  - 10:38:20 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:38:20.083 [info] [Info  - 10:38:20 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:38:20.113 [info] [Info  - 10:38:20 AM] (1216) Found 142 source files
+2025-03-07 10:43:03.075 [info] [Info  - 10:43:03 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:43:03.078 [info] [Info  - 10:43:03 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:43:03.094 [info] [Info  - 10:43:03 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:43:03.124 [info] [Info  - 10:43:03 AM] (1216) Found 143 source files
+2025-03-07 10:46:06.413 [info] [Info  - 10:46:06 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-07 10:46:06.415 [info] [Info  - 10:46:06 AM] (1216) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-07 10:46:06.431 [info] [Info  - 10:46:06 AM] (1216) Auto-excluding /home/kraoshin/venv
+2025-03-07 10:46:06.459 [info] [Info  - 10:46:06 AM] (1216) Found 144 source files
+2025-03-07 11:09:17.466 [info] [Info  - 11:09:17 AM] (1216) Starting service instance "<default>"
+2025-03-07 11:09:17.550 [info] [Info  - 11:09:17 AM] (1216) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-07 11:09:17.550 [info] [Info  - 11:09:17 AM] (1216) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-07 11:09:17.550 [info] [Info  - 11:09:17 AM] (1216) No include entries specified; assuming /<default workspace root>
+2025-03-07 11:09:17.551 [info] [Info  - 11:09:17 AM] (1216) Auto-excluding **/node_modules
+2025-03-07 11:09:17.551 [info] [Info  - 11:09:17 AM] (1216) Auto-excluding **/__pycache__
+2025-03-07 11:09:17.551 [info] [Info  - 11:09:17 AM] (1216) Auto-excluding **/.*
+2025-03-07 11:09:17.573 [info] [Info  - 11:09:17 AM] (1216) Assuming Python version 3.12.3.final.0
+2025-03-07 11:09:17.603 [info] [Error - 11:09:17 AM] (1216) File or directory "/<default workspace root>" does not exist.
+2025-03-07 11:09:17.603 [info] [Info  - 11:09:17 AM] (1216) No source files found.
+2025-03-07 11:09:18.009 [info] [Info  - 11:09:18 AM] (1216) Background analysis(3) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-03-07 11:09:18.011 [info] [Info  - 11:09:18 AM] (1216) Background analysis(3) started

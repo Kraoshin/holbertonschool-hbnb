@@ -1,1196 +1,3 @@
-git add README.md 
-git commit -m "create the file README for later"
-git push
-git branch
-git branch killian
-git branch
-git checkout killian 
-git add .
-git commit -m "create a branch to work on"
-git push
-git pull
-git pull remote main
-git pull origin main
-git status 
-vim README.md 
-git add 
-git add README.md 
-git commit -m "update README to push my branch"
-git push
-git push origin killian 
-cd holbertonschool-shell/
-cd
-cd holbertonschool-simple_shell/
-vim shell.h
-vim shell.c
-vim print_prompt.c
-vim shell.c
-vim print_prompt.c
-vim usr_input.c
-vim shell.c 
-vim usr_input.c
-vim tokenize.c
-ls
-rm print_prompt.c shell.c tokenize.c usr_input.c 
-ls
-vim isinterractive.c
-vim shell.h 
-vim interactive.c
-vim isinterractive.c 
-mv isinterractive.c isinteractive.c 
-ls
-clear
-vim interactive.c 
-vim RPE.c
-vim interactive.c 
-vim RPE.c
-vim shell.h 
-vim RPE.c
-vim interactive.c 
-vim RPE.c
-vim interactive.c 
-vim RPE.c
-git status -s
-git add shell.h 
-git commit -m "create the header to implement library and prototypes later"
-vim interactive.c 
-git add isinteractive.c 
-git commit -m "create a program that'll handle the shell in interactive or non interactive mode"
-git status -s
-git add interactive.c 
-git commit -m "the program of the shell in interactive mode"
-git add RPE.c 
-git commit -m "contains the functions to read, parse strings and later execute files"
-git status -s
-git branch
-git push -origin killian
-git push
-git push origin killian
-ls
-vim RPE.c 
-ls
-vim path_and_env.c
-vim RPE.c 
-vim path_and_env.c
-vim RPE.c 
-vim path_and_env.c
-git status -s
-git add RPE.c 
-git commit -m "write a function to execute a file if its a known command"
-git add path_and_env.c 
-git commit -m "write function to print the current environment and another function to return the value of a environment var if it exist"
-git push origin killian
-cd holbertonschool-simple_shell/
-ls
-vim path_and_env.c 
-vim R
-vim RPE.c 
-vim interactive.c 
-vim isinteractive.c 
-vim interactive.c 
-vim RPE.c 
-cd holbertonschool-simple_shell/
-vim RPE.c 
-vim path_and_env.c 
-ls
-vim nointeractive.c
-vim interactive.c 
-vim nointeractive.c
-vim RPE.c 
-vim shell.h 
-vim interactive.c 
-vim RPE.c 
-ls
-vim path_and_env.c 
-ls
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim isinteractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh
-vim isinteractive.c 
-vim interactive.c 
-vim RPE.c 
-./hsh exit
-./hsh 
-git status -s
-git add RPE.c 
-git commit -m "add a function to read stream in non interactive mode"
-git add isinteractive.c 
-git commit -m "change shell_no_interractive in shell_no_interactive"
-git add path_and_env.c 
-git commit -m "create a function that supposingly handle path(it dont yet)"
-git add shell.h 
-git commit -m "add all prototype and library needed"
-git add nointeractive.c 
-git commit -m "how the shell in no interactive mode is supposed to work"
-git status -s
-rm hsh 
-git push origin killian
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | .hsh
-ls
-echo "/bin/ls" | ./hsh
-echo "/bin/ls" | valgrind ./hsh
-vim interactive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-valgrind ./hsh 
-./hsh 
-echo "/bin/ls" | ./hsh
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "/bin/ls" | ./hsh 
-valgrind ./hsh 
-echo "/bin/bash" test_ls_2
-echo "/bin/bash" > test_ls_2
-ls
-cat test_ls_2 | ./hsh
-cat test_ls_2 
-ls
-rm hsh 
-vim nointeractive.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-cat test_ls_2 | ./hsh
-cat test_ls_2 
-vim test_ls_2 
-cat test_ls_2 | ./hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-cat test_ls_2 | ./hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-cat test_ls_2 | ./hsh
-vim RPE.c 
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-cat test_ls_2 | ./hsh
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-cat test_ls_2 | ./hsh
-ls
-rm hsh 
-rm test_ls_2 
-ls
-git status -s
-vim RPE.c 
-git add RPE.c 
-git commit -m "delete the read_stream function that couldnt read input from pipeline"
-vim interactive.c 
-git add interactive.c 
-git commit -m "delete the line that shutdown the terminal if the status changed (now need ctrl + d or exit written in input"
-git status -s
-git add nointeractive.c 
-git commit -m "delete the read_stream function and replace it with the read_line function"
-git status -s
-git add path_and_env.c 
-vim path_and_env.c 
-git commit -m "add a condition to check if the input is already an ex before looking inside the path"
-git push origin killian
-ls
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-rm hsh 
-ls
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim path_and_env.c 
-vim RP
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-vim interactive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-git status -s 
-git add RPE.c 
-git commit -m "add a condition that execute print_env function if args[0] is env"
-git push origin killian 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh env
-ls
-rm hsh 
-git status -s
-ls
-cd holbertonschool-simple_shell/
-ls
-git branch
-git pull origin Giovanni
-git pull origin giovanni
-ls -a
-ls
-vim RPE.c 
-betty RPE.c 
-vim RPE.c 
-betty RPE.c 
-git add RPE.c 
-git commit -m "betty styled the program"
-git push origin killian 
-ls
-vim interactive.c 
-betty interactive.c 
-vim isinteractive.c 
-betty isinteractive.c 
-vim isinteractive.c 
-betty isinteractive.c 
-ls
-vim nointeractive.c 
-vim interactive.c 
-vim nointeractive.c 
-betty nointeractive.c 
-vim path_and_env.c 
-betty path_and_env.c 
-vim path_and_env.c 
-betty path_and_env.c 
-ls
-vim shell.h 
-betty shell.h 
-ls
-betty RPE.c interactive.c isinteractive.c nointeractive.c path_and_env.c shell.h 
-git add .
-git commit -m "add betty style to the program"
-git push origin killian 
-git checkout main 
-git branch main
-git branch
-git pull origin killian 
-git add .
-git commit -m "merged the main branch with killian branch, all commit message are in giovanni and killian branch"
-git push
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh
-./hsh 
-vim interactive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "/bin/ls" | ./hsh
-./hsh 
-vim RPE.c 
-./hsh 
-cd holbertonschool-simple_shell/
-ls
-valgrind ./hsh 
-clear
-valgrind ./hsh 
-valgrind --leak-check=full ./hsh 
-ls
-gcc RPE.c 
-ls
-vim RPE.c 
-ls
-vim path_and_env.c 
-betty path_and_env.c 
-betty RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-valgrind ./hsh 
-vim RPE.c 
-valgrind echo "lel" | ./hsh
-valgrind echo "ls" | ./hsh
-valgrind echo "/bin/ls" | ./hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-valgrind echo "ls" | ./hsh
-valgrind echo "lel" | ./hsh
-git status -s
-vim interactive.c 
-git add RPE.c 
-git commit -m "correct memory leaks"
-git add interactive.c 
-git commit -m "add a space after the displayed prompt"
-git add path_and_env.c 
-git commit -m "correct memory leaks"
-git push
-cd holbertonschool-simple_shell/
-./hsh 
-valgrind ./hsh 
-cd holbertonschool-simple_shell/
-ls
-vim RPE.c 
-git add RPE.c 
-git commit -m "change if feof for if line==NULL since feof should not be allowed to be used"
-git push
-ls
-vim interactive.c 
-vim isinteractive.c 
-vim path_and_env.c 
-ls
-git status -s
-rm hsh 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-./hsh 
-vim RPE.c 
-./hsh 
-vim RPE.c 
-vim path_and_env.c 
-./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-clear
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./H
-./hsh 
-echo "ls" | ./hsh 
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-git status -s
-vim RPE.c 
-git add RPE.c 
-git commit -m "delete the perror line because it was occuring everytime and add commentary about eof"
-git push
-betty RPE.c 
-vim RPE.c 
-betty RPE.c 
-betty .c
-betty *.c
-betty *.h
-ls
-git add RPE.c 
-git commit -m "add betty style to the program"
-git push
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-./hsh echo "ls" | ./hsh 
-echo "ls" | ./hsh 
-vim RPE.c 
-./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-vim RPE.c 
-valgrind ./hsh 
-valgrind --leak-check=full ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-valgrind ./hsh 
-vim RPE.c 
-vim interactive.c 
-echo "ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-valgrind ./hsh 
-echo "ls" | valgrind ./hsh 
-vim interactive.c 
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-valgrind ./hsh 
-vim interactive.c 
-vim path_and_env.c 
-vim interactive.c 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-valgrind ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-vim interactive.c 
-vim RPE.c 
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.h 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-valgrind ./hsh 
-echo "ls" | valgrind ./hsh 
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | valgrind ./hsh 
-vim RPE.c 
-betty RPE.c 
-vim interactive.c 
-betty *.c
-betty *.h
-git status -s
-vim RPE.c 
-git add RPE.c 
-git commit -m "fixed all memory leak and create a function to free dynamicly allocated memory"
-git status -s
-git add interactive.c 
-git add nointeractive.c 
-git commit -m "add the function that cleans the dynamicly allocated memory"
-git add shell.h 
-git commit -m "add the prototype of the function that cleans the dynamicly allocated memory"
-git status -s
-git push
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "env" | ./hsh 
-echo "exit" | ./hsh 
-echo "env" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-echo "ls" | valgrind ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-git status -s
-./hsh 
-echo $. ./hsh 
-echo $ ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-cd holbertonschool-simple_shell/
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-cd holbertonschool-simple_shell/
-vim path_and_env.c 
-clear
-vim path_and_env.c 
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-ls
-./hsh 
-vim shell.h 
-vim RPE.c 
-vim interactive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim interactive.c 
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-clear
-valgrind ./hsh 
-vim nointeractive.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | valgrind ./hsh 
-echo "env" | valgrind ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "env" | ./hsh 
-echo "exit" | ./hsh 
-ls
-git status -s
-vim 
-ls
-ls -a
-rm hsh 
-vim RPE.c 
-betty RPE.c 
-vim RPE.c 
-betty RPE.c 
-vim RPE.c 
-betty RPE.c 
-git add RPE.c 
-git commit -m "modified the parse string function to be more safe and change the execute args to fork only if the command is found"
-git status -s
-git add interactive.c 
-git add nointeractive.c 
-git status -s
-git commit -m "delete the function that free dynamicly allocated memory since i did it in other program"
-git add path_and_env.c 
-git commit -m "changed _getenv to be more safe and used execve insted of execvp in the is_a_command function"
-git status -s
-betty *.c
-vim shell.h 
-vim interactive.c 
-vim nointeractive.c 
-betty *.c
-git add interactive.c nointeractive.c 
-git commit -m "add betty style (forgot to delete a space between free and what need to be freed)"
-betty shell.h 
-git add shell.h 
-git commit -m "delete the prototype of the function that free dynamicly allocated memory"
-git push
-git status -s
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./hsh 
-echo "pwd" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-vim isinteractive.c 
-vim RPE.c 
-vim shell.h 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "ls" | ./hsh 
-echo "pwd" | ./hsh 
-echo "lel" | ./hsh 
-vim isinteractive.c 
-vim interactive.c 
-vim RPE.c 
-vim isinteractive.c 
-vim RPE.c 
-vim isinteractive.c 
-vim interactive.c 
-vim isinteractive.c 
-vim shell.h 
-rm interactive.c nointeractive.c 
-ls
-mv isinteractive.c shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "pwd" | ./hsh 
-vim path_and_env.c 
-vim 
-vim RPE.c 
-git status -s
-betty *.c *.h
-git add RPE.c 
-git commit -m "delete the TOK_DELIM var in case it was the reason that blocked the checker"
-vim RPE.c 
-git add RPE.c 
-git commit -m "remove useless colibraces"
-git add interactive.c isinteractive.c nointeractive.c 
-git commit -m "delete all those file to group them in a single one"
-git add shell.c
-git commit -m "the main of the shell (where i grouped previous deleted files"
-git status -s
-git add shell.h 
-git commit -m "delete the  "define TOK_DELIM in case this was the reason of why the checker rejected everything"
-./hsh 
-git status -s
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls -l" | ./hsh 
-vim path_and_env.c 
-vim RPE.c 
-./hsh 
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "exit" | ./hsh 
-:s 
-ls 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh
-echo "ls -l" | ./hsh 
-echo "ls -l" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-./hsh 
-git status -s
-git add RPE.c 
-git commit -m "changed all return 1 to return 0"
-git push
-echo " " | valgrind ./hsh 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-cd holbertonschool-s
-cd holbertonschool-simple_shell/
-ls
-git status -s
-git commit -m "delete the #define TOK_DELIM in case this was the reason of why the checker rejected everything"
-git status -s
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-vim shell.c
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-vim shell.c
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-vim path_and_env.c 
-ls
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "exit" | valgrind ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-vim RPE.c 
-vim path_and_env.c 
-vim RPE.c 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-echo "env" | valgrind ./hsh 
-valgrind --leak-check=full ./hsh 
-valgrind --leak-check=full --show-leak-kinds=all ./hsh 
-echo "ls" | valgrind --leak-check=full --show-leak-kinds=all ./hsh 
-echo "ls" | valgrind --leak-check=full --track-origins=yes ./hsh 
-echo "ls" | valgrind --leak-check=full --show-leak-kinds=all ./hsh 
-vim RPE.c 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-echo "env" | valgrind ./hsh 
-echo "env" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-git status -s
-git add RPE.c 
-vim RPE.c 
-git commit -m "modifed the read_line function to correct memory leaks"
-git add path_and_env.c 
-vim path_and_env.c 
-git commit -m "make the program a bit more readable"
-git add shell.c 
-git commit -m "change where the free(line) occure to correct memory leaks"
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin
-echo "/bin/ls" | valgrind ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "exit" | ./hsh 
-echo "exit" | valgrind ./hsh 
-echo "env" | valgrind ./hsh 
-echo "env" | ./hsh 
-echo "lel" | valgrind ./hsh 
-echo "lel" | ./hsh 
-./hsh 
-clear
-vim RPE.c 
-vim shell.
-vim shell.c
-git status -s
-git add RPE.c path_and_env.c 
-git commit -m "changed the return value to match with what the checker expect"
-git push
-git status -s
-vim path_and_env.c 
-vim RPE.c 
-git status -s
-git add RPE.c path_and_env.c 
-git commit -m "changed the return value to match with the checker expectation"
-git push
-cd holbertonschool-simple_shell/
-git log
-cd holbertonschool-simple_shell/
-git checkout 261ff5c75480f776bd7aa4898ed08d609585cc6e
-git branch
-git status -s
-git merge main 
-git merge HEAD 
-git push
-git push origin HEAD main 
-git branch
-git checkout main 
-git branch
-vim RPE.c 
-vim path_and_env.c 
-git status -s
-git add RPE.c path_and_env.c 
-git commit -m "went back from previous changes (different return value to match checker expectation"
-git push
-git pull
-git pull.ff only
-git pull ff only
-git pull ff
-git pull.ff
-git config pull.ff only
-git status -s
-vim RPE.c 
-vim path_and_env.c 
-git status -s
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" ./hsh 
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwe" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-./hsh 
-cd holbertonschool-simple_shell/
-git pull
-ls 
-vim RPE.c 
-vim path_and_env.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./H
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "pwd" | ./hsh 
-echo "lel" | ./hsh 
-vim RPE.c 
-vim shell.
-vim shell.c
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "/bin/ls" | ./hsh 
-echo "/bin/pwd" | ./hsh 
-echo "/bin/pwd" | valgrind ./hsh 
-echo "pwd" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-valgrind ./hsh 
-ls 
-./hsh 
-ls\
-cd holbertonschool-simple_shell/
-git status -s
-echo -e "ls\npwd" | ./hsh 
-echo -e "ls\npwd" | valgrind ./hsh 
-ls
-git status -s
-git add RPE
-git add RPE.c 
-git commit -m "now if you put different command on different line it will exe all of em individually"
-git add path_and_env.c 
-git commit -m "if the get_env function i'm looking at env[i] instead at *env"
-git push
-git status -s
-vim RPE.c 
-betty RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./hsh 
-echo "/bin/ls" | ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-echo "ls" | valgrind ./hsh 
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "exit" | valgrind ./hsh 
-vim RPE.c 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-vim shell.h
-vim RPE.c 
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-vim RPE.c 
-echo "exit" | valgrind ./hsh 
-echo "exit 46" | valgrind ./hsh 
-echo "ls" | valgrind ./hsh 
-echo "/bin/ls" | valgrind ./hsh 
-git status -s
-git add RPE.c 
-git commit -m "change the exit function to exit with a code depending of the situation"
-git add shell.c shell.h
-git commit -m "add the line arguments in function exe_args"
-git status -s
-git push
-git log 
-git checkout ec4513429cbcef99ed63a94a59e2cfc55f3715f3
-git switch -c new
-git branch
-git checkout main
-git merge --help
-git merge new main 
-git merge main new  
-ls
-vim RPE.c 
-git checkout new 
-vim RPE.c 
-git checkout main 
-git branch --delete new 
-git log
-git checkout 57d514cc043e1ad51515efac6a01e325860e896f
-git switch -c new
-git checkout main 
-git merge new main 
-git merge main new 
-git checkout new 
-vim RPE.c 
-git add RPE.c 
-git commit -m "delete a useless space"
-git checkout main 
-git merge new main 
-git branch
-vim RPE.c 
-git checkout new 
-vim RPE.c 
-git checkout main 
-git status -s
-vim RPE.c 
-vim shell.h
-vim shell.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-echo "ls" | ./hsh 
-git status -s 
-git add RPE.c shell.c shell.h
-git commit -m "went back to previous change since it made me loose points"
-git push
-ls
-git clone https://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@github.com/Kraoshin/holbertonschool-chatgpt-introduction.git
-cd holbertonschool-chatgpt-introduction/
-mkdir debugging
-ls
-cd debugging/
-vim factorial.py
-ls
-python ./factorial.py 
-python ./factorial.py 2
-chmod a+x factorial.py 
-./factorial.py 2
-vim factorial.py 
-./factorial.py 2
-./factorial.py 30
-./factorial.py 5
-vim README.md
-git status -s
-git add factorial.py 
-ls
-git add README.md 
-git commit -m "create the README and corrected w/ chatgpt the first file"
-git push
-vim print_arguments.py
-chmod a+x print_arguments.py 
-./print_arguments.py 
-./print_arguments.py 1 2 3
-git status -s
-git add print_arguments.py 
-git commit -m "correct w/ chat gpt the file"
-git push
-vim change_background.html
-ls
-chmod a+x change_background.html 
-ls
-git add change_background.html 
-git commit -m "corrected the code using chatgpt"
-git push
-vim mines.py
-chmod a+x mines.py 
-./mines.py 
-ls
-git status -s
-git add mines.py 
-git commit -m "corrected the code using chatgpt"
-git push
-ls
-vim factorial_recursive.py
-chmod a+x factorial_recursive.py 
-./factorial_recursive.py 
-./factorial_recursive.py 4
-ls
-git add factorial_recursive.py 
-git commit -m "add the commentary of the code using chatgpt"
-git push
-vim checkbook.py
-chmod a+x checkbook.py 
-./checkbook.py 
-ls
-chmod +x checkbook.py 
-python3 checkbook.py 
-vim checkbook.py 
-ls
-git add checkbook.py 
-git commit -m "Fixed the code, to prevent the program from crashing due to invalid input using chatgpt"
-git push
-vim tic.py
-chmod a+x tic.py 
-./tic.py 
-python3 tic.py 
-2
-1
-python3 tic.py 
-ls
-git status -s
-git add tic.py 
-git commit -m "Used ChatGPT to identify and correct errors in code samples."
-git push
-git status -s
-vim change_background.html 
-vim test
-chmod +x test 
-./test 
-ls
-rm test 
-ls
-rm bash_generator 
-ls
-git clone https://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@github.com/Kraoshin/holbertonschool-higher_level_programming.git
-cd holbertonschool-higher_level_programming/
-ls
-cd python-hello_world/
-ls
-ls -l
-chmod a+x 2-print.py 3-print_number.py 4-print_float.py 5-print_string.py 6-concat.py 7-edges.py 8-concat_edges.py 9-easter_egg.py 
-ls -l
-git status -s
-git add .
-git commit -m "add permissions to all file"
-git push
-cd holbertonschool-higher_level_programming/
-cd python-hello_world/
-ls
-./2-print.py 
-vim 2-print.py 
-./2-print.py 
-vim 2-print.py 
-git status -s
-ls -l
-vim README.md 
-./2-print.py 
-vim 2-print.py 
-chmod 777 2-print.py 
-./2-print.py 
-python3 2-print.py 
-git pull
-ls
-ls -l
-clear
-sudo apt-get -y install pycodestyle
-ls
-cd holbertonschool-higher_level_programming/
-ls
-git pull
-git config pull.rebase true
-ls
-cd python-hello_world/
-ls
-vim 2-print.py 
-python3 2-print.py 
-./2-print.py 
-pycodestyle --first 2-print.py 
-vim 2-print.py 
-pycodestyle --first 2-print.py 
-vim 3-print_number.py 
-pycodestyle --first *.py 
-vim 3-print_number.py 
-pycodestyle --first *.py 
-vim 3-print_number.py 
-pycodestyle --first *.py 
-vim 4-print_float.py 
-pycodestyle --first *.py 
-vim 5-print_string.py 
-pycodestyle --first *.py 
 vim 6-concat.py 
 pycodestyle --first *.py 
 vim 7-edges.py 
@@ -1998,3 +805,1196 @@ pycodestyle --first 6-square.py
 git add 6-square.py 
 git commit -m "now the program works as intended"
 git push
+cd holbertonschool-higher_level_programming/
+mkdir python-more_classes
+cd python-more_
+cd python-more_classes/
+git add README.md 
+git commit -m "create README"
+git push
+chmod a+x 0-main.py 0-rectangle.py 
+./0-main.py 
+git add 0-rectangle.py 
+git commit -m "an empty class Rectangle that defines a rectangle:"
+chmod a+x 1-main.py 1-rectangle.py 
+./1-main.py 
+git add 1-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 0-rectangle.py)"
+chmod a+x 2-main.py 2-rectangle.py 
+./2-main.py 
+git add 2-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 1-rectangle.py)"
+chmod a+x 3-rectangle.py 3-main.py 
+./3-main.py 
+git add 3-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 2-rectangle.py)"
+pycodestyle --first *.py
+git add 1-rectangle.py 2-rectangle.py 3-rectangle.py 
+git commit -m "add pycodestyle"
+pycodestyle --first *.py
+chmod a+x 4-main.py 4-rectangle.py 
+./4-main.py 
+git add 4-rectangle.py 
+git commit -m "Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)"
+pycodestyle --first *.py
+chmod a+x 5-main.py 5-rectangle.py 
+./5-main.py 
+git add 
+git add 5-rectangle.py 
+git commit -m "Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py)"
+chmod a+x 6-rectangle.py 6-main.py 
+./6-main.py 
+git add 6-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 5-rectangle.py)"
+chmod a+x 8-main.py 7-main.py 8-rectangle.py 7-rectangle.py 
+./8-main.py 
+git status -s
+./7-main.py 
+git add 7-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 6-rectangle.py)"
+git add 8-rectangle.py 
+git commit -m "class Rectangle that defines a rectangle by: (based on 7-rectangle.py)"
+chmod a+x 9-main.py 9-rectangle.py 
+./9-main.py 
+pycodestyle --first *.py
+git status -s
+git add 9-rectangle.py 
+git commit -m "Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)"
+git push
+rm *main.py
+git status -s
+rm -r __pycache__/
+git status -s
+pycodestyle --first *.py
+git add .
+git commit -m "add pycodestyle"
+git add 3-rectangle.py 
+git commit -m "generate a doctring more complete"
+git push
+pycodestyle *.py
+git add 7-rectangle.py 
+git commit -m "changed the __str__ method to a more complexe one"
+git push
+ls
+cd holbertonschool-higher_level_programming/
+mkdir python-inheritance
+cd python-inheritance/
+pycodestyle --first 0-lookup.py 
+git add README.md 
+git commit -m "create README"
+git add 0-lookup.py 
+git commit -m "Write a function that returns the list of available attributes and methods of an object"
+chmod a+x 0-main.py 
+./0-main.py 
+pycodestyle --first 1-my_list.py 
+mkdir tests
+cd tests/
+git add 1-my_list.txt 
+cd ..
+git add 1-my_list.py 
+chmod a+x 1-main.py 
+./1-main.py 
+git status -s
+git commit -m "Write a class MyList that inherits from list and its test on txt format"
+cd tests/
+git add 1-my_list.txt 
+git commit -m "add more tests"
+cd ..
+chmod a+x 2-main.py 
+pycodestyle --first 2-is_same_class.py 
+./2-main.py 
+git add 2-is_same_class.py 
+git commit -m "Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False."
+chmod a+x 3-main.py 
+./3-main.py 
+git add 3-is_kind_of_class.py 
+git commit -m "Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False."
+chmod a+x 4-main.py 
+./4-main.py 
+git status -s
+git add 4-inherits_from.py 
+git commit -m "Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False."
+git status -s
+mv cat\ 5-main.py 5-main.py
+chmod a+x 5-main.py 
+./5-main.py 
+git add 5-base_geometry.py 
+git commit -m "Write an empty class BaseGeometry."
+pycodestyle --first *.py
+pycodestyle *.py
+git add 6-base_geometry.py 
+git commit -m "Write a class BaseGeometry (based on 5-base_geometry.py)."
+pycodestyle *.py
+chmod a+x 6-main.py 
+./6-main.py 
+chmod a+x 7-main.py 
+./7-main.py 
+cd tests/
+git add 7-base_geometry.txt 
+cd ..
+git add 7-base_geometry.py 
+pycodestyle *.py
+git status -s
+git commit -m "Write a class BaseGeometry (based on 6-base_geometry.py) and its doctest"
+chmdo a+x 8-main.py 
+chmod a+x 8-main.py 
+./8-main.py 
+pycodestyle *.py
+./8-main.py 
+chmod a+x 9-main.py 
+./9-main.py 
+git add 9-rectangle.py 
+git commit -m "Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (task based on 8-rectangle.py)"
+pycodestyle *.py
+chmod a+x 10-main.py 
+./10-main.py 
+git add 10-square.py 
+git commit -m "Write a class Square that inherits from Rectangle (9-rectangle.py):"
+git status -s
+./10-main.py 
+pycodestyle *.py
+chmod a+x 11-main.py 
+./11-main.py 
+git status -s
+git add 11-square.py 
+git commit -m "Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py)."
+git push
+ls
+cat README.md 
+pycodestyle *.py
+git status -s
+git add 0-lookup.py 1-my_list.py 2-is_same_class.py 3-is_kind_of_class.py 4-inherits_from.py 5-base_geometry.py 6-base_geometry.py 7-base_geometry.py 8-rectangle.py 9-rectangle.py 10-square.py 11-square.py 
+git commiut -m "ad shebang"
+git commit -m "add shebang"
+git push
+git status -s
+git add 0-lookup.py 1-my_list.py 2-is_same_class.py 3-is_kind_of_class.py 4-inherits_from.py 5-base_geometry.py 6-base_geometry.py 7-base_geometry.py 8-rectangle.py 9-rectangle.py 10-square.py 11-square.py 
+git commit -m "add a description at the top of the file"
+git push
+cd tests/
+git add 1-my_list.txt 7-base_geometry.txt 
+git commit -m "change the doctest thanks to anzo"
+git push
+git add 7-base_geometry.txt 
+git status -s
+cd ..
+git add 7-base_geometry.py 
+git commit -m "change the integer_validator fonction"
+git push
+pycodestyle 7-base_geometry.py 
+git add 7-base_geometry.py 
+chmod a+x 7-base_geometry.py 
+git add 7-base_geometry.py 
+git commit -m "Write a class BaseGeometry (based on 6-base_geometry.py)."
+pycodestyle 7-base_geometry.py 
+git push
+cd holbertonschool-higher_level_programming/
+mkdir python-abc
+cd python-abc/
+git add README.md 
+git commit -m "add README.md"
+git push
+chmod a+x main_00_abc.py 
+./main_00_abc.py 
+pycodestyle task_00_abc.py 
+git add task_00_abc.py 
+git commit -m "Create an abstract class named Animal using the ABC package"
+pycodestyle task_01_duck_typing.py 
+git add task_01_duck_typing.py 
+chmod a+x main_01_duck_typing.py 
+./main_01_duck_typing.py 
+pycodestyle task_01_duck_typing.py 
+git add task_01_duck_typing.py 
+git commit -m "Create an abstract class named Shape with two abstract methods: area and perimeter."
+git push
+git add task_00_abc.py task_01_duck_typing.py 
+git commit -m "changed the shebang"
+git push
+pycodestyle task_02_verboselist.py 
+chmod a+x main_02_verboselist.py 
+./main_02_verboselist.py 
+pycodestyle task_02_verboselist.py 
+git add task_02_verboselist.py 
+git commit -m "Create a class named VerboseList that extends the Python list class."
+git push
+chmod a+x main_03_countediterator.py 
+./main_03_countediterator.py 
+pycodestyle task_03_countediterator.py 
+git add task_03_countediterator.py 
+git commit -m "create a class named CountedIterator that extends the built-in iterator obtained from the iter function."
+chmod a+x main_04_flyingfish.py 
+./main_04_flyingfish.py 
+pycodestyle task_04_flyingfish.py 
+git add task_04_flyingfish.py 
+git commit -m "Construct a FlyingFish class that inherits from both a Fish class and a Bird class. "
+git push
+chmod a+x main_05_dragon.py 
+./main_05_dragon.py 
+pycodestyle *task
+pycodestyle task*
+pycodestyle *.py
+git add task_05_dragon.py 
+git commit -m "Design two mixin classes, SwimMixin and FlyMixin, each equipped with methods swim and fly respectively."
+git push
+git status -s
+rm main*
+ls
+rm -r __pycache__/
+ls
+git status -s
+cd ../python-inheritance/
+rm main*
+ls
+rm *main.py
+ls
+rm -r __pycache__/
+git status -s
+cd ..
+pwd
+cd python-abc/
+git add task_00_abc.py 
+git commit -m "change the sound of dog from woof to bark"
+git add task_01_duck_typing.py 
+git commit -m "increment the area with abs(area) instead of just area"
+git push
+ls
+cd holbertonschool-higher_level_programming/
+mkdir python-input_output
+cd python-input_output/
+git add README.md 
+git commit -m "create README"
+git push
+pycodestyle 0-read_file.py 
+chmod a+x 0-read_file.py 
+chmod a+x 0-main.py 
+./0-main.py 
+git add 0-read_file.py 
+git commit -m "function that reads a text file (UTF8) and prints it to stdout:"
+pycodestyle 1-write_file.py 
+chmod a+x 1-main.py 
+./1-main.py my_fi
+./1-main.py
+cat my_first_file.txt 
+git add 1-write_file.py 
+git commit -m " function that writes a string to a text file (UTF8) and returns the number of characters written:"
+chmod a+x 2-main.py 
+./2m
+./2-main.py 
+cat file_append.txt 
+pycodestyle 2-append_write.py 
+git add 2-append_write.py 
+git commit -m "function that appends a string at the end of a text file (UTF8) and returns the number of characters added"
+pycodestyle 3-to_json_string.py 
+chmod a+x 3-main.py 
+./3-main.py 
+git add 3-to_json_string.py 
+git commit -m "function that returns the JSON representation of an object (string)"
+pycodestyle 3-to_json_string.py 
+pycodestyle 4-from_json_string.py 
+chmod a+x 4-main.py 
+./4-main.py 4-main.py 
+ls
+cd holbertonschool-higher_level_programming/
+cd python-input_output/
+./4-main.py
+git add 4-from_json_string.py 
+git commit -m "function that returns an object (Python data structure) represented by a JSON string:"
+pycodestyle 5-save_to_json_file.py 
+chmod a+x 5-main.py 
+./5-main.py 
+cat my_list.json ; echo ""
+cat my_dict.json ; echo ""
+cat my_set.json ; echo ""
+git add 5-save_to_json_file.py 
+git commit -m "function that writes an Object to a text file, using a JSON representation"
+pycodestyle 6-load_from_json_file.py 
+chmod a+x 6-main.py 
+./6-main.py
+cat my_list.json ; echo ""
+cat my_dict.json ; echo ""
+cat my_fake.json ; echo ""
+git add 6-load_from_json_file.py 
+git commit -m "function that writes an Object to a text file, using a JSON representation"
+git push
+ls
+git status -s
+git add 7-add_item.py 
+git commit -m "script that adds all arguments to a Python list, and then save them to a file"
+pycodestyle 8-class_to_json.py 
+chmod a+x 8-main.py 
+./8-main.py 
+pycodestyle 8-class_to_json.py 
+git status -s
+git add 8-class_to_json.py 
+git commit -m " function that returns the dictionary description with simple data structure"
+pycodestyle 9-student.py 
+chmod a+x 9-main.py 
+./8-main.py 
+./9-main.py 
+git add 9-student.py 
+git commit -m "class Student that defines a student by"
+git push
+git add 10-student.py 
+git commit -m "class Student that defines a student by: (based on 9-student.py)"
+git add 11-student.py 
+git commit -m "class Student that defines a student by: (based on 10-student.py)
+
+"
+chmod a+x 12-main.py 
+./12-main.py 
+git add 12-pascal_triangle.py 
+git commit -m "function that returns a list of lists of integers representing the Pascal’s triangle of n"
+git push
+pycodestyle *.py
+chmod a+x 11-main.py 
+./11-main.py 
+./11-main.py student.json
+git add 11-student.py 
+git commit -m "remove the import of json module"
+git push
+cd ..
+mkdir python-serialization
+cd python-serialization/
+git add README.md 
+git commit -m "create README"
+git push
+pycodestyle task_00_basic_serialization.py 
+git add task_00_basic_serialization.py 
+git commit -m "basic serialization module that adds the functionality to serialize a Python dictionary to a JSON file and deserialize the JSON file to recreate the Python Dictionary."
+pycodestyle task_01_pickle.py 
+chmod a+x task_00_basic_serialization.py task_01_pickle.py 
+git add task_00_basic_serialization.py 
+git commit -m "gave permission"
+git status -s
+git add task_01_pickle.py 
+git commit -m "serialize and deserialize custom Python objects using the pickle module."
+pycodestyle task_00_basic_serialization.py 
+pycodestyle task_01_pickle.py 
+pycodestyle task_02_csv.py 
+chmod a+x task_02_csv.py 
+git add task_02_csv.py 
+git commit -m "reading data from one format (CSV) and converting it into another format (JSON) using serialization techniques."
+chmod a+x task_03_xml.py 
+git add task_03_xml.py 
+git commit -m "serialization and deserialization using XML as an alternative format to JSON."
+git push
+git status -s
+cd ../python-input_output/
+ls
+rm *main
+rm *main.py
+ls
+git status -s
+rm *.json
+ls
+rm -r __pycache__/
+git status -s
+rm 8-my_class.py file_append.txt my_file_0.txt my_first_file.txt 
+git status -s
+cd ..
+git pull
+ls
+git clone https://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@github.com/Kraoshin/holbertonschool-hbnb.git
+cd holbertonschool-hbnb/
+mkdir part1
+ls
+git add README.md 
+git add part1/
+git commit -m "create README"
+git push
+cd part1/
+git add empty 
+git commit -m "just to make appear part1 folder"
+git push
+ls
+cd holbertonschool-higher_level_programming/
+ls
+mkdir restful-api
+cd restful-api/
+git add README.md 
+git commit -m "create a README"
+git push
+curl
+curl --version
+curl https://jellyseerr.armellkorp.ovh/login
+curl https://jsonplaceholder.typicode.com/posts
+curl -I https://jsonplaceholder.typicode.com/posts
+curl -X POST -d "title=foo&body=bar&userId=1" https://jsonplaceholder.typicode.com/posts
+requests
+pip install requests
+cd holbertonschool-higher_level_programming/restful-api/
+ls
+pycodestyle task_02_requests.py 
+git add task_02_requests.py 
+git commit -m "Consuming and processing data from an API using Python"
+git push
+git pull
+git add task_02_requests.py 
+git commit -m "Consuming and processing data from an API using Python"
+git push
+pycodestyle task_03_http_server.py 
+git add task_03_http_server.py 
+git commit -m "Develop a simple API using Python with the `http.server` module"
+git push
+cd holbertonschool-higher_level_programming/restful-api/
+chmod a+x main_02_requests.py 
+./main_02_requests.py 
+chmod a+x task_03_http_server.py 
+./task_03_http_server.py 
+chmod a+x task_02_requests.py 
+./task_02_requests.py 
+git add task_02_requests.py 
+git commit -m "add x rights'
+"
+git push
+git add task_03_http_server.py 
+git commit -m "add x rights"
+git push
+python 3 main_02_requests.py 
+python main_02_requests.py 
+python3 main_02_requests.py 
+cd holbertonschool-higher_level_programming/restful-api/
+git add task_02_requests.py 
+git commit -m "change the way to use url"
+git push
+pycodestyle task_04_flask.py 
+chmod a+x task_04_flask.py 
+git add task_04_flask.py 
+git commit -m "Develop a Simple API using Python with Flask"
+git push
+git add task_04_flask.py 
+git commit -m "forgot to save before pushing"
+git push
+pycodestyle task_05_basic_security.py 
+git add task_05_basic_security.py 
+git commit -m "API Security and Authentication Techniques"
+git push
+pip install -r requirements.txt
+sudo apt install python3-pip
+pip install -r requirements.txt
+cd holbertonschool-hbnb/
+ls
+mkdir part2
+cd part2/
+ls
+git add empty 
+git commit -m "empty file to make the dir appear on gh"
+git push
+cd ..
+git pull
+git config pull.rebase false
+git status -s
+ls
+cd part2/
+ls
+git add empty 
+git commit -m "create empty file to make the dir appear"
+git push
+git pull ff
+git pull origin main 
+ls
+git statys -s
+git status 
+git push
+ls
+mkdir app
+cd app/
+ls
+mkdir api
+cd api/
+ls
+pwd
+ls
+mkdir v1/
+cd v1/
+cd ../..
+ls
+mkdir models
+cd models/
+ls
+cd ../api/
+ls
+cd v1/
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir services
+cd services/
+cd ..
+mkdir persistence
+cd persistence/
+cd ../..
+ls
+git status -s
+git add .
+git status -s
+git commit -m "create all files and dir"
+git push
+ls
+cd app/api/v1/
+ls
+cd ..
+cd ../..
+ls$
+ls
+cd app/
+ls
+cd models/
+ls
+mv persistence/ ..
+mv services/ ..
+cd ..
+ls
+cd models/
+ls
+cd ..
+git add .
+git commit -m "moove dir in their correct dir"
+git push
+ls
+git add __init__.py 
+git commit -m "add the recquired code line in the __init__ file"
+git push
+cd persistence/
+ls
+git status -s
+git add repository.py 
+git commit -m "add in memory and interface as given by the gh"
+git push
+cd ..
+ls
+cd services/
+git add facade.py 
+git commit -m "create the plan for the facade pattern as given in the gh"
+git push
+git add __init__.py 
+git commit -m "create the facade class"
+git push
+cd ../..
+s
+ls
+git add run.py 
+git commit -m "create the entry point"
+git push
+git add config.py 
+git commit -m "create the basic configuration"
+git pusj
+git push
+git add requirements.txt 
+git commit -m "add the recquired dependencies and packages"
+git push
+cd ../
+python run.py
+python3 run.py
+l
+ls
+cd part2/
+python3 run.py
+cd app/
+git add __init__.py 
+git commit -m "put the return app line inside the function"
+git push
+python3 run.py
+cd ..
+python3 run.py
+pip install -r requirements.txt
+pip install requests
+pip install Flask-HTTPAuth
+apt install python3-Flask-JWT-Extended
+cd holbertonschool-hbnb/
+pip install -r requirements.txt
+cd part2/
+git add requirements.txt 
+git commit -m "delete the pip line"
+git push
+pip install -r requirements.txt
+pip install flask
+apt install python3-flask
+cd /
+apt install python3-flask
+ls
+cd home/
+apt install python3-flask
+sudo apt install python3-flask
+sudo apt install python3-flask-restx
+sudo apt install python3-flaskrestx
+sudo apt install python3-flask-restx
+sudo apt update
+apt list --upgradable
+sudo apt install Flask-HTTPAuth
+ls
+cd kraoshin/
+ls
+cd holbertonschool-hbnb/
+ls
+cd part2
+ls
+python3 run.py
+sudo apt install flask_restx
+python3 -m venv myenv
+sudo apt install python3.12-venv
+python3 -m venv myenv
+ls
+python3 -m venv myenv
+source myenv/bin/activate
+ls
+pip install flask-restx
+python3 -c "import flask_restx; print(flask_restx.__version__)"
+python3 run.py
+deactivate
+python3 run.py
+python3 -m venv myenv
+source myenv/bin/activate
+python3 run.py
+deactivate
+git status -s
+rm -r myenv/ app/__pycache__/
+ls
+git status -s
+git add app/models/review.py 
+git commit -m "create the base of the review class"
+git push
+ls
+git status -s
+git branch
+git checkout killian
+git branch kraoshin
+git branch
+git checkout kraoshin 
+git checkout main 
+cd app/models/
+git add basemodel.py 
+git commit -m "create the basemodel that all classes will inherit"
+git push
+git checkout kraoshin 
+git pull
+git pull origin main 
+git status -s
+git add ../api/v1/reviews.py 
+git add review.py 
+git add ../services/facade.py 
+git commit -m "add all the code given for the exercises and start working on facade method"
+git push
+git push origin kraoshin 
+git checkout 
+git branch
+git checkout main 
+git pull origin cyprien 
+git pull origin kraoshin 
+git status -s
+git add basemodel.py 
+git commit -m "corrected a wrong indentation on self.save"
+git puhs
+git push
+git checkout kraoshin 
+git pull origin main 
+git pull origin cyprien 
+cd holbertonschool-hbnb/part2/app/services/
+git add facade.py 
+git commit -m "increment the update review func"
+git push origin kraoshin 
+cd holbertonschool-hbnb/part2/app/services/
+git add facade.py 
+git commit -m "add the delete_review and change few var names"
+git push origin kraoshin 
+git add facade.py 
+git commit -m "change indentation due to a bug"
+git push
+git push origin kraoshin 
+pycodestyle facade.py 
+git add facade.py 
+git commit -m "change a lot of indentations"
+git push origin kraoshin 
+cd ../api/v1/
+git add reviews.py 
+git commit -m "create the route for the api"
+git push
+git push origin kraoshin 
+git status -s
+cd ../../
+ls
+cd services/
+git status -s
+cd ../
+git add __init__.py 
+git commit -m "add the namespace for the review part of the project"
+git push origin kraoshin 
+git status 
+cd holbertonschool-hbnb/
+git pull origin main
+cd part2
+python3 run.py
+python -m venv
+python3 -m venv
+pwd
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 run.py
+cd holbertonschool-hbnb/part2/
+python3 run.py 
+pip install flask
+pip install flask_restx
+python3 run.py 
+deactivate
+deactivate
+git pull origin cyprien 
+python3 venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 venv
+cd 
+python3 venv /home/kraoshin/holbertonschool-hbnb/part2/
+deactivate
+/bin/python3 /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+chmod u+w settings.json
+/bin/python3 /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+deactivate
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 -m  venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 -m venv venv
+python3 -m venv
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/part2/
+deactivate
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/
+import venv
+python3 -m venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 -m venv venv
+python3 -m venv venv
+python3 -venv /home/kraoshin/holbertonschool-hbnb/part2/
+python3 -m venv 
+python3 -m venv venv
+cd holbertonschool-hbnb/part2/
+python3 run.py 
+python -m venv venv
+python3 -m venv venv
+source venv/bin/activate
+deactivate
+source venv/bin/activate
+python3 run.py 
+pip install flask flask_restx
+python3 run.py 
+deactivate
+git pull origin cyprien 
+source venv/bin/activate
+pip install flask flask_restx
+python3 run.py 
+cd holbertonschool-hbnb/part2/
+source venv/bin/activate
+pip install flask flast_restx
+python3 run.py 
+deactivate
+git pull origin cyprien 
+source venv/bin/activate
+python3 run.py 
+deactivate
+git pull origin cyprien 
+tr
+sz
+source venv/bin/activate
+deactivate
+git status -s
+cd app/api/v1/
+git add places.py 
+git commit -m "add the reviews to the places model"
+git push origin kraoshin 
+source venv/bin/activate
+cd ../../
+cd ..
+source venv/bin/activate
+python3 run.py 
+deactivate
+git add app/api/v1/places.py 
+git commit -m "add a forgotten comma"
+git push origin kraoshin 
+source venv/bin/activate
+python3 run.py 
+apt install -y mysql-server
+sudo apt install -y mysql-server
+mysql --version
+cd holbertonschool-higher_level_programming/
+mkdir SQL_introduction
+cd SQL_introduction/
+git add README.md 
+git commit -m "create README"
+git push
+git branch
+service mysql start
+sudo journalctl -u mysql.service
+sudo systemctl status mysql.service
+mysql -uroot
+sudo mysql -u root
+cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
+cat 0-list_databases.sql | sudo mysql -hlocalhost -uroot -p
+cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
+cat 1-create_database_if_missing.sql | sudo mysql -hlocalhost -uroot -p
+cat 0-list_databases.sql | sudo mysql -hlocalhost -uroot -p
+git status -s
+git add 0-list_databases.sql 
+git commit -m "create a sql script that show all database"
+git add 1-create_database_if_missing.sql 
+git commit -m "create a script that create a database if she does not already exist"
+git add 2-remove_database.sql 
+git commit -m "create a sql script that delete a database if she exist"
+cat 2-remove_database.sql | sudo mysql -hlocalhost -uroot -p
+cat 0-list_databases.sql | sudo mysql -hlocalhost -uroot -p
+cat 3-list_tables.sql | sudo mysql -hlocalhost -uroot -p mysql
+git status 
+cat 4-first_table.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 1-create_database_if_missing.sql | sudo mysql -hlocalhost -uroot -p
+cat 4-first_table.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 3-list_tables.sql | sudo mysql -hlocalhost -uroot -p mysql
+cat 3-list_tables.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git status -s
+git add 3-list_tables.sql 
+git commit -m "create sql script that list all tables"
+git add 4-first_table.sql 
+git commit -m "sql script that create a table if she does not exist"
+cat 5-full_table.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 5-full_table.sql 
+git commit -m "script that prints the following description of the table first_table"
+cat 6-list_values.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 6-list_values.sql 
+git commit -m "lists all rows of the table first_table from the database hbtn_0c_0"
+git add 7-insert_value.sql 
+git commit -m "inserts a new row in the table first_table (database hbtn_0c_0)"
+cat 7-insert_value.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 6-list_values.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git status -s
+cat 8-count_89.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
+git add 8-count_89.sql 
+git commit -m "displays the number of records with id = 89 in the table first_table of the database hbtn_0c_0"
+git add 8-count_89.sql 
+git status -s
+cat 9-full_creation.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 9-full_creation.sql 
+git commit -m "creates a table second_table in the database hbtn_0c_0"
+cat 10-top_score.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 10-top_score.sql 
+git commit -m "lists all records of the table second_table of the database hbtn_0c_0"
+git status -s
+cat 11-best_score.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 11-best_score.sql 
+git commit -m "lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0"
+cat 12-no_cheating.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 10-top_score.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 12-no_cheating.sql 
+git commit -m "-- updates the score of Bob to 10 in the table second_table"
+git status -s
+git add 13-change_class.sql 
+git commit -m "-- removes all records with a score <= 5 in the table second_table"
+cat 13-change_class.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 10-top_score.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+cat 14-average.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git status -s
+git add 14-average.sql 
+git commit -m "script that computes the score average of all records in the table second_table of the database hbtn_0c_0"
+cat 15-groups.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 15-groups.sql 
+git commit -m "lists the number of records with the same score in the table second_table of the database hbtn_0c_0"
+cat 16-no_link.sql | sudo mysql -hlocalhost -uroot -p hbtn_0c_0
+git add 16-no_link.sql 
+git commit -m "lists all records of the table second_table of the database hbtn_0c_0"
+git push
+git status -s
+cd ..
+mkdir SQL_more_queries
+cd SQL_more_queries/
+git add README.md 
+git commit -m "create README"
+git push
+cat 0-privileges.sql | sudo mysql -hlocalhost -uroot -p
+git add 0-privileges.sql 
+git commit "script that lists all privileges of the MySQL users user_0d_1 and user_0d_2"
+cat 1-create_user.sql | sudo mysql -hlocalhost -uroot -p
+cat 0-privileges.sql | sudo mysql -hlocalhost -uroot -p
+git status 
+git add 1-create_user.sql 
+git status -s
+git commit -m "script that creates the MySQL server user"
+git add 2-create_read_user.sql 
+git commit -m "script that creates the database hbtn_0d_2 and the user user_0d_2."
+cat 2-create_read_user.sql | sudo mysql -hlocalhost -uroot -p
+cat 0-privileges.sql | sudo mysql -hlocalhost -uroot -p
+git status -s
+cat 3-force_name.sql | sudo mysql -hlocalhost -uroot -p hbtn_0d_2
+echo 'INSERT INTO force_name (id, name) VALUES (89, "Best School");' | sudo mysql -hlocalhost -uroot -p hbtn_0d_2
+echo 'INSERT INTO force_name (id) VALUES (333);' | sudo mysql -hlocalhost -uroot -p hbtn_0d_2
+git add 3-force_name.sql 
+git commit -m "script that creates the table force_name on your MySQL server"
+git add 4-never_empty.sql 
+git commit -m "script that creates the table id_not_null on your MySQL server."
+git add 5-unique_id.sql 
+git commit -m "script that creates the table unique_id on your MySQL server."
+git add 6-states.sql 
+git commit -m "script that creates the database hbtn_0d_usa and the table states"
+git status 
+git add 7-cities.sql 
+git commit -m "script that creates the database hbtn_0d_usa and the table cities"
+git add 8-cities_of_california_subquery.sql 
+git commit -m "script that lists all the cities of California that can be found in the database hbtn_0d_usa"
+git add 9-cities_by_state_join.sql 
+git commit -m "script that lists all cities contained in the database hbtn_0d_usa"
+git add 10-genre_id_by_show.sql 
+git commit -m "script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked"
+git add 11-genre_id_all_shows.sql 
+git commit -m "script that lists all shows contained in the database hbtn_0d_tvshows"
+git add 12-no_genre.sql 
+git commit -m "script that lists all shows contained in hbtn_0d_tvshows without a genre linked."
+git add 13-count_shows_by_genre.sql 
+git commit -m "script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each."
+git add 14-my_genres.sql 
+git commit -m "script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter."
+git add 15-comedy_only.sql 
+git commit -m "script that lists all Comedy shows in the database hbtn_0d_tvshows."
+git add 16-shows_by_genre.sql 
+git commit -m "script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows."
+git push
+sudo apt update
+sudo apt install mysql-server
+mysql --version
+sudo mysql
+sudo apt-get install python3-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install zlib1g-dev
+sudo pip3 install mysqlclient
+apt install mysqlclient
+sudo apt install mysqlclient
+sudo apt install SQLAlchemy
+sudo apt-get install python3-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install zlib1g-dev
+sudo pip3 install mysqlclient
+sudo pip3 install SQLAlchemy
+sudo mysql
+sudo pip3 install mysqlclient
+sudo apt install mysqlclient
+python3
+>>> import MySQLdb
+>>> MySQLdb.version_info 
+sudo apt install SQLAlchemy
+python3
+>>> import sqlalchemy
+>>> sqlalchemy.__version__ 
+sudo apt install SQLAlchemy
+python3
+source venv/bin/activate
+sudo pip3 install mysqlclient
+sudo pip3 install SQLAlchemy
+deactivate
+pip install sqlalchemy
+cd holbertonschool-higher_level_programming/
+mkdir python-object_relational_mapping
+cd python-object_relational_mapping/
+git add README.md 
+git commit -m "create README"
+git push
+chmod a+x 0-select_states.py 
+source venv/bin/activate
+cd 
+source venv/bin/activate
+cd holbertonschool-higher_level_programming/
+cd python-object_relational_mapping/
+pip install sqlalchemy
+deactivate
+pycodestyle 0-select_states.py 
+cat 0-select_states.sql | mysql -uroot -p
+cat 0-select_states.sql | sudo mysql -uroot -p
+./0-select_states.py root root hbtn_0e_0_usa
+sudo pip3 install mysqlclient
+pip install mysqlclient
+source test/bin/activate
+source venv/bin//activate
+sudo apt-get install libmysqlclient-dev
+pip install mysqlclient
+python3 -m venv mon_env
+source mon_env/bin/activate
+pip install mysqlclient
+sudo apt-get install python3-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install zlib1g-dev
+sudo pip3 install mysqlclient
+pip install mysqlclient
+sudo apt-get install pkg-config
+sudo apt-get install libmysqlclient-dev
+pip install mysqlclient
+cat 0-select_states.sql | sudo mysql -uroot -p
+./0-select_states.py root root hbtn_0e_0_usa
+python3 -m pip install mysqlclient
+pip install mysqlclient
+deactivate
+git status -s
+git add 0-select_states.py 0-select_states.sql 
+rm -r mon_env/
+git commit -m "script that lists all states from the database hbtn_0e_0_usa"
+git push
+pycodestyle 1-filter_states.py 
+git add 1-filter_states.py 
+git commit -m "script that lists all states with a name starting with N (upper N)"
+git push
+pycodestyle 1-filter_states.py 
+git add 1-filter_states.py 
+git commit -m "script that lists all states with a name starting with N (upper N)"
+git push
+chmod a+x 1-filter_states.py 
+git add 1-filter_states.py 
+git commit -m "add permission to the file"
+git push
+pycodestyle 1-filter_states.py 
+sudo mysql
+python3 0-select_states.py kraoshin triec56520 hbtn_0e_0_usa
+python3 -m venv
+python3 -m venv venv
+source venv
+source /venv
+source venv/bin/activate
+pip install mySQLdb
+sudo pip3 install mysqlclient
+python3
+sudo apt install mysqlclient
+deactivatr
+deactivate
+git add 1-filter_states.py 
+git commit -m "goes back to previous version"
+git push
+pycodestyle 2-my_filter_states.py 
+chmod a+x 2-my_filter_states.py 
+git add 2-my_filter_states.py 
+git commit -m "script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument"
+git push$
+git push
+git add 2-my_filter_states.py 
+git commit -m "script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument"
+git push
+pycodestyle 2-my_filter_states.py 
+git add 2-my_filter_states.py 
+git commit -m "forgot to pycodestyle"
+git push
+pycodestyle 3-my_safe_filter_states.py 
+chmod a+x 3-my_safe_filter_states.py 
+git add 3-my_safe_filter_states.py 
+git commit -m "takes in an argument and displays all values in the states table
+of hbtn_0e_0_usa where name matches the argument, safe from SQL injections"
+git push
+pycodestyle 4-cities_by_state.py 
+chmod a+x 4-cities_by_state.py 
+git add 4-cities_by_state.py 
+git commit -m "script that lists all cities from the database hbtn_0e_4_usa"
+git push
+chmod a+x 5-filter_cities.py
+pycodestyle 5-filter_cities.py 
+git add 5-filter_cities.py 
+git commit -m "script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa"
+pycodestyle model_state.py 
+chmod a+x model_state.py 
+pycodestyle model_state.py 
+git add model_state.py 
+git commit -m "python file that contains the class definition of a State and an instance"
+pycodestyle 7-model_state_fetch_all.py 
+chmod a+x 7-model_state_fetch_all.py 
+git add 7-model_state_fetch_all.py 
+git commit -m "script that lists all State objects from the database"
+git push
+chmod a+x 8-model_state_fetch_first.py 
+git add 8-model_state_fetch_first.py 
+pycodestyle 8-model_state_fetch_first.py 
+git add 8-model_state_fetch_first.py 
+git commit -m "script that prints the first State object"
+git push
+sudo apt-get update
+sudo apt-get install pkg-config
+sudo apt-get install libmysqlclient-dev
+source venv/bin/activate
+pip install mysqlclient
+pip install SQLAlchemy
+cd holbertonschool-higher_level_programming/python-object_relational_mapping/
+./8-model_state_fetch_first.py 
+pip install SQLAlchemy
+./8-model_state_fetch_first.py 
+pip show SQLAlchemy
+python 8-model_state_fetch_first.py root mypassword hbtn_0e_6_usa
+pycodestyle 9-model_state_filter_a.py 
+chmod a+x 9-model_state_filter_a.py 
+git add 9-model_state_filter_a.py 
+git commit -m "script that lists all State objects that contain the letter a"
+git push
+pycodestyle 10-model_state_my_get.py 
+git add 10-model_state_my_get.py 
+git commit -m "Prints the State object with the name passed as argument
+from the database hbtn_0e_6_usa"
+git push
+chmod a+x 10-model_state_my_get.py 
+git add 10-model_state_my_get.py 
+git commit -m "add x to all permission"
+pycodestyle 10-model_state_my_get.py 
+git push
+chmod a+x 11-model_state_insert.py 
+pycodestyle 11-model_state_insert.py 
+git add 11-model_state_insert.py 
+git commit -m "script that adds the State object “Louisiana” to the database hbtn_0e_6_usa"
+git push
+chmod a+x 12-model_state_update_id_2.py 
+git add 12-model_state_update_id_2.py 
+git commit -m "script "
+git push
+git add 12-model_state_update_id_2.py 
+pycodestyle 12-model_state_update_id_2.py 
+git add 12-model_state_update_id_2.py 
+git commit -m "add pycodestyle"
+git push
+pycodestyle 13-model_state_delete_a.py 
+chmod a+x 13-model_state_delete_a.py 
+git add 13-model_state_delete_a.py 
+git commit -m "Deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa"
+git push
+pycodestyle model_city.py 
+chmod a+x 14-model_city_fetch_by_state.
+chmod a+x 14-model_city_fetch_by_state.py 
+git add model_city.py 14-model_city_fetch_by_state.py 
+git commit -m "Python file similar to model_state.py named model_city.py that contains the class definition of a City script 14-model_city_fetch_by_state.py that prints all City objects from the database hbtn_0e_14_usa"
+git push
+pycodestyle 14-model_city_fetch_by_state.py model_city.py 
+chmod a+x 14-model_city_fetch_by_state.py model_city.py 
+git add 14-model_city_fetch_by_state.py model_city.py 
+git commit -m "add permission x to all"
+git push
+git add model_city.py 
+git commit -m "add tje state_id row as a feignkey"
+git push
+pycodestyle model_city.py 
+ls -l
+git add model_city.py 
+git commit -m "delete a comma after autoincrement"
+git push 
+git add model_city.py 
+git commit -m "delete a comma after autoincrement"
+git add model_city.py 
+git commit -m "add the nullable = false even if its pointless"
+git push
+pycodestyle 14-model_city_fetch_by_state.py model_city.py 
+git add 14-model_city_fetch_by_state.py model_city.py 
+git commit -m "rewrite everything"
+git push
+pycodestyle 14-model_city_fetch_by_state.py model_city.py 
+git add 14-model_city_fetch_by_state.py model_city.py 
+git commit -m "print all city object"
+git push
+cd holbertonschool-hbnb/
+git pull origin cyprien 
+git status -s
+git add *
+git commit -m "push all the changes from the cyprien branch"
+git push origin kraoshin 
+git pull origin cyprien 
+git status -s
+git add part3/app/api/v1/places.py 
+git commit -m "update the places class to add security layers using jwt auth"
+git add part3/app/api/v1/reviews.py 
+git commit -m "update the reviews classes to add security layers using jwt auth
+"
+git add part3/app/api/v1/users.py 
+git commit -m "update the users classes to add security layers using jwt auth"
+git push origin kraoshin 
+git add part3/app/api/v1/places.py 
+git commit -m "add a check to ensure that the one creating the place is the one connected"
+git push origin kraoshin 
