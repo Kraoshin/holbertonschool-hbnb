@@ -328,3 +328,97 @@
 2025-03-11 13:39:58.325 [info] [Info  - 1:39:58 PM] (1086) scanned(6) 98 files over 1 exec env
 2025-03-11 13:39:58.475 [info] [Info  - 1:39:58 PM] (1086) indexed(6) 98 files over 1 exec env
 2025-03-11 13:39:58.503 [info] [Info  - 1:39:58 PM] (1086) Indexing finished(6).
+2025-03-11 13:42:37.321 [info] [Info  - 1:42:37 PM] (1086) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-11 13:42:37.322 [info] [Info  - 1:42:37 PM] (1086) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-11 13:42:37.322 [info] [Info  - 1:42:37 PM] (1086) No include entries specified; assuming /home/kraoshin
+2025-03-11 13:42:37.322 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:37.322 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:37.322 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:37.352 [info] [Info  - 1:42:37 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:37.408 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 13:42:37.412 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 13:42:37.421 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding /home/kraoshin/venv
+2025-03-11 13:42:37.437 [info] [Info  - 1:42:37 PM] (1086) Found 148 source files
+2025-03-11 13:42:37.483 [info] [Info  - 1:42:37 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:37.483 [info] [Info  - 1:42:37 PM] (1086) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 13:42:37.483 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:37.483 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:37.483 [info] [Info  - 1:42:37 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:37.514 [info] [Info  - 1:42:37 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:37.569 [info] [Error - 1:42:37 PM] (1086) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-11 13:42:37.570 [info] [Info  - 1:42:37 PM] (1086) No source files found.
+2025-03-11 13:42:38.004 [info] [Info  - 1:42:38 PM] (1086) Indexer background runner(7) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist (index)
+2025-03-11 13:42:38.004 [info] [Info  - 1:42:38 PM] (1086) Indexing(7) started
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) No include entries specified; assuming /<default workspace root>
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:38.005 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:38.031 [info] [Info  - 1:42:38 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:38.088 [info] [Error - 1:42:38 PM] (1086) File or directory "/<default workspace root>" does not exist.
+2025-03-11 13:42:38.088 [info] [Info  - 1:42:38 PM] (1086) No source files found.
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) No include entries specified; assuming /home/kraoshin
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:38.133 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:38.158 [info] [Info  - 1:42:38 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:38.197 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 13:42:38.200 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 13:42:38.209 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding /home/kraoshin/venv
+2025-03-11 13:42:38.217 [info] [Info  - 1:42:38 PM] (1086) Found 148 source files
+2025-03-11 13:42:38.225 [info] [Info  - 1:42:38 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:38.225 [info] [Info  - 1:42:38 PM] (1086) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 13:42:38.225 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:38.225 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:38.225 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:38.255 [info] [Info  - 1:42:38 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:38.297 [info] [Error - 1:42:38 PM] (1086) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-11 13:42:38.297 [info] [Info  - 1:42:38 PM] (1086) No source files found.
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) No include entries specified; assuming /<default workspace root>
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:38.629 [info] [Info  - 1:42:38 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:38.658 [info] [Info  - 1:42:38 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:38.702 [info] [Error - 1:42:38 PM] (1086) File or directory "/<default workspace root>" does not exist.
+2025-03-11 13:42:38.702 [info] [Info  - 1:42:38 PM] (1086) No source files found.
+2025-03-11 13:42:38.844 [info] [Info  - 1:42:38 PM] (1086) scanned(7) 98 files over 1 exec env
+2025-03-11 13:42:38.972 [info] [Info  - 1:42:38 PM] (1086) indexed(7) 98 files over 1 exec env
+2025-03-11 13:42:38.998 [info] [Info  - 1:42:38 PM] (1086) Indexing finished(7).
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) No include entries specified; assuming /home/kraoshin
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:39.364 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:39.389 [info] [Info  - 1:42:39 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:39.429 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 13:42:39.432 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 13:42:39.437 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding /home/kraoshin/venv
+2025-03-11 13:42:39.465 [info] [Info  - 1:42:39 PM] (1086) Found 148 source files
+2025-03-11 13:42:39.471 [info] [Info  - 1:42:39 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:39.472 [info] [Info  - 1:42:39 PM] (1086) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-11 13:42:39.472 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:39.472 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:39.472 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:39.494 [info] [Info  - 1:42:39 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:39.542 [info] [Error - 1:42:39 PM] (1086) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-11 13:42:39.543 [info] [Info  - 1:42:39 PM] (1086) No source files found.
+2025-03-11 13:42:39.825 [info] [Info  - 1:42:39 PM] (1086) Indexer background runner(8) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist (index)
+2025-03-11 13:42:39.825 [info] [Info  - 1:42:39 PM] (1086) Indexing(8) started
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) No include entries specified; assuming /<default workspace root>
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/node_modules
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/__pycache__
+2025-03-11 13:42:39.826 [info] [Info  - 1:42:39 PM] (1086) Auto-excluding **/.*
+2025-03-11 13:42:39.851 [info] [Info  - 1:42:39 PM] (1086) Assuming Python version 3.12.3.final.0
+2025-03-11 13:42:39.900 [info] [Error - 1:42:39 PM] (1086) File or directory "/<default workspace root>" does not exist.
+2025-03-11 13:42:39.900 [info] [Info  - 1:42:39 PM] (1086) No source files found.
+2025-03-11 13:42:40.108 [info] [Info  - 1:42:40 PM] (1086) scanned(8) 98 files over 1 exec env
+2025-03-11 13:42:40.253 [info] [Info  - 1:42:40 PM] (1086) indexed(8) 98 files over 1 exec env
+2025-03-11 13:42:40.277 [info] [Info  - 1:42:40 PM] (1086) Indexing finished(8).
