@@ -54,8 +54,8 @@ class Place(BaseModel):
 
     @latitude.setter
     def latitude(self, value):
-        if not (90 >= value >= -90):
-            raise ValueError("Latitude must be beewteen 90 and -90")
+        if not (90.0 >= value >= -90.0):
+            raise ValueError("Latitude must be beewteen 90.0 and -90.0")
         self.__latitude = value
 
     @property
@@ -64,7 +64,7 @@ class Place(BaseModel):
 
     @longitude.setter
     def longitude(self, value):
-        if not (180 >= value >= -180):
+        if not (180.0 >= value >= -180.0):
             raise ValueError("longitude must be beewteen 180 and -180")
         self.__longitude = value
 
