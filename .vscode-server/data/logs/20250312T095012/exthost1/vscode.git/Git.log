@@ -12501,3 +12501,20 @@ fatal: Need to specify how to reconcile divergent branches.
 2025-03-12 15:56:57.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
 2025-03-12 15:56:57.090 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
 2025-03-12 15:56:57.158 [info] > git status -z -uall [76ms]
+2025-03-12 15:56:59.813 [info] > git add -A -- . [105ms]
+2025-03-12 15:56:59.846 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [27ms]
+2025-03-12 15:56:59.853 [info] > git config --get commit.template [1ms]
+2025-03-12 15:56:59.862 [info] > git config --get commit.template [2ms]
+2025-03-12 15:56:59.868 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:56:59.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 15:56:59.882 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-12 15:56:59.946 [info] > git status -z -uall [73ms]
+2025-03-12 15:57:00.025 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:57:00.025 [info] > git config --get commit.template [6ms]
+2025-03-12 15:57:00.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 15:57:00.040 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-12 15:57:00.110 [info] > git status -z -uall [79ms]
+2025-03-12 15:57:03.003 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:57:03.003 [info] > git config --get commit.template [7ms]
+2025-03-12 15:57:03.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 15:57:03.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
