@@ -113,29 +113,3 @@ class PlaceResource(Resource):
             "owner_id": updated_place.owner_id
             }, 200
 
-@api.route('/places/<place_id>')
-class AdminPlaceModify(Resource):
-    @jwt_required()
-    def put(self, place_id):
-        current_user = get_jwt_identity()
-
-        # Set is_admin default to False if not exists
-        is_admin = current_user.get('is_admin', False)
-        user_id = current_user.get('id')
-
-        place = facade.get_place(place_id)
-        if not is_admin and place.owner_id != user_id:
-            return {'error': 'Unauthorized action'}, 403
-
-        updated_place = facade.update_place(place_id, place)
-        if not updated_place:
-            return {'message': 'Place not found'}, 404
-        
-        return {
-            "title": updated_place.title,
-            "description": updated_place.description,
-            "price": updated_place.price,
-            "latitude": updated_place.latitude,
-            "longitude": updated_place.longitude,
-            "owner_id": updated_place.owner_id
-            }, 200
