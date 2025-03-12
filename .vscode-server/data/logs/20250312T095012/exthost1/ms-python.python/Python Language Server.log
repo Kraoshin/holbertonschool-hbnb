@@ -241,3 +241,273 @@
 2025-03-12 15:55:53.739 [info] [Info  - 3:55:53 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
 2025-03-12 15:55:53.746 [info] [Info  - 3:55:53 PM] (26759) Auto-excluding /home/kraoshin/venv
 2025-03-12 15:55:53.763 [info] [Info  - 3:55:53 PM] (26759) Found 186 source files
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:16.334 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:16.378 [info] [Info  - 3:56:16 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:16.444 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:16.455 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:16.469 [info] [Info  - 3:56:16 PM] (26759) Found 186 source files
+2025-03-12 15:56:16.482 [info] [Info  - 3:56:16 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:16.482 [info] [Info  - 3:56:16 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:16.482 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:16.482 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:16.482 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:16.519 [info] [Info  - 3:56:16 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:16.573 [info] [Error - 3:56:16 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:16.574 [info] [Info  - 3:56:16 PM] (26759) No source files found.
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:16.579 [info] [Info  - 3:56:16 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:16.602 [info] [Info  - 3:56:16 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:16.645 [info] [Error - 3:56:16 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:16.649 [info] [Info  - 3:56:16 PM] (26759) No source files found.
+2025-03-12 15:56:17.045 [info] [Info  - 3:56:17 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:17.046 [info] [Info  - 3:56:17 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:17.046 [info] [Info  - 3:56:17 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:17.046 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:17.046 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:17.046 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:17.069 [info] [Info  - 3:56:17 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:17.115 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:17.121 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:17.136 [info] [Info  - 3:56:17 PM] (26759) Found 186 source files
+2025-03-12 15:56:17.142 [info] [Info  - 3:56:17 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:17.143 [info] [Info  - 3:56:17 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:17.143 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:17.143 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:17.143 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:17.165 [info] [Info  - 3:56:17 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:17.202 [info] [Error - 3:56:17 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:17.203 [info] [Info  - 3:56:17 PM] (26759) No source files found.
+2025-03-12 15:56:17.208 [info] [Info  - 3:56:17 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:17.209 [info] [Info  - 3:56:17 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:17.209 [info] [Info  - 3:56:17 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:17.209 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:17.209 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:17.209 [info] [Info  - 3:56:17 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:17.229 [info] [Info  - 3:56:17 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:17.269 [info] [Error - 3:56:17 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:17.269 [info] [Info  - 3:56:17 PM] (26759) No source files found.
+2025-03-12 15:56:29.897 [info] [Info  - 3:56:29 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:29.897 [info] [Info  - 3:56:29 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:29.897 [info] [Info  - 3:56:29 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:29.898 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:29.898 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:29.899 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:29.916 [info] [Info  - 3:56:29 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:29.962 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:29.967 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:29.976 [info] [Info  - 3:56:29 PM] (26759) Found 186 source files
+2025-03-12 15:56:29.980 [info] [Info  - 3:56:29 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:29.980 [info] [Info  - 3:56:29 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:29.980 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:29.980 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:29.980 [info] [Info  - 3:56:29 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:30.000 [info] [Info  - 3:56:30 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:30.032 [info] [Error - 3:56:30 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:30.032 [info] [Info  - 3:56:30 PM] (26759) No source files found.
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:30.038 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:30.057 [info] [Info  - 3:56:30 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:30.092 [info] [Error - 3:56:30 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:30.092 [info] [Info  - 3:56:30 PM] (26759) No source files found.
+2025-03-12 15:56:30.650 [info] [Info  - 3:56:30 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:30.651 [info] [Info  - 3:56:30 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:30.651 [info] [Info  - 3:56:30 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:30.651 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:30.651 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:30.651 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:30.669 [info] [Info  - 3:56:30 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:30.710 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:30.719 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:30.726 [info] [Info  - 3:56:30 PM] (26759) Found 186 source files
+2025-03-12 15:56:30.730 [info] [Info  - 3:56:30 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:30.730 [info] [Info  - 3:56:30 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:30.730 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:30.730 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:30.730 [info] [Info  - 3:56:30 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:30.753 [info] [Info  - 3:56:30 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:30.792 [info] [Error - 3:56:30 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:30.792 [info] [Info  - 3:56:30 PM] (26759) No source files found.
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:31.020 [info] [Info  - 3:56:31 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:31.038 [info] [Info  - 3:56:31 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:31.073 [info] [Error - 3:56:31 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:31.074 [info] [Info  - 3:56:31 PM] (26759) No source files found.
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:47.737 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:47.757 [info] [Info  - 3:56:47 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:47.807 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:47.808 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:47.815 [info] [Info  - 3:56:47 PM] (26759) Found 186 source files
+2025-03-12 15:56:47.826 [info] [Info  - 3:56:47 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:47.826 [info] [Info  - 3:56:47 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:47.827 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:47.827 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:47.827 [info] [Info  - 3:56:47 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:47.848 [info] [Info  - 3:56:47 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:47.880 [info] [Error - 3:56:47 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:47.880 [info] [Info  - 3:56:47 PM] (26759) No source files found.
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.098 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.136 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.177 [info] [Error - 3:56:48 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:48.177 [info] [Info  - 3:56:48 PM] (26759) No source files found.
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.186 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.205 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.245 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:48.250 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:48.260 [info] [Info  - 3:56:48 PM] (26759) Found 186 source files
+2025-03-12 15:56:48.265 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:48.265 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:48.265 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.265 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.265 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.284 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.314 [info] [Error - 3:56:48 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:48.315 [info] [Info  - 3:56:48 PM] (26759) No source files found.
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.560 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.581 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.617 [info] [Error - 3:56:48 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:48.617 [info] [Info  - 3:56:48 PM] (26759) No source files found.
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.646 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.666 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.708 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:48.713 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:48.720 [info] [Info  - 3:56:48 PM] (26759) Found 186 source files
+2025-03-12 15:56:48.729 [info] [Info  - 3:56:48 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:48.729 [info] [Info  - 3:56:48 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:48.729 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:48.729 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:48.729 [info] [Info  - 3:56:48 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:48.750 [info] [Info  - 3:56:48 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:48.784 [info] [Error - 3:56:48 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:48.785 [info] [Info  - 3:56:48 PM] (26759) No source files found.
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:49.011 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:49.029 [info] [Info  - 3:56:49 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:49.067 [info] [Error - 3:56:49 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:49.067 [info] [Info  - 3:56:49 PM] (26759) No source files found.
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:49.095 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:49.113 [info] [Info  - 3:56:49 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:49.158 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:49.164 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:49.186 [info] [Info  - 3:56:49 PM] (26759) Found 186 source files
+2025-03-12 15:56:49.194 [info] [Info  - 3:56:49 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:49.194 [info] [Info  - 3:56:49 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:49.194 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:49.194 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:49.194 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:49.217 [info] [Info  - 3:56:49 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:49.250 [info] [Error - 3:56:49 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:49.251 [info] [Info  - 3:56:49 PM] (26759) No source files found.
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:49.256 [info] [Info  - 3:56:49 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:49.277 [info] [Info  - 3:56:49 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:49.319 [info] [Error - 3:56:49 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:49.319 [info] [Info  - 3:56:49 PM] (26759) No source files found.
+2025-03-12 15:56:52.338 [info] [Info  - 3:56:52 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:52.341 [info] [Info  - 3:56:52 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:52.341 [info] [Info  - 3:56:52 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:52.341 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:52.341 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:52.341 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:52.360 [info] [Info  - 3:56:52 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:52.414 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:52.421 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:52.429 [info] [Info  - 3:56:52 PM] (26759) Found 186 source files
+2025-03-12 15:56:52.434 [info] [Info  - 3:56:52 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:52.434 [info] [Info  - 3:56:52 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:52.434 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:52.434 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:52.434 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:52.455 [info] [Info  - 3:56:52 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:52.494 [info] [Error - 3:56:52 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:52.495 [info] [Info  - 3:56:52 PM] (26759) No source files found.
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:52.692 [info] [Info  - 3:56:52 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:52.711 [info] [Info  - 3:56:52 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:52.745 [info] [Error - 3:56:52 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:52.746 [info] [Info  - 3:56:52 PM] (26759) No source files found.
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) No include entries specified; assuming /home/kraoshin
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:55.358 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:55.380 [info] [Info  - 3:56:55 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:55.426 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-12 15:56:55.431 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding /home/kraoshin/venv
+2025-03-12 15:56:55.437 [info] [Info  - 3:56:55 PM] (26759) Found 186 source files
+2025-03-12 15:56:55.457 [info] [Info  - 3:56:55 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:55.457 [info] [Info  - 3:56:55 PM] (26759) No include entries specified; assuming vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/
+2025-03-12 15:56:55.457 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:55.457 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:55.457 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:55.479 [info] [Info  - 3:56:55 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:55.512 [info] [Error - 3:56:55 PM] (26759) File or directory "vscode-chat-code-block://23978650-1f36-4761-ac2c-1f0fc978c6ab/" does not exist.
+2025-03-12 15:56:55.512 [info] [Info  - 3:56:55 PM] (26759) No source files found.
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) Setting pythonPath for service "<default>": "/bin/python3"
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) No include entries specified; assuming /<default workspace root>
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/node_modules
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/__pycache__
+2025-03-12 15:56:55.518 [info] [Info  - 3:56:55 PM] (26759) Auto-excluding **/.*
+2025-03-12 15:56:55.540 [info] [Info  - 3:56:55 PM] (26759) Assuming Python version 3.12.3.final.0
+2025-03-12 15:56:55.576 [info] [Error - 3:56:55 PM] (26759) File or directory "/<default workspace root>" does not exist.
+2025-03-12 15:56:55.576 [info] [Info  - 3:56:55 PM] (26759) No source files found.
