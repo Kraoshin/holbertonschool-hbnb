@@ -1,0 +1,19 @@
+2025-03-11 14:29:54.557 [info] Can't use the Electron fetcher in this environment.
+2025-03-11 14:29:54.557 [info] Using the Node fetch fetcher.
+2025-03-11 14:29:54.557 [info] Initializing Git extension service.
+2025-03-11 14:29:54.557 [info] Successfully activated the vscode.git extension.
+2025-03-11 14:29:54.557 [info] Enablement state of the vscode.git extension: true.
+2025-03-11 14:29:54.557 [info] Successfully registered Git commit message provider.
+2025-03-11 14:29:55.103 [info] Logged in as Kraoshin
+2025-03-11 14:29:56.128 [info] Got Copilot token for Kraoshin
+2025-03-11 14:29:56.657 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-03-11 14:29:56.657 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-11 14:29:56.667 [info] Registering default platform agent...
+2025-03-11 14:29:57.343 [info] Fetched model metadata in 1203ms a3b89856-d220-4208-bb8f-eaacfc4ad4a9
+2025-03-11 14:29:57.344 [info] activationBlocker from 'languageModelAccess' took for 2606ms
+2025-03-11 14:31:05.924 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [f5c4391e-81a3-4ad4-a37e-f54875c2aebd]
+2025-03-11 14:31:39.779 [info] message 0 returned. finish reason: [stop]
+2025-03-11 14:31:39.781 [info] request done: requestId: [77b7b48b-fd72-4565-aaa6-ea4de7c79bb6] model deployment ID: []
+2025-03-11 14:32:17.091 [info] message 0 returned. finish reason: [stop]
+2025-03-11 14:32:17.092 [info] request done: requestId: [bd3117ed-b978-4ca0-9e2d-ad99faf2f376] model deployment ID: []
+2025-03-11 14:45:17.976 [info] Fetched model metadata in 517ms 9a118462-bcff-42fe-9790-8a876267e479

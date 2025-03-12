@@ -1,160 +1,3 @@
-pycodestyle --first 4-print_float.py 
-vim 5-print_string.py
-pycodestyle --first 5-print_string.py 
-vim 6-concat.py
-pycodestyle --first 6-concat.py 
-vim 7-edges.py
-pycodestyle --first 7-edges.py 
-vim 8-concat_edges.py
-pycodestyle --first 8-concat_edges.py 
-vim 9-easter_egg.py
-pycodestyle --first 9-easter_egg.py 
-chmod u+x 2-print.py 3-print_number.py 4-print_float.py 5-print_string.py 6-concat.py 7-edges.py 8-concat_edges.py 9-easter_egg.py 
-ls 
-git add .
-git commit -m "recreate everything bc checker is bugged"
-git push
-cd
-sudo apt-get update
-sudo apt-get install python3
-cd holbertonschool-higher_level_programming/
-cd python-hello_world/
-./2-print.py 
-ls
-cd holbertonschool-higher_level_programming/
-ls
-git pull
-cd python-if_else_loops_functions/
-ls
-chmod u+x 0-positive_or_negative.py 
-ls
-./0-positive_or_negative.py 
-vim 0-positive_or_negative.py 
-rm 0-positive_or_negative.py 
-vim 0-positive_or_negative.py
-chmod a+x 0-positive_or_negative.py 
-./0-positive_or_negative.py 
-pycodestyle --first 0-positive_or_negative.py 
-vim 1-last_digit.py
-pycodestyle --first 1-last_digit.py 
-vim 1-last_digit.py
-pycodestyle --first 1-last_digit.py 
-vim 1-last_digit.py
-pycodestyle --first 1-last_digit.py 
-vim 1-last_digit.py
-pycodestyle --first 1-last_digit.py 
-chmod a+x 1-last_digit.py 
-./1-last_digit.py 
-vim 1-last_digit.py 
-./1-last_digit.py 
-ls
-git status -s
-git add 0-positive_or_negative.py 
-git commit -m "program that print a random number telling if he is - + or 0"
-git add 1-last_digit.py 
-git commit -m "program that display the last digit of a number and tell a sentence about it"
-pycodestyle --first 1-last_digit.py 
-git status -s
-git push
-vim 2-print_alphabet.py
-chmod a+x 2-print_alphabet.py 
-./2-print_alphabet.py 
-vim 2-print_alphabet.py
-pycodestyle --first 2-print_alphabet.py 
-git add 2-print_alphabet.py 
-git commit -m "program that prints the ASCII alphabet, in lowercase, not followed by a new line."
-git push
-ls
-vim 4-print_hexa.py
-chmod a+x 4-print_hexa.py 
-./4-print_hexa.py 
-pycodestyle --first 4-print_hexa.py 
-git add 4-print_hexa.py 
-git status -s
-git commit -m "program that prints all numbers from 0 to 98 in decimal and in hexadecimal"
-git push
-vim 5-print_comb2.py
-chmod a+x 5-print_comb2.py 
-./5-print_comb2.py 
-pycodestyle --first
-pycodestyle --first 5-print_comb2.py 
-./5-print_comb2.py 
-git add 5-print_comb2.py 
-git commit -m "program that prints numbers from 0 to 99"
-git push
-ls
-vim 6-print_comb3.py
-chmod a+x 6-print_comb3.py 
-./6-print_comb3.py 
-pycodestyle --first 6-print_comb3.py 
-git add 6-print_comb3.py 
-git commit -m "program that prints all possible different combinations of two digits"
-git push
-ls
-vim 7-islower.py
-ls
-chmod a+x 7-islower.py 
-ls
-./7-islower.py 
-pycodestyle --first 7-islower.py 
-vim 7-main.py
-chmod a+x 7-main.py 
-./7-
-./7-main.py 
-rm 7-main.py 
-ls
-cd..
-ls
-cd..
-ls
-cd..
-cd
-ls
-cd holbertonschool-higher_level_programming/python-if_else_loops_functions/
-ls
-vim 8-main.py
-chmod a+x 8-main.py 
-vim 8-uppercase.py
-chmod a+x 8-uppercase.py 
-ls
-./8-main.py 
-pycodestyle --first 8-uppercase.py 
-git status -s
-git add 7-islower.py 8-uppercase.py 
-rm 8-main.py 
-cat __pycache__/
-ls
-cd __pycache__/
-ls
-cd..
-cd ..
-rm __pycache__/
-ls
-rm -r __pycache__/
-ls
-git status -s 
-git add 7-islower.py 
-git commit -m "function that checks for lowercase character."
-git status -s
-git push
-ls
-vim 9-main.py
-chmod a+x 9-main.py 
-vim 9-print_last_digit.py
-pycodestyle 9-print_last_digit.py 
-pycodestyle --first 9-print_last_digit.py 
-./9-main.py 
-ls
-chmod a+x 9-print_last_digit.py 
-ls
-rm 9-main.py 
-rm -r __pycache__/
-git status -s
-git add 9-print_last_digit.py 
-ls
-git status -s
-git commit -m "function that prints the last digit of a number."
-vim 10-main.py
 chmod a+x 10-main.py 
 vim 10-add.py
 ./10-main.py 
@@ -1998,3 +1841,160 @@ git status -s
 git add part3/test/Test.sql 
 git commit -m "create a SQL file to test the db interaction"
 git push origin kraoshin 
+cd holbertonschool-h
+cd holbertonschool-hbnb/
+python -m venv venv
+python3 -m venv venv
+source venv/bin/activate
+cd part3/
+pip install requirements.txt 
+pip3 install requirements.txt 
+sudo install requirements.txt 
+install --help
+sudo apt-get install flask
+pip install flask
+pip install flask-restx
+pip install flask-bcrypt
+pip install requirements.txt 
+pip install flask_jwt_extended
+pip install flask_sqlalchemy
+pip install SQLAlchemy
+pip install mysqldb
+python3 run.py
+pip install -r requirements.txt
+python run.py
+pip install -r requirements.txt 
+python run.py
+git status -s
+git add *
+git commit -m "Commit all the changes I did (I should have commited them one by one my bad)"
+git status -s
+git add *
+git commit -m "delete all pycache folder"
+python run.py 
+git status -s
+python run.py 
+cd app/models/
+python create_admin.py 
+deactivate
+python create_admin.py 
+python3 create_admin.py 
+cd ../..
+source venv/bin/activate
+cd ../
+source venv/bin/activate
+cd part
+cd part3/
+git status -s
+python run.py 
+cd holbertonschool-hbnb/
+source venv/bin/activate
+cd part
+cd part3/
+python run.py 
+pwd
+cd holbertonschool-hbnb/
+cd part3/
+ls
+cd instance/
+ls
+cat ../test/Test.sql | mysql -hlocalhost -uroot -p development.db
+sudo cat ../test/Test.sql | mysql -hlocalhost -uroot -p development.db
+cd
+source venv/bin/activate
+cd holbertonschool-hbnb/part3/instance/
+cat ../test/Test.sql | mysql -hlocalhost -uroot -p development.db
+INSERT INTO User (id, first_name, last_name, email, password, is_admin)
+VALUES (
+); | mysql -hlocalhost -uroot -p development.db
+INSERT INTO User (id, first_name, last_name, email, password, is_admin) VALUES ('36c9050e-ddd3-4c3b-9731-9f487208bbc1',  -- ID fixe 'Admin',  -- first_name 'HBnB',  -- last_name 'admin@hbnb.io',  -- email '$2b$12$5y8X5y8X5y8X5y8X5y8X5u',  -- Mot de passe hashé (admin1234) TRUE  -- is_admin);
+cd holbertonschool-hbnb/part3/
+cd ..
+source venv/bin/activate
+cd part3/
+pip -r install requirements.txt 
+pip install -r requirements.txt
+python run.py 
+deactivate 
+cd ..
+rm -r part3/
+git pull origin kraoshin 
+ls
+git status -s
+git add *
+git commit -m "delete everything to start with fresh code"
+git add *
+git status -s
+git add /rm
+git add/rm
+git restore
+cd ../
+ls
+rm -r holbertonschool-hbnb/
+y
+git clone https://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@github.com/Kraoshin/holbertonschool-hbnb/tree/main
+git clone https://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@github.com/Kraoshin/holbertonschool-hbnb.git
+cd holbertonschool-hbnb/
+git pull origin kraoshin 
+git pull origin cyprien 
+python3 -m venv venv
+source venv/bin/activate
+cd part3/
+ls
+pip install -r requirements.txt 
+python run.py 
+pip install -r requirements.txt 
+python run.py 
+pip install -r requirements.txt 
+python run.py 
+deactivate
+sudo apt install sqlite3
+cd ..
+source venv/bin/activate
+cd part3/
+python run.py 
+pip install -r requirements.txt 
+python run.py 
+pip install -r requirements.txt
+python run.py 
+pip install -r requirements.txt 
+python run.py 
+cls
+clear
+git pull origin cyprien 
+git status -s
+cd ../../
+ls
+cd
+ls
+git clone https://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@github.com/Kraoshin/holbertonschool-hbnb.git
+cd holbertonschool-hbnb/
+ls 
+cd part3/
+git pull origin cyprien 
+deactivate
+cd 
+source venv/bin/activate
+cd holbertonschool-hbnb/part3/
+pip install -r requirements.txt 
+python run.py 
+git status -s
+python run.py 
+git status -s
+python run.py 
+ls
+git status -s
+git add app/models/amenity.py 
+git add app/models/place.py 
+git add app/models/place_amenity.py 
+git add app/models/review.py 
+git add app/services/relationship.py 
+git add app/api/v1/admin.py 
+git add app/models/place_amenity.py 
+git commit -m "update all models to increment db"
+git push origin k
+git push origin kraoshin
+cd 
+rm -r holbertonschool-hbnb/
+y
+deactivate 

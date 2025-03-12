@@ -1,0 +1,676 @@
+2025-03-12 09:50:16.985 [info] Experiment 'pythonaacf' is active
+2025-03-12 09:50:16.985 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-03-12 09:50:16.985 [info] Experiment 'pythonSurveyNotification' is active
+2025-03-12 09:50:16.985 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-12 09:50:16.985 [info] Experiment 'pythonTestAdapter' is active
+2025-03-12 09:50:16.985 [info] Native locator: Refresh started
+2025-03-12 09:50:16.985 [info] Native locator: Refresh started
+2025-03-12 09:50:16.992 [info] > pyenv which python
+2025-03-12 09:50:16.992 [info] cwd: .
+2025-03-12 09:50:20.212 [info] Python interpreter path: /bin/python3
+2025-03-12 09:50:20.863 [info] Native locator: Refresh finished in 4889 ms
+2025-03-12 09:50:21.740 [info] Starting Pylance language server.
+2025-03-12 10:07:38.565 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:07:53.706 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:07:57.365 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:08:18.358 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:08:18.358 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:08:23.684 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:08:23.684 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:09:04.747 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:09:04.747 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:09:16.816 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:09:16.816 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:09:59.177 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:10:00.489 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:14:01.340 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:14:49.413 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:15:25.728 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:22:22.639 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:22:30.102 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:23:06.561 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:24:19.568 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:25:24.768 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:25:29.537 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:25:41.868 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:26:22.922 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:26:30.397 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:26:31.785 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:27:04.588 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:27:06.211 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:27:19.640 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:27:25.673 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:27:39.918 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:28:10.449 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:28:15.359 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:29:13.998 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 10:29:15.217 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:29:16.358 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 10:30:05.132 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 10:30:14.587 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 10:30:22.876 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 10:31:57.866 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 10:32:52.377 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 10:33:58.344 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 10:34:37.397 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py
+2025-03-12 10:35:10.960 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py
+2025-03-12 10:36:08.605 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin
+2025-03-12 10:36:36.069 [info] Discover tests for workspace name: undefined - uri: c:/Users/killi/AppData/Roaming/Code/User/settings.json
+2025-03-12 10:39:47.401 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 10:39:52.299 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 10:41:25.859 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:42:24.287 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:42:24.287 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:42:32.261 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:42:32.261 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 10:43:33.504 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 10:43:48.154 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:44:30.723 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:44:35.977 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:44:59.650 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:45:14.508 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:45:20.890 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:46:50.467 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:47:43.952 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:47:52.124 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:47:58.200 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:47:59.058 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:48:27.271 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:49:00.825 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:49:10.334 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:49:35.192 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:49:46.841 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:50:06.781 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:50:21.003 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:51:34.926 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:51:41.370 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:51:54.886 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 10:54:56.500 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:04:20.104 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:04:28.209 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:04:54.103 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:05:59.780 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:06:07.552 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:06:53.087 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:07:12.953 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:07:32.723 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:08:40.551 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:08:56.164 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:09:52.708 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:09:52.708 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:10:05.885 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:10:05.885 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:11:38.982 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:11:50.347 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:11:58.967 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:12:12.329 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:13:06.890 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:13:06.890 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:13:15.945 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:13:15.945 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:14:45.352 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:15:10.811 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 11:15:25.309 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:15:26.941 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 11:15:28.064 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:15:47.473 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:16:53.342 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:17:09.824 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:17:33.059 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:17:33.059 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:17:42.588 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:17:42.588 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 11:22:10.867 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:22:59.761 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:23:30.271 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:23:37.656 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:23:38.357 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:23:44.283 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:23:52.144 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:24:00.848 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:24:03.399 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:24:15.855 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py
+2025-03-12 11:30:57.000 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:33:44.988 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:33:58.495 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py
+2025-03-12 11:35:01.172 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 11:35:43.642 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py
+2025-03-12 11:36:04.894 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:36:08.750 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:36:24.824 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:36:52.971 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 11:37:24.629 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 11:37:36.240 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 11:38:00.430 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:38:15.070 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:38:20.188 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:38:36.884 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:39:04.673 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:39:27.195 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 11:41:10.720 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:41:18.841 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:41:48.114 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:42:02.904 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:42:11.569 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:42:43.499 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:42:49.751 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:43:02.739 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:43:34.890 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:43:38.361 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:43:42.807 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:44:17.547 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:44:27.889 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 11:44:46.540 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:44:54.542 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:44:57.124 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:45:52.490 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:46:04.629 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 11:47:35.298 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:48:01.312 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:50:22.179 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:50:25.351 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:50:32.523 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:51:24.651 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:51:27.584 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:51:30.754 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:51:45.440 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:53:26.935 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:54:00.215 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:55:57.833 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:56:58.265 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:57:02.699 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:58:08.596 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:58:36.975 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:58:50.343 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:59:26.938 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:59:32.963 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:59:46.966 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 11:59:53.366 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:00:15.602 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:00:27.722 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:00:38.364 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:00:55.152 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:01:56.612 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:02:12.689 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:02:25.370 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 12:02:45.184 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:03:06.949 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:03:09.740 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:03:26.117 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:04:54.948 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:06:01.659 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:06:13.253 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:06:26.956 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:07:04.661 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:07:28.239 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:08:14.697 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:08:17.984 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:11:28.912 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:11:46.031 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:13:53.903 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 12:15:14.708 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:16:28.819 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:16:36.303 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:16:42.759 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:17:00.186 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:20:44.991 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:21:29.150 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:21:44.995 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:21:50.567 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:25:00.096 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:25:47.179 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:03.180 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:12.529 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:24.705 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:32.250 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:36.242 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:26:41.954 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:03.022 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:11.095 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:16.470 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:27.071 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:33.487 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:46.899 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:27:51.251 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:28:01.936 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:28:20.957 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 12:29:46.806 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:30:15.553 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:31:41.531 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:31:45.115 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:33:22.659 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:33:38.967 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:33:47.577 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:34:23.544 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:34:32.290 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:35:30.072 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 12:37:04.612 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:37:20.986 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:37:29.504 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:38:18.999 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:39:37.388 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:40:18.492 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:41:07.863 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:42:30.262 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:43:01.401 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:43:42.899 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:44:07.797 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:45:29.101 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:45:45.760 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:45:50.191 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:45:55.757 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:48:36.364 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:49:26.768 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:50:19.514 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:50:51.939 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:52:23.571 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:52:35.288 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:53:07.346 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:54:45.334 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py
+2025-03-12 12:55:38.484 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:55:38.484 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:55:46.339 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:55:46.339 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:57:27.043 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 12:57:50.131 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:57:50.131 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:57:58.183 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:57:58.183 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 12:59:31.756 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:00:25.490 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:00:43.799 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:00:53.918 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:01:55.148 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:02:19.340 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:04:49.019 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py
+2025-03-12 13:06:35.258 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:06:55.783 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:08:31.355 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:09:22.973 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:09:57.269 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:10:20.455 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:11:07.208 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:11:23.403 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:12:06.943 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:12:27.295 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 13:14:30.889 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 13:15:55.004 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 13:16:37.705 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 13:18:28.090 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 13:23:18.460 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 13:23:57.170 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 14:03:00.136 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 14:04:14.276 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-12 14:06:53.173 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 14:08:16.386 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 14:11:16.480 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 14:19:25.935 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/auth.py
+2025-03-12 14:26:37.976 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 14:26:39.226 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 14:30:35.889 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py
+2025-03-12 14:34:18.156 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 14:35:12.701 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 14:36:35.478 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 14:40:39.393 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py
+2025-03-12 14:48:16.158 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 14:48:28.460 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py
+2025-03-12 14:49:23.965 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:00:54.457 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:04:02.643 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:04:16.523 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:04:27.450 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:04:53.213 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:05:40.638 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:08:06.429 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:08:13.894 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:08:50.284 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:08:55.847 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:09:01.691 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:09:07.891 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:09:12.199 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:09:22.891 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:09:33.401 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:10:55.170 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:11:07.436 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:11:43.863 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 15:12:18.264 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py
+2025-03-12 15:14:33.823 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:14:36.224 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:14:38.636 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:15:16.853 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:15:18.622 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:16:08.622 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py
+2025-03-12 15:16:14.330 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 15:16:20.846 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:16:24.340 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:17:11.760 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/admin.py
+2025-03-12 15:17:28.230 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:17:30.133 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:36:27.435 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 15:39:08.675 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 15:39:32.786 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 15:39:33.646 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 15:39:53.437 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py
+2025-03-12 15:40:13.390 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
+2025-03-12 15:41:38.564 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 15:42:02.026 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py

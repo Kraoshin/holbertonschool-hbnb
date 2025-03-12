@@ -5,3 +5,4 @@
 2025-03-11 13:39:09.439 [info] read schema from vscode: vscode://schemas/token-styling
 2025-03-11 13:39:09.440 [info] read schema from vscode: vscode://schemas/textmate-colors
 2025-03-11 13:39:09.440 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-03-11 14:15:02.772 [info] schema change detected vscode://schemas/settings/default

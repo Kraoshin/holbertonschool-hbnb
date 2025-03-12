@@ -422,3 +422,11 @@
 2025-03-11 13:42:40.108 [info] [Info  - 1:42:40 PM] (1086) scanned(8) 98 files over 1 exec env
 2025-03-11 13:42:40.253 [info] [Info  - 1:42:40 PM] (1086) indexed(8) 98 files over 1 exec env
 2025-03-11 13:42:40.277 [info] [Info  - 1:42:40 PM] (1086) Indexing finished(8).
+2025-03-11 14:07:16.807 [info] [Info  - 2:07:16 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 14:07:16.813 [info] [Info  - 2:07:16 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 14:07:16.822 [info] [Info  - 2:07:16 PM] (1086) Auto-excluding /home/kraoshin/venv
+2025-03-11 14:07:16.857 [info] [Info  - 2:07:16 PM] (1086) Found 146 source files
+2025-03-11 14:13:30.271 [info] [Info  - 2:13:30 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-hbnb
+2025-03-11 14:13:30.275 [info] [Info  - 2:13:30 PM] (1086) Auto-excluding /home/kraoshin/holbertonschool-higher_level_programming/python-object_relational_mapping/venv
+2025-03-11 14:13:30.285 [info] [Info  - 2:13:30 PM] (1086) Auto-excluding /home/kraoshin/venv
+2025-03-11 14:13:30.327 [info] [Info  - 2:13:30 PM] (1086) Found 146 source files
