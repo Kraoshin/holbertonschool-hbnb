@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_restx import Api
 from flask_jwt_extended import JWTManager
-from app.routes.auth import auth_api
 from api.v1.auth import auth_api
 
 
