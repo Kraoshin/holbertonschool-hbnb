@@ -3,6 +3,10 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # Simule une base de données
 users_db = {}
 
+class HBnBFacade:
+    def __init__(self):
+        pass
+
 class User:
     def __init__(self, user_id, first_name, last_name, email, password, is_admin=False):
         self.id = user_id
