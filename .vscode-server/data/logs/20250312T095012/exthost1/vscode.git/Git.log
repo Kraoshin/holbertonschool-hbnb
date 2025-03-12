@@ -12518,3 +12518,25 @@ fatal: Need to specify how to reconcile divergent branches.
 2025-03-12 15:57:03.003 [info] > git config --get commit.template [7ms]
 2025-03-12 15:57:03.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
 2025-03-12 15:57:03.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-12 15:57:03.095 [info] > git status -z -uall [85ms]
+2025-03-12 15:57:03.097 [info] > git add -A -- . [110ms]
+2025-03-12 15:57:03.130 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [25ms]
+2025-03-12 15:57:03.136 [info] > git config --get commit.template [1ms]
+2025-03-12 15:57:03.143 [info] > git config --get commit.template [1ms]
+2025-03-12 15:57:03.148 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:57:03.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-12 15:57:03.164 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-12 15:57:03.230 [info] > git status -z -uall [75ms]
+2025-03-12 15:57:03.304 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:57:03.304 [info] > git config --get commit.template [6ms]
+2025-03-12 15:57:03.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 15:57:03.320 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-12 15:57:03.385 [info] > git status -z -uall [74ms]
+2025-03-12 15:57:04.828 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6607ms]
+2025-03-12 15:57:04.828 [info] warning: exhaustive rename detection was skipped due to too many files.
+warning: you may want to set your diff.renameLimit variable to at least 4161 and retry the command.
+2025-03-12 15:57:08.110 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-12 15:57:08.110 [info] > git config --get commit.template [7ms]
+2025-03-12 15:57:08.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 15:57:08.123 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-12 15:57:08.199 [info] > git status -z -uall [82ms]
