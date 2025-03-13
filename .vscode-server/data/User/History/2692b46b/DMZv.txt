@@ -1,5 +1,0 @@
-The 'example' module
-====================
-
-Using 'Sort'
-------------

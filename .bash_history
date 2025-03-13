@@ -1,60 +1,3 @@
-cd python-data_structures/
-git status -s
-pwd
-cd holbertonschool-higher_level_programming/python-data_structures/
-ls
-git status -s
-./10-divisible_by_2.py 
-./10-main.py 
-git add 10-divisible_by_2.py 
-git commit -m "function that finds all multiples of 2 in a list."
-git push
-chmod a+x 11-main.py 
-./11-main.py 
-chmod a+x 11-delete_at.py 
-./11-main.py 
-git add 11-delete_at.py 
-git commit -m "function that deletes the item at a specific position in a list."
-ls
-chmod a+x 12-switch.py 
-./12-switch.py 
-pycodestyle --first *.py
-git add 12-switch.py 
-git commit -m "function that switch the value of two var"
-git push
-cd ..
-ls
-mkdir python-more_data_structures
-cd python-more_data_structures/
-ls
-cd ..
-ls
-cd python-data_structures/
-ls
-pwd
-cd ..
-cd python-more_data_structures/
-ls
-cd..
-ls
-cd ..
-ls
-rm -r python-more-data_structures/
-git status -s
-cd python-more_data_structures/
-ls
-chmod a+x 0-main.py 0-square_matrix_simple.py 
-ls
-cd ..
-cd python-data_structures/
-ls
-rm *main.py
-rm -r __pycache__/
-ls
-git status -s
-rm 0-square_matrix_simple.py 
-cd ..
-cd python-more_data_structures/
 ls
 git add README.md 0-main.py 0-square_matrix_simple.py 
 git commit -m "create README and a function that computes the square value of all integers of a matrix"
@@ -1998,3 +1941,60 @@ git status
 git add .
 git commit -m "aze"
 git push origin kraoshin 
+git branch
+git status 
+git add holbertonschool-chatgpt-introduction holbertonschool-low_level_programming
+git restore .vscode-server/data/logs/20250313T152645/exthost1/*
+git commit -m "Your commit message"
+git status 
+git add holbertonschool-chatgpt-introduction/
+git commit -m "zae"
+git add holbertonschool-chatgpt-introduction
+git commit -m "Describe your changes here"
+git restore holbertonschool-chatgpt-introduction
+git status 
+git add holbertonschool-chatgpt-introduction
+git commit -m "Describe your changes here"
+git status 
+git restore .vscode-server/data/logs/20250313T152645/exthost1/remoteexthost.log
+git restore .vscode-server/data/logs/20250313T152645
+git status 
+git pull origin cyprien 
+git stauts 
+git status 
+git add .
+git commit -m "aze"
+git push
+git push origin kraoshin 
+git status 
+git add .vscode-server/data/
+git status 
+cd holbertonschool-hbnb/part3/app/models/
+git add place.py 
+git commit -m "test"
+git push origin k
+git push origin kraoshin
+git branch main 
+git checkout main 
+git push 
+git push origin kraoshin
+cd 
+git stauts
+git status
+sudo rm -rf holbertonschool-hbnb/
+git status
+git add .
+git status 
+git status 
+git add .
+git commit -m "aze"
+ls
+git pull
+git pull origin kraoshin 
+git pull
+ls
+cd holbertonschool-higher_level_programming/
+ls
+cd 
+git clone https://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@github.com/Kraoshin/holbertonschool-hbnb.git
+git pull origin cyprien 

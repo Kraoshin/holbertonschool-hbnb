@@ -1,7 +1,0 @@
-2025-03-11 11:37:09.989 [info] file:///home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py Similar code at  [Ln 38, Col 16] odel):  __tablename__ = 'users'...
-2025-03-11 11:37:09.989 [info] License: unknown, URL: https://github.com/jalis55/aimup_app/blob/320025aceb17373cd43a61f0cd4fcd25c025d413/main.py
-2025-03-11 11:37:09.989 [info] License: MIT, URL: https://github.com/vid-dev/vido-system-be/blob/560550a92fa07f5595fef550533053580c11aaa4/app/models.py
-2025-03-11 11:37:09.989 [info] License: unknown, URL: https://github.com/kkiillee55/GameForum/blob/a2aa157df078d972a7388a5b6f3211a3a90d360b/models.py
-2025-03-11 11:39:44.390 [info] file:///home/kraoshin/holbertonschool-hbnb/part3/app/services/relationship.py Similar code at  [Ln 38, Col 16] odel):  __tablename__ = 'users'  id = db.Column(db.Integer, primary_key=True)  first_name =...
-2025-03-11 11:39:44.390 [info] License: unknown, URL: https://github.com/jalis55/aimup_app/blob/320025aceb17373cd43a61f0cd4fcd25c025d413/main.py
-2025-03-11 11:39:44.390 [info] License: MIT, URL: https://github.com/vid-dev/vido-system-be/blob/560550a92fa07f5595fef550533053580c11aaa4/app/models.py

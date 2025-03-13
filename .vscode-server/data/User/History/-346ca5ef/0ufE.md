@@ -1,1 +1,0 @@
-Exercises about abstract classes

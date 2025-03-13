@@ -1,0 +1,13 @@
+2025-03-13 16:10:46.752 [info] Experiment 'pythonaacf' is active
+2025-03-13 16:10:46.752 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-03-13 16:10:46.752 [info] Experiment 'pythonSurveyNotification' is active
+2025-03-13 16:10:46.752 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-03-13 16:10:46.752 [info] Experiment 'pythonTestAdapter' is active
+2025-03-13 16:10:46.752 [info] Native locator: Refresh started
+2025-03-13 16:10:46.752 [info] Native locator: Refresh started
+2025-03-13 16:10:46.799 [info] > pyenv which python
+2025-03-13 16:10:46.799 [info] cwd: .
+2025-03-13 16:10:46.805 [info] Python interpreter path: /bin/python3
+2025-03-13 16:10:48.087 [info] Starting Pylance language server.
+2025-03-13 16:10:49.853 [info] Native locator: Refresh finished in 3514 ms
+2025-03-13 16:11:43.812 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py

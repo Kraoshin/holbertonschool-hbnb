@@ -1,0 +1,46 @@
+2025-03-13 16:07:15.140 [info] 
+
+
+
+
+2025-03-13 16:07:15.140 [info] Extension host agent started.
+2025-03-13 16:07:15.144 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kraoshin/.vscode-server/extensions
+2025-03-13 16:07:15.151 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kraoshin/.vscode-server/extensions
+2025-03-13 16:07:15.322 [info] [127.0.0.1][218b0a8e][ManagementConnection] New connection established.
+2025-03-13 16:07:15.458 [info] [127.0.0.1][91a3decf][ExtensionHostConnection] New connection established.
+2025-03-13 16:07:15.483 [info] [127.0.0.1][91a3decf][ExtensionHostConnection] <601> Launched Extension Host Process.
+2025-03-13 16:08:48.393 [info] Getting Manifest... github.copilot
+2025-03-13 16:08:48.482 [info] Installing extension: github.copilot {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.1","date":"2025-03-10T15:38:08.854Z"}}
+2025-03-13 16:08:49.265 [info] Getting Manifest... github.copilot-chat
+2025-03-13 16:08:49.325 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.1","date":"2025-03-10T15:38:08.854Z"}}
+2025-03-13 16:08:50.568 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 676ms.
+2025-03-13 16:08:50.789 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 635ms.
+2025-03-13 16:08:51.047 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/github.copilot-chat-0.25.0: github.copilot-chat
+2025-03-13 16:08:51.059 [info] Renamed to /home/kraoshin/.vscode-server/extensions/github.copilot-chat-0.25.0
+2025-03-13 16:08:51.488 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/github.copilot-1.284.0: github.copilot
+2025-03-13 16:08:51.500 [info] Renamed to /home/kraoshin/.vscode-server/extensions/github.copilot-1.284.0
+2025-03-13 16:08:51.512 [info] Extension installed successfully: github.copilot-chat file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-03-13 16:08:51.512 [info] Extension installed successfully: github.copilot file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-03-13 16:10:22.498 [info] [127.0.0.1][218b0a8e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-13 16:10:22.562 [info] [127.0.0.1][91a3decf][ExtensionHostConnection] <601> Extension Host Process exited with code: 0, signal: null.
+2025-03-13 16:10:23.982 [info] [127.0.0.1][52b99c40][ManagementConnection] New connection established.
+2025-03-13 16:10:24.177 [info] [127.0.0.1][23a1b4c9][ExtensionHostConnection] New connection established.
+2025-03-13 16:10:24.182 [info] [127.0.0.1][23a1b4c9][ExtensionHostConnection] <1660> Launched Extension Host Process.
+2025-03-13 16:10:32.578 [info] Getting Manifest... ms-python.python
+2025-03-13 16:10:32.663 [info] Installing extension: ms-python.python {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.1","date":"2025-03-10T15:38:08.854Z"}}
+2025-03-13 16:10:33.040 [info] Getting Manifest... ms-python.vscode-pylance
+2025-03-13 16:10:33.087 [info] Getting Manifest... ms-python.debugpy
+2025-03-13 16:10:33.124 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.1","date":"2025-03-10T15:38:08.854Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-03-13 16:10:33.124 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/kraoshin/.vscode-server/extensions/extensions.json","external":"file:///home/kraoshin/.vscode-server/extensions/extensions.json","path":"/home/kraoshin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.1","date":"2025-03-10T15:38:08.854Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-03-13 16:10:34.603 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 917ms.
+2025-03-13 16:10:34.812 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 846ms.
+2025-03-13 16:10:36.117 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64: ms-python.debugpy
+2025-03-13 16:10:36.196 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64
+2025-03-13 16:10:37.447 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 831ms.
+2025-03-13 16:10:37.789 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64: ms-python.python
+2025-03-13 16:10:37.943 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64
+2025-03-13 16:10:45.436 [info] Extracted extension to file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1: ms-python.vscode-pylance
+2025-03-13 16:10:45.939 [info] Renamed to /home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1
+2025-03-13 16:10:45.971 [info] Extension installed successfully: ms-python.debugpy file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-03-13 16:10:45.971 [info] Extension installed successfully: ms-python.python file:///home/kraoshin/.vscode-server/extensions/extensions.json
+2025-03-13 16:10:45.971 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/kraoshin/.vscode-server/extensions/extensions.json
