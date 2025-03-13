@@ -1,6 +1,7 @@
 from app import db, bcrypt
 from .basemodel import BaseModel
-
+from sqlalchemy.orm import validates 
+import re
 
 class User(BaseModel):     
     __tablename__ = 'users'
@@ -18,3 +19,10 @@ class User(BaseModel):
     def hash_password(self, password):
         """Hashes the password before storing it."""
         self.password = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    @validates("email", include_backrefs=False)
+    def validateemail(self, key, value):
+        regex = r'^[a-zA-Z0-9.%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$'
+        if not re.match(regex, value):
+            return {"error": "Invalid email format"}
+        return value 

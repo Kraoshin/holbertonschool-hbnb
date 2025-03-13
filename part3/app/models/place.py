@@ -1,20 +1,19 @@
+from app import db
 from .basemodel import BaseModel
-from .user import User
-from .amenity import Amenity
+from app.models.user import User
+from sqlalchemy.orm import validates ,relationship
+from .relationship import place_amenity
 
 
 class Place(BaseModel):
-    def __init__(self, title, description, price, latitude,
-                 longitude, owner_id, amenities=None):
-        super().__init__()
-        self.title = title
-        self.description = description
-        self.price = price
-        self.latitude = latitude
-        self.longitude = longitude
-        self.owner_id = owner_id
-        self.reviews = []
-        self.amenities = amenities or []
+    __tablename__ = 'places'
+
+    title = db.Column(db.String(100), nullable=False)
+    description = db.Column(db.String(), nullable=True)
+    price = db.Column(db.Float, nullable=False)
+    longitude = db.Column(db.Float, nullable=False)
+    latitude = db.Column(db.Float, nullable=False)
+    owner_id = db.Column(db.String(36), db.ForeignKey('user.id'), nullable=False)
 
     def add_review(self, review):
         """Add a review to the place."""
@@ -22,58 +21,38 @@ class Place(BaseModel):
 
     def add_amenity(self, amenity):
         """Add an amenity to the place."""
-        if not isinstance(amenity, Amenity):
-            raise ValueError("amenity must be an Amenity instance")
         self.amenities.append(amenity)
 
-    @property
-    def title(self):
-        return self.__title
-    
-    @title.setter
-    def title(self, value):
+    @validates('title', include_backrefs=False)
+    def validate_title(self, key, value):
         if not value:
             raise ValueError("title is required")
         if len(value) > 100:
             raise ValueError("title must be less than 100 characters")
-        self.__title = value
+        return value
 
-    @property
-    def price(self):
-        return self.__price
-
-    @price.setter
-    def price(self, value):
+    @validates('price', include_backrefs=False)
+    def validate_price(self, key, value):
         if value <= 0:
             raise ValueError("price must be greater than 0")
-        self.__price = value
+        return value
 
-    @property
-    def latitude(self):
-        return self.__latitude
-
-    @latitude.setter
-    def latitude(self, value):
+    @validates('latitude', include_backrefs=False)
+    def validate_latitude(self, key, value):
         if not (90.0 >= value >= -90.0):
             raise ValueError("Latitude must be beewteen 90.0 and -90.0")
-        self.__latitude = value
+        return value
 
-    @property
-    def longitude(self):
-        return self.__longitude
-
-    @longitude.setter
-    def longitude(self, value):
+    @validates('longitude', include_backrefs=False)
+    def validate_longitude(self, key, value):
         if not (180.0 >= value >= -180.0):
             raise ValueError("longitude must be beewteen 180 and -180")
-        self.__longitude = value
+        return value
 
-    @property
-    def owner(self):
-        return self.__owner_id
-
-    @owner.setter
-    def owner(self, value):
-        if not isinstance(value, User):
-            raise ValueError("owner must be a User instance")
-        self.__owner_id = value
+    @validates('owner_id')
+    def validate_owner_id(self, key, value):
+        if not isinstance(value, str):
+            raise TypeError("owner_id must be a string")
+        if len(value) != 36:
+            raise ValueError("the id have 36 letters")
+        return
