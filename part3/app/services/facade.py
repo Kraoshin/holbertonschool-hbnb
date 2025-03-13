@@ -67,40 +67,6 @@ class HBnBFacade:
     def update_place(self, place_id, place_data):
         """the function will update a place with new data"""
         place = self.place_repo.get(place_id)
-       
-        if not place:
-            raise KeyError("Place not found")
-
-        if 'title' in place_data and len(place_data['title']) > 100 \
-                or not place_data['title']:
-            raise ValueError("Title is required with max 100 characters.")
-
-        if 'description' in place_data and \
-                len(place_data['description']) > 1000:
-            raise ValueError("Description must be less than 1000 characters.")
-
-        if ('price' in place_data and place_data['price'] <= 0):
-            raise ValueError("Price must be greater than 0.")
-
-        if 'latitude' in place_data and \
-                not (90 >= place_data['latitude'] >= -90):
-            raise ValueError("Latitude must be between 90 and -90.")
-
-        if 'longitude' in place_data and \
-                not (180 >= place_data['longitude'] >= -180):
-            raise ValueError("Longitude must be between 180 and -180.")
-
-        if 'owner_id' in place_data and \
-                not self.user_repo.get(place_data['owner_id']):
-            raise ValueError("Owner not found, please enter a valid owner")
-        
-        if 'amenities' in place_data:
-            for amenity_id in place_data['amenities']:
-                amenity = self.amenity_repo.get(amenity_id)
-                if not amenity:
-                    raise ValueError("Amenity not found")
-                place.add_amenity(amenity)
-
         for keys, value in place_data.items():
             if hasattr(place, keys):
                 setattr(place, keys, value)
@@ -129,34 +95,10 @@ class HBnBFacade:
         if not place:
             raise ValueError("Place not found, please enter a valid place")
         return [review for review in self.review_repo.get_all()
-                if review._place_id == place_id]
+                if review.place_id == place_id]
 
     def update_review(self, review_id, review_update):
-        user = self.get_user(review_update['user_id'])
-        if not user:
-            raise KeyError("User not found")
-        place = self.get_place(review_update['place_id'])
-        if not place:
-            raise KeyError("Place not found")
-        
         review = self.review_repo.get(review_id)
-        if not review:
-            raise KeyError("Review not found, please enter "
-                            "a valid review title")
-        if ('text' in review_update and len(review_update['text']) > 1000) \
-                or not review_update['text']:
-            raise ValueError("Text must be less than 1000 characters")
-
-        if 'rating' in review_update and not \
-                (1 <= review_update['rating'] <= 5):
-            raise ValueError("Rating must be between 1 and 5")
-        
-        if not isinstance(user, User):
-            raise ValueError("User not found, please enter a valid user")
-        
-        if not isinstance(place, Place):
-            raise ValueError("Place not found, please enter a valid place")
-
         for key, value in review_update.items():
             if hasattr(review, key):
                 setattr(review, key, value)
