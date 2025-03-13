@@ -2425,3 +2425,234 @@ fatal: Not possible to fast-forward, aborting.
 2025-03-13 15:53:28.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
 2025-03-13 15:53:28.389 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
 2025-03-13 15:53:28.474 [info] > git status -z -uall [93ms]
+2025-03-13 15:53:28.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:28.777 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:53:28.864 [info] > git status -z -uall [94ms]
+2025-03-13 15:53:30.052 [info] > git ls-files --stage -- part3/app/models/amenity.py [6ms]
+2025-03-13 15:53:30.057 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [16ms]
+2025-03-13 15:53:30.057 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [21ms]
+2025-03-13 15:53:30.057 [info] > git ls-files --stage -- part3/app/models/amenity.py [26ms]
+2025-03-13 15:53:30.064 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [7ms]
+2025-03-13 15:53:30.064 [info] > git ls-tree -l HEAD -- part3/app/models/amenity.py [13ms]
+2025-03-13 15:53:30.065 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [2ms]
+2025-03-13 15:53:30.090 [info] > git show --textconv 47b79f5495cfd0b9b7db8fac29977137c571c124:part3/app/models/amenity.py [19ms]
+2025-03-13 15:53:30.090 [info] > git show --textconv c20a421f54bff321b5f937aa3a6d30959339d287:part3/app/models/amenity.py [13ms]
+2025-03-13 15:53:30.090 [info] > git show --textconv :part3/app/models/amenity.py [6ms]
+2025-03-13 15:53:30.096 [info] > git show --textconv HEAD:part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:30.099 [info] > git show --textconv :1:part3/app/models/amenity.py [4ms]
+2025-03-13 15:53:30.099 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/part3/app/models/amenity.py?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%3A1%22%7D
+2025-03-13 15:53:32.061 [info] > git config --get commit.template [1ms]
+2025-03-13 15:53:32.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:32.081 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:53:32.159 [info] > git status -z -uall [86ms]
+2025-03-13 15:53:32.168 [info] > git blame --root --incremental 82c67a7fa82e7b0c25fbded616b0c512716710ab -- part3/app/models/amenity.py [2ms]
+2025-03-13 15:53:33.369 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [6ms]
+2025-03-13 15:53:33.369 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [12ms]
+2025-03-13 15:53:33.369 [info] > git ls-files --stage -- part3/app/models/amenity.py [17ms]
+2025-03-13 15:53:33.375 [info] > git ls-files --stage -- part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:33.393 [info] > git show --textconv 47b79f5495cfd0b9b7db8fac29977137c571c124:part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:33.393 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [19ms]
+2025-03-13 15:53:33.394 [info] > git show --textconv c20a421f54bff321b5f937aa3a6d30959339d287:part3/app/models/amenity.py [2ms]
+2025-03-13 15:53:33.395 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [14ms]
+2025-03-13 15:53:33.408 [info] > git show --textconv :1:part3/app/models/amenity.py [6ms]
+2025-03-13 15:53:33.408 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/part3/app/models/amenity.py?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%3A1%22%7D
+2025-03-13 15:53:33.412 [info] > git show --textconv :part3/app/models/amenity.py [5ms]
+2025-03-13 15:53:36.011 [info] > git config --get commit.template [1ms]
+2025-03-13 15:53:36.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:36.033 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 15:53:36.112 [info] > git status -z -uall [88ms]
+2025-03-13 15:53:37.326 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [5ms]
+2025-03-13 15:53:37.327 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [12ms]
+2025-03-13 15:53:37.327 [info] > git ls-files --stage -- part3/app/models/amenity.py [16ms]
+2025-03-13 15:53:37.333 [info] > git ls-files --stage -- part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:37.352 [info] > git show --textconv 47b79f5495cfd0b9b7db8fac29977137c571c124:part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:37.352 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [20ms]
+2025-03-13 15:53:37.353 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [14ms]
+2025-03-13 15:53:37.353 [info] > git show --textconv c20a421f54bff321b5f937aa3a6d30959339d287:part3/app/models/amenity.py [2ms]
+2025-03-13 15:53:37.369 [info] > git show --textconv :1:part3/app/models/amenity.py [9ms]
+2025-03-13 15:53:37.369 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/part3/app/models/amenity.py?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%3A1%22%7D
+2025-03-13 15:53:37.373 [info] > git show --textconv :part3/app/models/amenity.py [5ms]
+2025-03-13 15:53:41.129 [info] > git config --get commit.template [7ms]
+2025-03-13 15:53:41.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:41.143 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:53:41.242 [info] > git status -z -uall [107ms]
+2025-03-13 15:53:41.795 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2025-03-13 15:53:44.712 [info] > git log --oneline --cherry main...main@{upstream} -- [5ms]
+2025-03-13 15:53:45.245 [info] > git pull --tags origin main [528ms]
+2025-03-13 15:53:45.245 [info] From https://github.com/Kraoshin/holbertonschool-higher_level_programming
+ * branch            main       -> FETCH_HEAD
+2025-03-13 15:53:46.256 [info] > git config --get commit.template [6ms]
+2025-03-13 15:53:46.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [0ms]
+2025-03-13 15:53:46.271 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:53:46.355 [info] > git status -z -uall [93ms]
+2025-03-13 15:53:46.384 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2025-03-13 15:53:46.836 [info] > git pull --tags origin main [446ms]
+2025-03-13 15:53:46.836 [info] From https://github.com/Kraoshin/holbertonschool-shell
+ * branch            main       -> FETCH_HEAD
+2025-03-13 15:53:47.320 [info] > git log --oneline --cherry main...main@{upstream} -- [14ms]
+2025-03-13 15:53:47.762 [info] > git pull --tags origin main [436ms]
+2025-03-13 15:53:47.762 [info] From https://github.com/Kraoshin/holbertonschool-simple_shell
+ * branch            main       -> FETCH_HEAD
+hint: Diverging branches can't be fast-forwarded, you need to either:
+hint: 
+hint: 	git merge --no-ff
+hint: 
+hint: or:
+hint: 
+hint: 	git rebase
+hint: 
+hint: Disable this message with "git config advice.diverging false"
+fatal: Not possible to fast-forward, aborting.
+2025-03-13 15:53:47.776 [info] > git config --get commit.template [7ms]
+2025-03-13 15:53:47.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-03-13 15:53:47.793 [info] > git status -z -uall [8ms]
+2025-03-13 15:53:47.793 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:53:47.804 [info] > git push origin main:main [963ms]
+2025-03-13 15:53:47.805 [info] To https://github.com/Kraoshin/holbertonschool-shell
+   a338cfd..716a129  main -> main
+2025-03-13 15:53:47.821 [info] > git config --get commit.template [8ms]
+2025-03-13 15:53:47.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-13 15:53:47.838 [info] > git status -z -uall [8ms]
+2025-03-13 15:53:47.839 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 15:53:47.855 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-03-13 15:53:47.865 [info] > git diff --name-status -z --diff-filter=ADMR 716a129416b3a04990b23e5393c449025e86eb03...refs/remotes/origin/main [2ms]
+2025-03-13 15:53:47.931 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2025-03-13 15:53:49.458 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [17ms]
+2025-03-13 15:53:49.458 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [25ms]
+2025-03-13 15:53:49.459 [info] > git config --get commit.template [2ms]
+2025-03-13 15:53:49.459 [info] > git config --get commit.template [9ms]
+2025-03-13 15:53:49.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-03-13 15:53:49.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-13 15:53:49.485 [info] > git status -z -uall [7ms]
+2025-03-13 15:53:49.500 [info] > git status -z -uall [7ms]
+2025-03-13 15:53:49.500 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-03-13 15:53:49.502 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 15:53:49.644 [info] > git push origin main:main [4392ms]
+2025-03-13 15:53:49.644 [info] To https://github.com/Kraoshin/holbertonschool-higher_level_programming.git
+   6f46a99..2c3e7b4  main -> main
+2025-03-13 15:53:49.663 [info] > git config --get commit.template [9ms]
+2025-03-13 15:53:49.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-13 15:53:49.679 [info] > git status -z -uall [8ms]
+2025-03-13 15:53:49.680 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:53:49.691 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-03-13 15:53:49.702 [info] > git diff --name-status -z --diff-filter=ADMR 2c3e7b4452eb8082bc0dc130c6951151355db78e...refs/remotes/origin/main [1ms]
+2025-03-13 15:53:50.723 [info] > git config --get commit.template [7ms]
+2025-03-13 15:53:50.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:50.737 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:53:50.835 [info] > git status -z -uall [106ms]
+2025-03-13 15:53:50.886 [info] > git config --get commit.template [8ms]
+2025-03-13 15:53:50.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-13 15:53:50.902 [info] > git status -z -uall [7ms]
+2025-03-13 15:53:50.903 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:53:54.516 [info] > git config --get commit.template [6ms]
+2025-03-13 15:53:54.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-13 15:53:54.530 [info] > git status -z -uall [7ms]
+2025-03-13 15:53:54.531 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:53:55.851 [info] > git config --get commit.template [7ms]
+2025-03-13 15:53:55.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:53:55.866 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:53:55.967 [info] > git status -z -uall [110ms]
+2025-03-13 15:53:58.214 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2025-03-13 15:53:58.655 [info] > git pull --tags origin main [435ms]
+2025-03-13 15:53:58.655 [info] From https://github.com/Kraoshin/holbertonschool-simple_shell
+ * branch            main       -> FETCH_HEAD
+hint: Diverging branches can't be fast-forwarded, you need to either:
+hint: 
+hint: 	git merge --no-ff
+hint: 
+hint: or:
+hint: 
+hint: 	git rebase
+hint: 
+hint: Disable this message with "git config advice.diverging false"
+fatal: Not possible to fast-forward, aborting.
+2025-03-13 15:53:58.672 [info] > git config --get commit.template [7ms]
+2025-03-13 15:53:58.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-13 15:53:58.696 [info] > git status -z -uall [14ms]
+2025-03-13 15:53:58.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-03-13 15:53:59.804 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [7ms]
+2025-03-13 15:53:59.805 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [2ms]
+2025-03-13 15:53:59.848 [info] > git config --get commit.template [9ms]
+2025-03-13 15:53:59.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-03-13 15:53:59.868 [info] > git status -z -uall [9ms]
+2025-03-13 15:53:59.869 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:54:00.983 [info] > git config --get commit.template [7ms]
+2025-03-13 15:54:00.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:01.000 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:01.100 [info] > git status -z -uall [111ms]
+2025-03-13 15:54:03.536 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2025-03-13 15:54:03.961 [info] > git pull --tags origin main [419ms]
+2025-03-13 15:54:03.961 [info] From https://github.com/Kraoshin/holbertonschool-simple_shell
+ * branch            main       -> FETCH_HEAD
+hint: Diverging branches can't be fast-forwarded, you need to either:
+hint: 
+hint: 	git merge --no-ff
+hint: 
+hint: or:
+hint: 
+hint: 	git rebase
+hint: 
+hint: Disable this message with "git config advice.diverging false"
+fatal: Not possible to fast-forward, aborting.
+2025-03-13 15:54:03.974 [info] > git config --get commit.template [6ms]
+2025-03-13 15:54:03.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-13 15:54:03.991 [info] > git status -z -uall [8ms]
+2025-03-13 15:54:03.992 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:06.073 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [7ms]
+2025-03-13 15:54:06.074 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [15ms]
+2025-03-13 15:54:06.074 [info] > git config --get commit.template [2ms]
+2025-03-13 15:54:06.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-13 15:54:06.113 [info] > git status -z -uall [20ms]
+2025-03-13 15:54:06.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-03-13 15:54:06.121 [info] > git config --get commit.template [8ms]
+2025-03-13 15:54:06.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [2ms]
+2025-03-13 15:54:06.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:06.247 [info] > git status -z -uall [110ms]
+2025-03-13 15:54:11.267 [info] > git config --get commit.template [9ms]
+2025-03-13 15:54:11.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:11.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:11.371 [info] > git status -z -uall [98ms]
+2025-03-13 15:54:15.450 [info] > git ls-tree -l c20a421f54bff321b5f937aa3a6d30959339d287 -- part3/app/models/amenity.py [7ms]
+2025-03-13 15:54:15.451 [info] > git ls-tree -l 47b79f5495cfd0b9b7db8fac29977137c571c124 -- part3/app/models/amenity.py [2ms]
+2025-03-13 15:54:16.384 [info] > git config --get commit.template [7ms]
+2025-03-13 15:54:16.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:16.397 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:16.483 [info] > git status -z -uall [94ms]
+2025-03-13 15:54:18.180 [info] > git show --textconv :part3/app/models/basemodel.py [6ms]
+2025-03-13 15:54:18.183 [info] > git ls-files --stage -- part3/app/models/basemodel.py [4ms]
+2025-03-13 15:54:18.190 [info] > git cat-file -s b51b167e8a2f0362bb38ce2c90b9175f0cb990bb [2ms]
+2025-03-13 15:54:18.516 [info] > git show --textconv :part3/app/models/amenity.py [6ms]
+2025-03-13 15:54:18.520 [info] > git ls-files --stage -- part3/app/models/amenity.py [5ms]
+2025-03-13 15:54:18.528 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [2ms]
+2025-03-13 15:54:20.847 [info] > git config --get commit.template [6ms]
+2025-03-13 15:54:20.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:20.861 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 15:54:20.945 [info] > git status -z -uall [93ms]
+2025-03-13 15:54:25.961 [info] > git config --get commit.template [6ms]
+2025-03-13 15:54:25.961 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:25.975 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:54:26.060 [info] > git status -z -uall [92ms]
+2025-03-13 15:54:27.797 [info] > git config --get commit.template [8ms]
+2025-03-13 15:54:27.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:27.815 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:27.901 [info] > git status -z -uall [96ms]
+2025-03-13 15:54:29.061 [info] > git ls-files --stage -- part3/app/models/amenity.py [5ms]
+2025-03-13 15:54:29.067 [info] > git cat-file -s 3daf159f67dffdaa9894ec49523ddf3188514396 [2ms]
+2025-03-13 15:54:29.080 [info] > git show --textconv :part3/app/models/amenity.py [4ms]
+2025-03-13 15:54:31.075 [info] > git config --get commit.template [7ms]
+2025-03-13 15:54:31.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:31.091 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 15:54:31.177 [info] > git status -z -uall [96ms]
+2025-03-13 15:54:32.021 [info] > git show --textconv :part3/app/models/basemodel.py [6ms]
+2025-03-13 15:54:32.024 [info] > git ls-files --stage -- part3/app/models/basemodel.py [4ms]
+2025-03-13 15:54:32.031 [info] > git cat-file -s b51b167e8a2f0362bb38ce2c90b9175f0cb990bb [1ms]
+2025-03-13 15:54:33.064 [info] > git show --textconv :part3/app/models/place.py [5ms]
+2025-03-13 15:54:33.067 [info] > git ls-files --stage -- part3/app/models/place.py [4ms]
+2025-03-13 15:54:33.074 [info] > git cat-file -s 62ab338adeea59d075c756d6b1c9ee85ea057f65 [1ms]
+2025-03-13 15:54:36.191 [info] > git config --get commit.template [6ms]
+2025-03-13 15:54:36.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 15:54:36.205 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 15:54:36.291 [info] > git status -z -uall [94ms]
+2025-03-13 15:54:37.550 [info] > git ls-files --stage -- part3/app/models/place.py [4ms]
+2025-03-13 15:54:37.556 [info] > git cat-file -s 62ab338adeea59d075c756d6b1c9ee85ea057f65 [1ms]
+2025-03-13 15:54:37.569 [info] > git show --textconv :part3/app/models/place.py [5ms]
