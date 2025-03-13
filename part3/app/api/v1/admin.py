@@ -139,7 +139,7 @@ class AdminReviewModify(Resource):
         is_admin = current_user.get('is_admin', False)
         user_id = current_user.get('id')
 
-        review = facade.get_place(review_id)
+        review = facade.get_review(review_id)
         if not is_admin and review.user_id != user_id:
             return {'error': 'Unauthorized action'}, 403
         

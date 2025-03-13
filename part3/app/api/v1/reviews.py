@@ -27,9 +27,6 @@ class ReviewList(Resource):
         current_user = json.loads(get_jwt_identity())
         review_data = api.payload
         review_data['user_id'] = current_user['id']
-        if ('text' not in review_data or 'rating' not in review_data or
-                'user_id' not in review_data or 'place_id' not in review_data):
-            return {'message': 'Missing required fields'}, 400
         try:
             new_review = facade.create_review(review_data)
             return {
