@@ -77,3 +77,5 @@ class Place(BaseModel):
         if not isinstance(value, User):
             raise ValueError("owner must be a User instance")
         self.__owner_id = value
+
+test
