@@ -144,3 +144,62 @@
 2025-03-13 15:41:13.765 [info] [Info  - 3:41:13 PM] (1422) Indexing finished(3).
 2025-03-13 15:47:58.454 [info] [Info  - 3:47:58 PM] (1422) Auto-excluding /home/kraoshin
 2025-03-13 15:47:58.463 [info] [Info  - 3:47:58 PM] (1422) Found 47 source files
+2025-03-13 15:53:04.268 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.269 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.269 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.269 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.269 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.269 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.319 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.373 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.374 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:04.428 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.429 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.429 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.429 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.429 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.430 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.463 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.537 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.538 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:04.545 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.546 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.546 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.546 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.546 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.546 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.584 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.661 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.663 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:04.671 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.671 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.672 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.672 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.672 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.672 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.703 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.764 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.765 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:04.774 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.775 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.775 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.775 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.775 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.775 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.813 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.868 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.869 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:04.879 [info] [Info  - 3:53:04 PM] (1422) Setting environmentName for service "kraoshin": "3.12.3 (global)"
+2025-03-13 15:53:04.880 [info] [Info  - 3:53:04 PM] (1422) Setting pythonPath for service "kraoshin": "/bin/python3"
+2025-03-13 15:53:04.880 [info] [Info  - 3:53:04 PM] (1422) No include entries specified; assuming /home/kraoshin
+2025-03-13 15:53:04.880 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/node_modules
+2025-03-13 15:53:04.880 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/__pycache__
+2025-03-13 15:53:04.880 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding **/.*
+2025-03-13 15:53:04.919 [info] [Info  - 3:53:04 PM] (1422) Assuming Python version 3.12.3.final.0
+2025-03-13 15:53:04.994 [info] [Info  - 3:53:04 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 15:53:04.995 [info] [Info  - 3:53:04 PM] (1422) Found 1 source file
+2025-03-13 15:53:05.035 [info] [Info  - 3:53:05 PM] (1422) Indexer background runner(4) root directory: file:///home/kraoshin/.vscode-server/extensions/ms-python.vscode-pylance-2025.3.1/dist (index)
+2025-03-13 15:53:05.036 [info] [Info  - 3:53:05 PM] (1422) Indexing(4) started
+2025-03-13 15:53:05.560 [info] [Info  - 3:53:05 PM] (1422) scanned(4) 98 files over 1 exec env
+2025-03-13 15:53:05.798 [info] [Info  - 3:53:05 PM] (1422) indexed(4) 98 files over 1 exec env
+2025-03-13 15:53:05.827 [info] [Info  - 3:53:05 PM] (1422) Indexing finished(4).
