@@ -203,3 +203,5 @@
 2025-03-13 15:53:05.560 [info] [Info  - 3:53:05 PM] (1422) scanned(4) 98 files over 1 exec env
 2025-03-13 15:53:05.798 [info] [Info  - 3:53:05 PM] (1422) indexed(4) 98 files over 1 exec env
 2025-03-13 15:53:05.827 [info] [Info  - 3:53:05 PM] (1422) Indexing finished(4).
+2025-03-13 16:00:12.848 [info] [Info  - 4:00:12 PM] (1422) Auto-excluding /home/kraoshin
+2025-03-13 16:00:12.848 [info] [Info  - 4:00:12 PM] (1422) No source files found.
