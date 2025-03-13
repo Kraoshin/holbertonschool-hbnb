@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/kraoshin/part2/venv/bin/python",
+    "prefix": "/home/kraoshin/part2/venv",
+    "version": "3.12.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/kraoshin/part2/venv/bin/python",
+      "/home/kraoshin/part2/venv/bin/python3",
+      "/home/kraoshin/part2/venv/bin/python3.12"
+    ]
+  },
+  "symlinks": []
+}

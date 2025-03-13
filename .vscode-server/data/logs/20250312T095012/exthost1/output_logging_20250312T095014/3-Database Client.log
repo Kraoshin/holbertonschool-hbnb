@@ -433,3 +433,8 @@ SQL dialect used: "sqlite".
     at Vb.createParseError (/home/kraoshin/.vscode-server/extensions/cweijan.vscode-mysql-client2-8.2.0/out/extension.js:158886:12)
     at Vb.tokenize (/home/kraoshin/.vscode-server/extensions/cweijan.vscode-mysql-client2-8.2.0/out/extension.js:158878:22)
     at Wb.tokenize (/home/kraoshin/.vscode-server/extensions/cweijan.vscode-mysql-client2-8.2.0/out/extension.js:158965:40)
+2025-03-12 16:04:11 [ERROR] Canceled: Canceled
+    at zc (file:///home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+    at file:///home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/out/vs/workbench/api/node/extensionHostProcess.js:29:156480
+    at Array.forEach (<anonymous>)
+    at qy.dispose (file:///home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/out/vs/workbench/api/node/extensionHostProcess.js:29:156420)

@@ -674,3 +674,54 @@
 2025-03-12 15:40:13.390 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py
 2025-03-12 15:41:38.564 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
 2025-03-12 15:42:02.026 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place_amenity.py
+2025-03-12 15:57:44.214 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py
+2025-03-12 15:58:25.804 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 15:58:25.805 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 15:58:35.117 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'System',
+  envName: '',
+  envPath: '/bin/python3',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.12.3',
+  detailedDisplayName: 'Python 3.12.3',
+  type: undefined
+} /home/kraoshin/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py /home/kraoshin/holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 15:58:35.117 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/installed_check.py ./holbertonschool-hbnb/part3/requirements.txt
+2025-03-12 15:58:42.408 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-chatgpt-introduction/debugging/factorial.py
+2025-03-12 15:58:58.566 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-chatgpt-introduction/debugging/factorial.py
+2025-03-12 15:59:01.881 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-chatgpt-introduction/debugging/factorial.py
+2025-03-12 16:00:13.689 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-chatgpt-introduction/debugging/factorial.py
+2025-03-12 16:01:17.220 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-12 16:03:19.052 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
