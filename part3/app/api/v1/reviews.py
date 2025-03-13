@@ -1,6 +1,7 @@
 from flask_restx import Namespace, Resource, fields
 from app.services import facade
 from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
+import json
 
 api = Namespace('reviews', description='Review operations')
 
@@ -10,7 +11,6 @@ review_model = api.model('Review', {
     'text': fields.String(required=True, description='Text of the review'),
     'rating': fields.Integer(required=True,
                              description='Rating of the place (1-5)'),
-    'user_id': fields.String(required=True, description='ID of the user'),
     'place_id': fields.String(required=True, description='ID of the place')
 })
 
@@ -20,9 +20,13 @@ class ReviewList(Resource):
     @api.expect(review_model)
     @api.response(201, 'Review successfully created')
     @api.response(400, 'Invalid input data')
+    @jwt_required
+    @api.doc(security="token")
     def post(self):
         """Register a new review"""
+        current_user = json.loads(get_jwt_identity())
         review_data = api.payload
+        review_data['user_id'] = current_user['id']
         if ('text' not in review_data or 'rating' not in review_data or
                 'user_id' not in review_data or 'place_id' not in review_data):
             return {'message': 'Missing required fields'}, 400
@@ -78,6 +82,8 @@ class ReviewResource(Resource):
     @api.response(200, 'Review updated successfully')
     @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
+    @jwt_required
+    @api.doc(security="token")
     def put(self, review_id):
         """Update a review's information"""
         review = facade.get_review(review_id)
@@ -101,6 +107,8 @@ class ReviewResource(Resource):
 
     @api.response(200, 'Review deleted successfully')
     @api.response(404, 'Review not found')
+    @jwt_required
+    @api.doc(security="token")
     def delete(self, review_id):
         """Delete a review"""
         review = facade.get_review(review_id)
