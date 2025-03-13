@@ -2015,3 +2015,133 @@
 2025-03-13 16:12:59.737 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
 2025-03-13 16:13:00.967 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
 2025-03-13 16:13:06.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:09.381 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:11.822 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:17.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:39.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:45.603 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:50.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:13:56.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:14:00.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:14:06.094 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:14:19.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1959
+2025-03-13 16:14:42.695 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:42.695 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.698 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:43.699 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:44.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:44.471 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:44.472 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:44.473 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:44.474 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:59.988 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:14:59.988 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:00.988 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:00.989 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:03.033 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:03.033 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:03.313 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:15:03.314 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:06.627 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:06.627 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:06.627 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:06.627 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:07.630 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:07.632 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:07.632 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-03-13 16:18:07.633 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/kraoshin/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/extensions/git/dist/main.js:2:1086613)
+    at ChildProcess.emit (node:events:530:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)

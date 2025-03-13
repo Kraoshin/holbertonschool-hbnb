@@ -11,3 +11,5 @@
 2025-03-13 16:10:48.087 [info] Starting Pylance language server.
 2025-03-13 16:10:49.853 [info] Native locator: Refresh finished in 3514 ms
 2025-03-13 16:11:43.812 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py
+2025-03-13 16:15:18.910 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py
+2025-03-13 16:16:44.532 [info] Discover tests for workspace name: kraoshin - uri: /home/kraoshin/holbertonschool-higher_level_programming/python-abc/task_00_abc.py

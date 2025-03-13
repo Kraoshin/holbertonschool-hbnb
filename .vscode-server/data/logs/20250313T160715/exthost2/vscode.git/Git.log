@@ -415,3 +415,376 @@
 2025-03-13 16:13:08.167 [info] > git ls-files --stage -- part3/app/models/place.py [1ms]
 2025-03-13 16:13:08.173 [info] > git cat-file -s f74c5eed17f5b0c4d24613018d60a35bbe004ce2 [1ms]
 2025-03-13 16:13:08.182 [info] > git show --textconv :part3/app/models/place.py [1ms]
+2025-03-13 16:13:09.126 [info] > git config --get commit.template [1ms]
+2025-03-13 16:13:09.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:09.144 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:13:09.373 [info] > git status -z -uall [237ms]
+2025-03-13 16:13:10.384 [info] > git ls-files --stage -- part3/app/models/place.py [0ms]
+2025-03-13 16:13:10.390 [info] > git cat-file -s f74c5eed17f5b0c4d24613018d60a35bbe004ce2 [1ms]
+2025-03-13 16:13:10.399 [info] > git show --textconv :part3/app/models/place.py [1ms]
+2025-03-13 16:13:11.565 [info] > git config --get commit.template [5ms]
+2025-03-13 16:13:11.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:11.577 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:13:11.816 [info] > git status -z -uall [246ms]
+2025-03-13 16:13:16.840 [info] > git config --get commit.template [6ms]
+2025-03-13 16:13:16.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:16.851 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:13:17.087 [info] > git status -z -uall [242ms]
+2025-03-13 16:13:38.864 [info] > git config --get commit.template [8ms]
+2025-03-13 16:13:38.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:38.880 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:13:39.120 [info] > git status -z -uall [250ms]
+2025-03-13 16:13:45.335 [info] > git config --get commit.template [6ms]
+2025-03-13 16:13:45.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:45.350 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:13:45.593 [info] > git status -z -uall [252ms]
+2025-03-13 16:13:50.625 [info] > git config --get commit.template [7ms]
+2025-03-13 16:13:50.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:50.638 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:13:50.887 [info] > git status -z -uall [257ms]
+2025-03-13 16:13:55.913 [info] > git config --get commit.template [7ms]
+2025-03-13 16:13:55.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:13:55.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:13:56.165 [info] > git status -z -uall [246ms]
+2025-03-13 16:14:00.583 [info] > git config --get commit.template [6ms]
+2025-03-13 16:14:00.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:00.595 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:00.820 [info] > git status -z -uall [232ms]
+2025-03-13 16:14:05.847 [info] > git config --get commit.template [6ms]
+2025-03-13 16:14:05.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:05.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:06.085 [info] > git status -z -uall [233ms]
+2025-03-13 16:14:07.314 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/HEAD'
+2025-03-13 16:14:07.319 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/config'
+2025-03-13 16:14:07.326 [info] > git remote --verbose [7ms]
+2025-03-13 16:14:07.327 [info] > git symbolic-ref --short HEAD [14ms]
+2025-03-13 16:14:07.332 [info] > git config --get commit.template [7ms]
+2025-03-13 16:14:07.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:07.348 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:14:07.400 [info] > git status -z -uall [60ms]
+2025-03-13 16:14:07.414 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/models/place.py [6ms]
+2025-03-13 16:14:07.414 [info] fatal: no such path holbertonschool-hbnb/part3/app/models/place.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:07.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [2ms]
+2025-03-13 16:14:07.422 [info] > git config --get --local branch.kraoshin.vscode-merge-base [1ms]
+2025-03-13 16:14:07.422 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-13 16:14:07.431 [info] > git reflog kraoshin --grep-reflog=branch: Created from *. [2ms]
+2025-03-13 16:14:07.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-13 16:14:07.446 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-03-13 16:14:07.446 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-13 16:14:07.446 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-13 16:14:07.830 [info] > git ls-files --stage -- part3/app/models/place.py [2ms]
+2025-03-13 16:14:07.836 [info] > git hash-object -t tree /dev/null [1ms]
+2025-03-13 16:14:07.836 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:19.383 [info] > git config --get commit.template [8ms]
+2025-03-13 16:14:19.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:19.399 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:19.455 [info] > git status -z -uall [65ms]
+2025-03-13 16:14:24.473 [info] > git config --get commit.template [7ms]
+2025-03-13 16:14:24.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:24.486 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:24.536 [info] > git status -z -uall [58ms]
+2025-03-13 16:14:24.894 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/HEAD'
+2025-03-13 16:14:24.899 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/config'
+2025-03-13 16:14:24.904 [info] > git remote --verbose [6ms]
+2025-03-13 16:14:24.904 [info] > git symbolic-ref --short HEAD [10ms]
+2025-03-13 16:14:24.909 [info] > git config --get commit.template [6ms]
+2025-03-13 16:14:24.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [2ms]
+2025-03-13 16:14:24.922 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:24.969 [info] > git status -z -uall [53ms]
+2025-03-13 16:14:26.209 [info] > git ls-files --stage -- part3/app/models/place.py [2ms]
+2025-03-13 16:14:26.210 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:29.553 [info] > git config --get commit.template [8ms]
+2025-03-13 16:14:29.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:29.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:14:29.624 [info] > git status -z -uall [65ms]
+2025-03-13 16:14:31.035 [info] > git show --textconv :part3/app/models/user.py [6ms]
+2025-03-13 16:14:31.036 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fuser.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:31.038 [info] > git ls-files --stage -- part3/app/models/user.py [3ms]
+2025-03-13 16:14:31.038 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fuser.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:31.095 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/models/user.py [1ms]
+2025-03-13 16:14:31.095 [info] fatal: no such path holbertonschool-hbnb/part3/app/models/user.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:32.268 [info] > git show --textconv :part3/app/models/review.py [7ms]
+2025-03-13 16:14:32.269 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Freview.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:32.270 [info] > git ls-files --stage -- part3/app/models/review.py [3ms]
+2025-03-13 16:14:32.271 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Freview.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:32.297 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/models/review.py [2ms]
+2025-03-13 16:14:32.297 [info] fatal: no such path holbertonschool-hbnb/part3/app/models/review.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:33.988 [info] > git config --get commit.template [6ms]
+2025-03-13 16:14:33.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:34.000 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:14:34.056 [info] > git status -z -uall [63ms]
+2025-03-13 16:14:34.383 [info] > git show --textconv :part3/app/models/place.py [7ms]
+2025-03-13 16:14:34.383 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:34.386 [info] > git ls-files --stage -- part3/app/models/place.py [3ms]
+2025-03-13 16:14:34.386 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:35.701 [info] > git show --textconv :part3/app/models/basemodel.py [7ms]
+2025-03-13 16:14:35.701 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fbasemodel.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:35.704 [info] > git ls-files --stage -- part3/app/models/basemodel.py [4ms]
+2025-03-13 16:14:35.704 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fbasemodel.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:35.767 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/models/basemodel.py [1ms]
+2025-03-13 16:14:35.768 [info] fatal: no such path holbertonschool-hbnb/part3/app/models/basemodel.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:36.975 [info] > git show --textconv :part3/app/models/amenity.py [8ms]
+2025-03-13 16:14:36.976 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:36.978 [info] > git ls-files --stage -- part3/app/models/amenity.py [4ms]
+2025-03-13 16:14:36.978 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:39.072 [info] > git config --get commit.template [7ms]
+2025-03-13 16:14:39.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:39.084 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:14:39.139 [info] > git status -z -uall [62ms]
+2025-03-13 16:14:40.458 [info] > git show --textconv :part3/app/models/__init__.py [5ms]
+2025-03-13 16:14:40.458 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:40.460 [info] > git ls-files --stage -- part3/app/models/__init__.py [3ms]
+2025-03-13 16:14:40.461 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:42.695 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-13 16:14:43.471 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-13 16:14:44.152 [info] > git config --get commit.template [5ms]
+2025-03-13 16:14:44.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:44.164 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:44.224 [info] > git status -z -uall [66ms]
+2025-03-13 16:14:44.436 [info] > git show --textconv :part3/app/api/__init__.py [7ms]
+2025-03-13 16:14:44.436 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:44.438 [info] > git ls-files --stage -- part3/app/api/__init__.py [3ms]
+2025-03-13 16:14:44.439 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:44.800 [info] > git show --textconv :part3/app/api/v1/users.py [7ms]
+2025-03-13 16:14:44.800 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Fusers.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:44.801 [info] > git ls-files --stage -- part3/app/api/v1/users.py [2ms]
+2025-03-13 16:14:44.802 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/users.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Fusers.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:44.811 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/api/v1/users.py [1ms]
+2025-03-13 16:14:44.811 [info] fatal: no such path holbertonschool-hbnb/part3/app/api/v1/users.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:47.011 [info] > git show --textconv :part3/app/api/v1/reviews.py [6ms]
+2025-03-13 16:14:47.011 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Freviews.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:47.013 [info] > git ls-files --stage -- part3/app/api/v1/reviews.py [3ms]
+2025-03-13 16:14:47.014 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/reviews.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Freviews.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:47.078 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/api/v1/reviews.py [2ms]
+2025-03-13 16:14:47.078 [info] fatal: no such path holbertonschool-hbnb/part3/app/api/v1/reviews.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:49.240 [info] > git config --get commit.template [7ms]
+2025-03-13 16:14:49.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:49.254 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:14:49.310 [info] > git status -z -uall [64ms]
+2025-03-13 16:14:49.405 [info] > git show --textconv :part3/app/api/v1/places.py [7ms]
+2025-03-13 16:14:49.406 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Fplaces.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:49.408 [info] > git ls-files --stage -- part3/app/api/v1/places.py [3ms]
+2025-03-13 16:14:49.408 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/places.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Fplaces.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:49.453 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/api/v1/places.py [1ms]
+2025-03-13 16:14:49.453 [info] fatal: no such path holbertonschool-hbnb/part3/app/api/v1/places.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:51.035 [info] > git show --textconv :part3/app/api/v1/amenities.py [7ms]
+2025-03-13 16:14:51.035 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Famenities.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:51.038 [info] > git ls-files --stage -- part3/app/api/v1/amenities.py [4ms]
+2025-03-13 16:14:51.038 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/amenities.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2Famenities.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:51.080 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/api/v1/amenities.py [2ms]
+2025-03-13 16:14:51.080 [info] fatal: no such path holbertonschool-hbnb/part3/app/api/v1/amenities.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:14:52.906 [info] > git show --textconv :part3/app/api/v1/__init__.py [7ms]
+2025-03-13 16:14:52.906 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:52.909 [info] > git ls-files --stage -- part3/app/api/v1/__init__.py [4ms]
+2025-03-13 16:14:52.909 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/api/v1/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fapi%2Fv1%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:53.914 [info] > git show --textconv :part3/app/models/__init__.py [5ms]
+2025-03-13 16:14:53.915 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:53.917 [info] > git ls-files --stage -- part3/app/models/__init__.py [3ms]
+2025-03-13 16:14:53.918 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:54.325 [info] > git config --get commit.template [6ms]
+2025-03-13 16:14:54.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:54.340 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 16:14:54.362 [info] > git show --textconv :part3/app/models/amenity.py [6ms]
+2025-03-13 16:14:54.362 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:54.364 [info] > git ls-files --stage -- part3/app/models/amenity.py [3ms]
+2025-03-13 16:14:54.365 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/amenity.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Famenity.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:54.396 [info] > git status -z -uall [65ms]
+2025-03-13 16:14:55.423 [info] > git show --textconv :part3/app/models/basemodel.py [7ms]
+2025-03-13 16:14:55.423 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fbasemodel.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:55.425 [info] > git ls-files --stage -- part3/app/models/basemodel.py [3ms]
+2025-03-13 16:14:55.426 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/basemodel.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fbasemodel.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:56.983 [info] > git show --textconv :part3/app/models/place.py [5ms]
+2025-03-13 16:14:56.984 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:56.985 [info] > git ls-files --stage -- part3/app/models/place.py [2ms]
+2025-03-13 16:14:56.986 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/place.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fplace.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:57.716 [info] > git show --textconv :part3/app/models/review.py [7ms]
+2025-03-13 16:14:57.717 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Freview.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:57.720 [info] > git ls-files --stage -- part3/app/models/review.py [4ms]
+2025-03-13 16:14:57.720 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/review.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Freview.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:58.124 [info] > git show --textconv :part3/app/models/user.py [6ms]
+2025-03-13 16:14:58.125 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fuser.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:58.127 [info] > git ls-files --stage -- part3/app/models/user.py [3ms]
+2025-03-13 16:14:58.127 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/models/user.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fmodels%2Fuser.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:14:59.410 [info] > git config --get commit.template [5ms]
+2025-03-13 16:14:59.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:14:59.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:14:59.481 [info] > git status -z -uall [66ms]
+2025-03-13 16:14:59.988 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-13 16:15:00.397 [info] > git show --textconv :part3/app/persistence/__init__.py [6ms]
+2025-03-13 16:15:00.397 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/persistence/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fpersistence%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:00.400 [info] > git ls-files --stage -- part3/app/persistence/__init__.py [4ms]
+2025-03-13 16:15:00.400 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/persistence/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fpersistence%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:00.723 [info] > git show --textconv :part3/app/persistence/repository.py [7ms]
+2025-03-13 16:15:00.724 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fpersistence%2Frepository.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:00.726 [info] > git ls-files --stage -- part3/app/persistence/repository.py [3ms]
+2025-03-13 16:15:00.727 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/persistence/repository.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fpersistence%2Frepository.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:00.787 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/persistence/repository.py [2ms]
+2025-03-13 16:15:00.788 [info] fatal: no such path holbertonschool-hbnb/part3/app/persistence/repository.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:15:03.033 [info] > git check-ignore -v -z --stdin [5ms]
+2025-03-13 16:15:03.232 [info] > git show --textconv :part3/app/services/__init__.py [10ms]
+2025-03-13 16:15:03.233 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:03.233 [info] > git ls-files --stage -- part3/app/services/__init__.py [5ms]
+2025-03-13 16:15:03.233 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:03.257 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/services/__init__.py [1ms]
+2025-03-13 16:15:03.257 [info] fatal: no such path holbertonschool-hbnb/part3/app/services/__init__.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:15:03.775 [info] > git config --get commit.template [6ms]
+2025-03-13 16:15:03.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [0ms]
+2025-03-13 16:15:03.788 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:03.852 [info] > git status -z -uall [72ms]
+2025-03-13 16:15:03.852 [info] > git show --textconv :part3/app/__init__.py [6ms]
+2025-03-13 16:15:03.852 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:03.855 [info] > git ls-files --stage -- part3/app/__init__.py [4ms]
+2025-03-13 16:15:03.855 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:03.869 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/__init__.py [1ms]
+2025-03-13 16:15:03.869 [info] fatal: no such path holbertonschool-hbnb/part3/app/__init__.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:15:04.174 [info] > git show --textconv :part3/app/services/facade.py [6ms]
+2025-03-13 16:15:04.175 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2Ffacade.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:04.178 [info] > git ls-files --stage -- part3/app/services/facade.py [4ms]
+2025-03-13 16:15:04.178 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2Ffacade.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:04.198 [info] > git blame --root --incremental 67eca2dce801e100781a26fdafcf654e037694ed -- part3/app/services/facade.py [2ms]
+2025-03-13 16:15:04.198 [info] fatal: no such path holbertonschool-hbnb/part3/app/services/facade.py in 67eca2dce801e100781a26fdafcf654e037694ed
+2025-03-13 16:15:06.668 [info] > git show --textconv :part3/app/__init__.py [5ms]
+2025-03-13 16:15:06.669 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:06.671 [info] > git ls-files --stage -- part3/app/__init__.py [3ms]
+2025-03-13 16:15:06.672 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2F__init__.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:08.867 [info] > git config --get commit.template [6ms]
+2025-03-13 16:15:08.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:08.880 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:15:08.932 [info] > git status -z -uall [60ms]
+2025-03-13 16:15:13.946 [info] > git config --get commit.template [7ms]
+2025-03-13 16:15:13.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:13.961 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:14.022 [info] > git status -z -uall [70ms]
+2025-03-13 16:15:14.528 [info] > git show --textconv :part3/app/services/facade.py [5ms]
+2025-03-13 16:15:14.529 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2Ffacade.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:14.531 [info] > git ls-files --stage -- part3/app/services/facade.py [3ms]
+2025-03-13 16:15:14.532 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kraoshin/holbertonschool-hbnb/part3/app/services/facade.py.git?%7B%22path%22%3A%22%2Fhome%2Fkraoshin%2Fholbertonschool-hbnb%2Fpart3%2Fapp%2Fservices%2Ffacade.py%22%2C%22ref%22%3A%22%22%7D
+2025-03-13 16:15:19.035 [info] > git config --get commit.template [6ms]
+2025-03-13 16:15:19.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:19.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:19.105 [info] > git status -z -uall [64ms]
+2025-03-13 16:15:19.836 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/HEAD'
+2025-03-13 16:15:19.842 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/kraoshin/holbertonschool-hbnb/.git/config'
+2025-03-13 16:15:19.847 [info] > git remote --verbose [5ms]
+2025-03-13 16:15:19.847 [info] > git symbolic-ref --short HEAD [11ms]
+2025-03-13 16:15:19.853 [info] > git config --get commit.template [7ms]
+2025-03-13 16:15:19.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:19.869 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:19.925 [info] > git status -z -uall [65ms]
+2025-03-13 16:15:24.120 [info] > git config --get commit.template [6ms]
+2025-03-13 16:15:24.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:24.135 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:15:24.190 [info] > git status -z -uall [64ms]
+2025-03-13 16:15:29.203 [info] > git config --get commit.template [6ms]
+2025-03-13 16:15:29.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [0ms]
+2025-03-13 16:15:29.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:29.262 [info] > git status -z -uall [54ms]
+2025-03-13 16:15:34.278 [info] > git config --get commit.template [7ms]
+2025-03-13 16:15:34.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:34.291 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:34.343 [info] > git status -z -uall [60ms]
+2025-03-13 16:15:38.688 [info] > git config --get commit.template [9ms]
+2025-03-13 16:15:38.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:38.704 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:38.758 [info] > git status -z -uall [64ms]
+2025-03-13 16:15:43.773 [info] > git config --get commit.template [5ms]
+2025-03-13 16:15:43.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:43.786 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:43.838 [info] > git status -z -uall [60ms]
+2025-03-13 16:15:54.205 [info] > git config --get commit.template [3ms]
+2025-03-13 16:15:54.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:15:54.229 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:15:54.293 [info] > git status -z -uall [73ms]
+2025-03-13 16:16:07.688 [info] > git config --get commit.template [3ms]
+2025-03-13 16:16:07.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:07.712 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:07.764 [info] > git status -z -uall [62ms]
+2025-03-13 16:16:14.530 [info] > git config --get commit.template [9ms]
+2025-03-13 16:16:14.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [2ms]
+2025-03-13 16:16:14.545 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:14.606 [info] > git status -z -uall [69ms]
+2025-03-13 16:16:21.522 [info] > git config --get commit.template [9ms]
+2025-03-13 16:16:21.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:21.538 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:21.595 [info] > git status -z -uall [67ms]
+2025-03-13 16:16:26.611 [info] > git config --get commit.template [6ms]
+2025-03-13 16:16:26.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:26.625 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:16:26.681 [info] > git status -z -uall [65ms]
+2025-03-13 16:16:31.703 [info] > git config --get commit.template [8ms]
+2025-03-13 16:16:31.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:31.717 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:16:31.770 [info] > git status -z -uall [62ms]
+2025-03-13 16:16:36.790 [info] > git config --get commit.template [7ms]
+2025-03-13 16:16:36.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:36.805 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:36.860 [info] > git status -z -uall [64ms]
+2025-03-13 16:16:38.127 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-13 16:16:40.790 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-13 16:16:41.217 [info] > git config --get commit.template [6ms]
+2025-03-13 16:16:41.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:41.232 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:41.297 [info] > git status -z -uall [74ms]
+2025-03-13 16:16:41.321 [info] > git show --textconv :python-abc/task_00_abc.py [11ms]
+2025-03-13 16:16:41.322 [info] > git ls-files --stage -- python-abc/task_00_abc.py [5ms]
+2025-03-13 16:16:41.332 [info] > git cat-file -s 309528661ec37a3a1d65bef44d9c2838f2c92a85 [2ms]
+2025-03-13 16:16:42.222 [info] > git blame --root --incremental 2c3e7b4452eb8082bc0dc130c6951151355db78e -- python-abc/task_00_abc.py [29ms]
+2025-03-13 16:16:45.454 [info] > git config --get commit.template [6ms]
+2025-03-13 16:16:45.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-13 16:16:45.466 [info] > git status -z -uall [6ms]
+2025-03-13 16:16:45.467 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:16:46.316 [info] > git config --get commit.template [6ms]
+2025-03-13 16:16:46.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:46.329 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:16:46.383 [info] > git status -z -uall [62ms]
+2025-03-13 16:16:51.398 [info] > git config --get commit.template [6ms]
+2025-03-13 16:16:51.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:51.411 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:51.463 [info] > git status -z -uall [59ms]
+2025-03-13 16:16:56.477 [info] > git config --get commit.template [4ms]
+2025-03-13 16:16:56.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:16:56.489 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:16:56.536 [info] > git status -z -uall [55ms]
+2025-03-13 16:17:01.552 [info] > git config --get commit.template [6ms]
+2025-03-13 16:17:01.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:17:01.566 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:17:01.619 [info] > git status -z -uall [61ms]
+2025-03-13 16:17:15.599 [info] > git config --get commit.template [10ms]
+2025-03-13 16:17:15.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:17:15.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:17:15.681 [info] > git status -z -uall [75ms]
+2025-03-13 16:17:29.205 [info] > git config --get commit.template [9ms]
+2025-03-13 16:17:29.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:17:29.224 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-13 16:17:29.288 [info] > git status -z -uall [75ms]
+2025-03-13 16:17:56.223 [info] > git config --get commit.template [3ms]
+2025-03-13 16:17:56.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:17:56.246 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:17:56.309 [info] > git status -z -uall [72ms]
+2025-03-13 16:17:59.871 [info] > git config --get commit.template [1ms]
+2025-03-13 16:17:59.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:17:59.891 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:17:59.939 [info] > git status -z -uall [56ms]
+2025-03-13 16:18:01.230 [info] > git ls-files --stage -- python-abc/task_00_abc.py [2ms]
+2025-03-13 16:18:01.237 [info] > git cat-file -s 309528661ec37a3a1d65bef44d9c2838f2c92a85 [2ms]
+2025-03-13 16:18:01.247 [info] > git show --textconv :python-abc/task_00_abc.py [2ms]
+2025-03-13 16:18:01.323 [info] > git config --get commit.template [7ms]
+2025-03-13 16:18:01.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:18:01.337 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-13 16:18:01.391 [info] > git status -z -uall [63ms]
+2025-03-13 16:18:05.951 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/kraoshin/Betty/.git/HEAD'
+2025-03-13 16:18:05.963 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/kraoshin/Betty/.git/config'
+2025-03-13 16:18:05.977 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/kraoshin/Betty/.git/HEAD'
+2025-03-13 16:18:05.987 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/kraoshin/Betty/.git/config'
+2025-03-13 16:18:06.408 [info] > git config --get commit.template [7ms]
+2025-03-13 16:18:06.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [2ms]
+2025-03-13 16:18:06.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:18:06.475 [info] > git status -z -uall [61ms]
+2025-03-13 16:18:06.626 [info] > git check-ignore -v -z --stdin [16ms]
+2025-03-13 16:18:06.627 [info] > git check-ignore -v -z --stdin [12ms]
+2025-03-13 16:18:06.628 [info] > git check-ignore -v -z --stdin [8ms]
+2025-03-13 16:18:06.628 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-13 16:18:12.034 [info] > git config --get commit.template [7ms]
+2025-03-13 16:18:12.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kraoshin refs/remotes/kraoshin [1ms]
+2025-03-13 16:18:12.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-13 16:18:12.102 [info] > git status -z -uall [63ms]
