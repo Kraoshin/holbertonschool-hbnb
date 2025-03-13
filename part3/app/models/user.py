@@ -29,3 +29,7 @@ class User(BaseModel):
         if not re.match(regex, value):
             return {"error": "Invalid email format"}
         return value 
+    
+    @validates("password")
+    def validate_password(self, key, value):
+        return value

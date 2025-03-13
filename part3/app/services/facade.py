@@ -34,7 +34,7 @@ class HBnBFacade:
         user = self.user_repo.get(user_id)
         if not user:
             return None
-        user.hash_password(user_data['password'])
+        user_data['password'] = bcrypt.generate_password_hash(user_data['password'])
         self.user_repo.update(user_id, user_data)
         return user
     
