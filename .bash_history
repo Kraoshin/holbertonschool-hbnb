@@ -1,47 +1,3 @@
-ls
-git status -s
-git add 5-variable_load.py 
-git commit -m " program that imports the variable a from the file variable_load_5.py and prints its value."
-git push
-cat 5-variable_load.py 
-cat 3-infinite_add.py 
-cat 2-args.py 
-cat 1-calculation.py 
-cat 0-add.py 
-code .
-ls
-cd holbertonschool-higher_level_programming/
-ls
-mkdir python-data_structures
-cd python-data_structures/
-ls
-cd ..
-cd
-ls
-cd holbertonschool-higher_level_programming/
-git pull
-git status -s
-cd python-data_structures/
-/usr/bin/python3 /home/kraoshin/holbertonschool-higher_level_programming/python-data_structures/8-main.py
-ls
-cd holbertonschool-higher_level_programming/
-cd python-data_structures/
-ls
-chmod a+x 8-multiple_returns.py 8-main.py 
-ls
-git add 8-multiple_returns.py 
-git commit -m "function that returns a tuple with the length of a string and its first character."
-./8-main.py 
-chmod a+x 9-max_integer.py 9-main.py 
-ls
-./9-main.py 
-git add 9-max_integer.py 
-git commit -m " function that finds the biggest integer of a list."
-chmod a+x 10-divisible_by_2.py 10-main.py 
-./10-main.py 
-ls
-cd holbertonschool-higher_level_programming/
-ls
 cd python-data_structures/
 git status -s
 pwd
@@ -1998,3 +1954,47 @@ cd holbertonschool-hbnb/
 cd part3/
 git pull origin cyprien 
 git status 
+git config pull.rebase false
+git pull origin cyprien
+git pull 
+git pull origin cyprien
+git remote -v
+git pull origin cyprien
+git remote add origin https://github.com/Kraoshin/holbertonschool-hbnb.git
+git remote -v
+git pull origin cyprien
+git status 
+git checkout main
+git checkout kraoshin
+git pull origin cyprien --allow-unrelated-histories
+git status 
+git status -s 
+git add *
+git status 
+git add .
+git commit -m "Staged and committed all changes"
+git pull origin cyprien --allow-unrelated-histories
+git branch
+git branch kraoshin
+ls
+git branch kraoshin
+ls
+git branch
+git checkout kraoshin 
+git status 
+git add .
+git commit -m "eaer"
+git push
+git push origin kraoshin 
+git pull
+git push origin kraoshin 
+git pull origin kraoshin 
+git status 
+git add .
+git commit -m "aze"
+git status 
+git pull origin cyprien 
+git status 
+git add .
+git commit -m "aze"
+git push origin kraoshin 
