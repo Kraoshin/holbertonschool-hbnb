@@ -19,7 +19,7 @@ class ReviewList(Resource):
     @api.expect(review_model)
     @api.response(201, 'Review successfully created')
     @api.response(400, 'Invalid input data')
-    @jwt_required
+    @jwt_required()
     @api.doc(security="token")
     def post(self):
         """Register a new review"""
@@ -80,7 +80,7 @@ class ReviewResource(Resource):
     @api.response(200, 'Review updated successfully')
     @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
-    @jwt_required
+    @jwt_required()
     @api.doc(security="token")
     def put(self, review_id):
         """Update a review's information"""
@@ -108,7 +108,7 @@ class ReviewResource(Resource):
 
     @api.response(200, 'Review deleted successfully')
     @api.response(404, 'Review not found')
-    @jwt_required
+    @jwt_required()
     @api.doc(security="token")
     def delete(self, review_id):
         """Delete a review"""
