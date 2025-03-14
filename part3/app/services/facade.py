@@ -1,43 +1,57 @@
-from app.persistence.repository import InMemoryRepository, SQLAlchemyRepository
-from app.services.user_repo import UserRepository
+from app.persistence.all_repo import UserRepository, PlaceRepository, AmenitiesRepository, ReviewRepository
 from app.models.place import Place
 from app.models.user import User
 from app.models.review import Review
 from app.models.amenity import Amenity
 from app import bcrypt
-import re
 
 
 class HBnBFacade:
     def __init__(self):
         self.user_repo = UserRepository()
-        self.place_repo = InMemoryRepository()
-        self.review_repo = InMemoryRepository()
-        self.amenity_repo = InMemoryRepository()
+        self.place_repo = PlaceRepository()
+        self.review_repo = ReviewRepository()
+        self.amenity_repo = AmenitiesRepository()
+
+
+    """User facade"""
+    def create_user(self, user_data):
+        user = User(**user_data)
+        user.hash_password(user_data['password'])
+        self.user_repo.add(user)
+        return user
+
+    def get_user(self, user_id):
+        return self.user_repo.get(user_id)
+
+    def get_user_by_email(self, email):
+        return self.user_repo.get_by_attribute('email', email)
+
+    def get_all_users(self):
+        return self.user_repo.get_all()
+
+    def update_user(self, user_id, user_data):
+        user = self.user_repo.get(user_id)
+        if not user:
+            return None
+        user.hash_password(user_data['password'])
+        self.user_repo.update(user_id, user_data)
+        return user
+    
+    def verify_password(self, password):
+        """Verifies if the provided password matches the hashed password"""
+        return bcrypt.check_password_hash(self.password, password)
+
+    def hash_password(self, password):
+        """Hashes the password before storing it."""
+        self.password = bcrypt.generate_password_hash(password).decode('utf-8')
 
     """Place facade"""
     def create_place(self, place_data):
         """the function crrate a new place with the data we provided"""
-        Owner = self.get_user(place_data['owner_id'])
-        if not Owner:
-            raise ValueError("Owner not found")
-
-        new_place = Place(
-            title=place_data['title'],
-            description=place_data['description'],
-            price=place_data['price'],
-            latitude=place_data['latitude'],
-            longitude=place_data['longitude'],
-            owner_id=Owner.id
-        )
-        if 'amenities' in place_data:
-            for amenity_id in place_data['amenities']:
-                amenity = self.amenity_repo.get(amenity_id)
-                if not amenity:
-                    raise ValueError("Amenity not found")
-                new_place.add_amenity(amenity)
-        self.place_repo.add(new_place)
-        return new_place
+        place = Place(**place_data)
+        self.place_repo.add(place)
+        return place
 
     def get_place(self, place_id):
         """The function get a place with place_id"""
@@ -94,77 +108,9 @@ class HBnBFacade:
         self.place_repo.update(place_id, place.__dict__)
         return place
 
-    """User facade"""
-    def create_user(self, user_data):
-        user = User(**user_data)
-        user.hash_password(user_data['password'])
-        self.user_repo.add(user)
-        return user
-
-    def get_user(self, user_id):
-        return self.user_repo.get(user_id)
-
-    def get_user_by_email(self, email):
-        return self.user_repo.get_by_attribute('email', email)
-
-    def get_all_users(self):
-        return self.user_repo.get_all()
-
-    def update_user(self, user_id, user_data):
-        user = self.user_repo.get(user_id)
-        if not user:
-            raise KeyError("User not found")
-        if ('first_name' in user_data and len(user_data['first_name']) > 50)\
-                or not user_data['first_name']:
-            raise ValueError("First name is required with max 50 characters.")
-        
-        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['first_name']) or user_data['first_name'].strip() == "":
-            raise ValueError("The first name is invalid.")
-
-        if ('last_name' in user_data and len(user_data['last_name']) > 50)\
-                or not user_data['last_name']:
-            raise ValueError("Last name is required with max 50 characters.")
-        
-        if not re.fullmatch(r'^[A-Za-zÀ-ÖØ-öø-ÿ \' -]{2,}+$', user_data['last_name']) or user_data['last_name'].strip() == "":
-            raise ValueError("The last name is invalid.")
-
-        if not user_data['email']:
-            raise ValueError("Email is required.")
-
-        if not re.fullmatch(
-             r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$',
-             user_data['email']):
-            raise ValueError("The email format is invalid.")
-        for keys, value in user_data.items():
-            if hasattr(user, keys):
-                setattr(user, keys, value)
-        return user
-    
-    def verify_password(self, password):
-        """Verifies if the provided password matches the hashed password"""
-        return bcrypt.check_password_hash(self.password, password)
-
-    def hash_password(self, password):
-        """Hashes the password before storing it."""
-        self.password = bcrypt.generate_password_hash(password).decode('utf-8')
-
     """Review facade"""
     def create_review(self, review_data):
-        user = self.get_user(review_data['user_id'])
-        if not user:
-            raise ValueError("User not found")
-
-        place = self.get_place(review_data['place_id'])
-        if not place:
-            raise ValueError("Place not found")
-
-        review = Review(
-            text=review_data['text'],
-            rating=review_data['rating'],
-            user_id=user.id,
-            place_id=place.id
-        )
-        review.add_review(place.id)
+        review = Review(**review_data)
         self.review_repo.add(review)
         return review
 
@@ -244,14 +190,6 @@ class HBnBFacade:
         amenity = self.get_amenity(amenity_id)
         if not amenity:
             raise KeyError("Amenity not found")
-        if not amenity_data['name'] or len(amenity_data['name']) > 50:
-            raise ValueError("Name must be a required with a maximum of "
-                            "50 characters")
-
-        for key, value in amenity_data.items():
-            if hasattr(amenity, key):
-                setattr(amenity, key, value)
-
-                self.amenity_repo.update(amenity_id, amenity.__dict__)
-
-                return amenity
+        
+        self.amenity_repo.update(amenity_id, amenity_data)
+        return amenity

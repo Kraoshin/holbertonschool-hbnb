@@ -1,52 +1,39 @@
 from .basemodel import BaseModel
+from app import db
 from app.models.place import Place
 from app.models.user import User
+from sqlalchemy.orm import validates
 
 
 class Review(BaseModel):
-    def __init__(self, text, rating, user_id, place_id):
-        super().__init__()
-        self.text = text
-        self.rating = rating
-        self._user_id = user_id
-        self._place_id = place_id
+    __tablename__ = 'reviews'
 
-    @property
-    def text(self):
-        return self._text
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.String(1024), nullable=False)
+    rating = db.Column(db.Integer, nullable=False)
+    place_id = db.Column(db.Integer, db.ForeignKey('places.id'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
 
-    @text.setter
-    def text(self, value):
+    @validates('text')
+    def validate_text(self, key, value):
         if not value and len(value) > 50:
             raise ValueError("Text must be less than 50 characters")
-        self._text = value
+        return value
 
-    @property
-    def rating(self):
-        return self._rating
-
-    @rating.setter
-    def rating(self, value):
+    @validates('rating')
+    def validate_rating(self, key, value):
         if not value or not (1 <= value <= 5):
             raise ValueError("Rating must be between 1 and 5")
-        self._rating = value
+        return value
 
-@property
-def user_id(self):
-    return self._user_id
-    
-@user_id.setter
-def user_id(self, value):
-    if not isinstance(value, User):
-        raise ValueError("User not found, please enter a valid username")
-    self._user_id = value
+    @validates('user_id')
+    def validate_user_id(self, key, value):
+        if not isinstance(value, User):
+            raise ValueError("User not found, please enter a valid username")
+        return value
 
-@property
-def place_id(self):
-    return self._place_id
-    
-@place_id.setter
-def place_id(self, value):
-    if not isinstance(value, Place):
-        raise ValueError("Place not found, please enter a valid place")
-    self._place_id = value
+    @validates('place_id')
+    def validate_place_id(self, key, value):
+        if not isinstance(value, Place):
+            raise ValueError("Place not found, please enter a valid place")
+        return value

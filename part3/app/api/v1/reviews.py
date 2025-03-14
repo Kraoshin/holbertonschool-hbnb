@@ -20,10 +20,8 @@ class ReviewList(Resource):
     @api.expect(review_model)
     @api.response(201, 'Review successfully created')
     @api.response(400, 'Invalid input data')
-    @jwt_required()
     def post(self):
         """Register a new review"""
-        cur_user = get_jwt_identity()
         review_data = api.payload
         if ('text' not in review_data or 'rating' not in review_data or
                 'user_id' not in review_data or 'place_id' not in review_data):
@@ -34,8 +32,8 @@ class ReviewList(Resource):
                     'id': new_review.id,
                     'text': new_review.text,
                     'rating': new_review.rating,
-                    'user_id': new_review._user_id,
-                    'place_id': new_review._place_id
+                    'user_id': new_review.user_id,
+                    'place_id': new_review.place_id
                 }, 201
         except ValueError as error:
             return {'error': str(error)}, 400
@@ -49,8 +47,8 @@ class ReviewList(Resource):
                 'id': review.id,
                 'text': review.text,
                 'rating': review.rating,
-                'user_id': review._user_id,
-                'place_id': review._place_id
+                'user_id': review.user_id,
+                'place_id': review.place_id
             } for review in reviews
         ], 200
 
@@ -70,8 +68,8 @@ class ReviewResource(Resource):
                 'id': review.id,
                 'text': review.text,
                 'rating': review.rating,
-                'user_id': review._user_id,
-                'place_id': review._place_id
+                'user_id': review.user_id,
+                'place_id': review.place_id
             }, 200
         except ValueError as error:
             return {'error': str(error)}, 400
@@ -80,10 +78,8 @@ class ReviewResource(Resource):
     @api.response(200, 'Review updated successfully')
     @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
-    @jwt_required()
     def put(self, review_id):
         """Update a review's information"""
-        cur_user = get_jwt_identity()
         review = facade.get_review(review_id)
         if not review:
             return {'error': 'Review not found'}, 404
@@ -96,8 +92,8 @@ class ReviewResource(Resource):
                 'id': updated_review.id,
                 'text': updated_review.text,
                 'rating': updated_review.rating,
-                'user_id': updated_review._user_id,
-                'place_id': updated_review._place_id
+                'user_id': updated_review.user_id,
+                'place_id': updated_review.place_id
             }, 200
         except ValueError as error:
             return {'error': str(error)}, 400
@@ -105,13 +101,9 @@ class ReviewResource(Resource):
 
     @api.response(200, 'Review deleted successfully')
     @api.response(404, 'Review not found')
-    @jwt_required()
     def delete(self, review_id):
         """Delete a review"""
-        cur_user = get_jwt_identity()
         review = facade.get_review(review_id)
-        if review.user_id != cur_user['id']:
-            return {'error': 'Unauthorized action'}, 403
         try:
             deleted_review = facade.delete_review(review_id)
             if deleted_review:

@@ -66,15 +66,9 @@ class UserResource(Resource):
     @api.response(400, 'Invalid input data')
     @api.response(404, 'User not found')
     @api.expect(user_model)
-    @jwt_required()
     def put(self, user_id):
         """Update user details by ID"""
-        cur_user = get_jwt_identity()
-        if str(cur_user['id']) != user_id:
-            return {'error': 'Unauthorized action'}, 403
         user_data = api.payload
-        if 'email' in user_data or 'password' in user_data:
-            return {'error': 'You cannot modify email or password'}, 400
         updated_user = facade.update_user(user_id, user_data)
         if not updated_user:
             return {'error': 'User not found'}, 404

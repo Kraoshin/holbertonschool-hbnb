@@ -53,7 +53,7 @@ class AdminUserCreate(Resource):
         if not current_user.get('is_admin'):
             return {'error': 'Admin privileges required'}, 403
 
-        user_data = api.playload
+        user_data = api.payload
         email = user_data.get('email')
 
         # Check if email is already in use
