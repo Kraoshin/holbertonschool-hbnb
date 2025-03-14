@@ -43,11 +43,15 @@ class ReviewList(Resource):
     @api.response(403, 'Unauthorized action')
     @jwt_required()
     @api.doc(security="token")
+
     def post(self):
         """Register a new review"""
+
         current_user = get_jwt_identity()
         user = facade.get_user(current_user)
+
         review_data = api.payload
+
         place = facade.get_place(review_data.get("place_id"))
         
         if not place:
@@ -77,8 +81,10 @@ class ReviewList(Resource):
                 }, 201
 
     @api.response(200, 'List of reviews retrieved successfully')
+
     def get(self):
         """Retrieve a list of all reviews"""
+
         reviews = facade.get_all_reviews()
         return [
             {
@@ -95,6 +101,7 @@ class ReviewList(Resource):
 class ReviewResource(Resource):
     @api.response(200, 'Review details retrieved successfully')
     @api.response(404, 'Review not found')
+
     def get(self, review_id):
         """Get review details by ID"""
 
@@ -115,8 +122,8 @@ class ReviewResource(Resource):
 
     @api.expect(review_update_model)
     @api.response(200, 'Review updated successfully')
-    @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
+    @api.response(404, 'Review not found')
     @jwt_required()
     @api.doc(security="token")
 
@@ -134,6 +141,7 @@ class ReviewResource(Resource):
             api.abort(403,'Unauthorized action')
         
         review_data = api.payload
+
         valid_inputs = ["rating", "text"]
         for input in valid_inputs:
             if input not in review_data:
@@ -155,8 +163,8 @@ class ReviewResource(Resource):
             }, 200 
 
     @api.response(200, 'Review deleted successfully')
-    @api.response(404, 'Review not found')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'Review not found')
     @jwt_required()
     @api.doc(security="token")
 
