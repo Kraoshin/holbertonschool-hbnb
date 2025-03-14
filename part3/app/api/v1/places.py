@@ -8,8 +8,7 @@ api = Namespace('places', description='Place operations')
 
 # Define the models for related entities
 amenity_model = api.model('PlaceAmenity', {
-    'id': fields.String(description='Amenity ID'),
-    'name': fields.String(description='Name of the amenity')
+    'name': fields.String(required=True, description='Name of the amenity', example="Wifi")
 })
 
 user_model = api.model('PlaceUser', {
@@ -28,14 +27,12 @@ review_model = api.model('PlaceReview', {
 
 # Define the place model for input validation and documentation
 place_model = api.model('Place', {
-    'title': fields.String(required=True, description='Title of the place'),
-    'description': fields.String(description='Description of the place'),
-    'price': fields.Float(required=True, description='Price per night'),
-    'latitude': fields.Float(required=True, description='Latitude of the place'),
-    'longitude': fields.Float(required=True, description='Longitude of the place'),
-    'owner': fields.Nested(user_model, description='Owner of the place'),
-    'amenities': fields.List(fields.Nested(amenity_model), description='List of amenities'),
-    'reviews': fields.List(fields.Nested(review_model), description='List of reviews')
+        'title': fields.String(required=True, description='Title of the place', example='Great house at the beach'),
+        'description': fields.String(description='Description of the place', example='A nice place to stay'),
+        'price': fields.Float(required=True, description='Price per night', example=100.0),
+        'latitude': fields.Float(required=True, description='Latitude of the place', example=-90.0),
+        'longitude': fields.Float(required=True, description='Longitude of the place', example=-122.4194),
+        'amenities': fields.List(fields.String(description='List of amenity IDs'), example=["5191c141-a47b-465a-a94c-4007c6b69e1a"])
 })                           
 
 place_update_model = api.model('Place Update', {
@@ -67,17 +64,18 @@ class PlaceList(Resource):
 
         place_data = api.payload
         place_data["owner_id"] = user.id
-        amenities = place_data.pop("amenities")
+
+        amenities = []
+
+        if 'amenities' in place_data:
+            amenities = place_data.pop("amenities")
 
         try:    
             new_place = facade.create_place(place_data, amenities)
-            new_place_data = new_place.to_dict()
         except (ValueError, TypeError) as e:
             api.abort(400, str(e))
 
-        return new_place_data, 201
-
-        
+        return new_place.to_dict, 201
 
     @api.response(200, 'List of places retrieved successfully')
     def get(self):
@@ -98,8 +96,10 @@ class PlaceList(Resource):
 class PlaceResource(Resource):
     @api.response(200, 'Place details retrieved successfully')
     @api.response(404, 'Place not found')
+
     def get(self, place_id):
         """Get place details by ID"""
+
         place = facade.get_place(place_id)
         
         if not place:
@@ -123,11 +123,13 @@ class PlaceResource(Resource):
     @jwt_required()
     @api.expect(place_update_model)
     @api.response(200, 'Place updated successfully')
-    @api.response(404, 'Place not found')
     @api.response(400, 'Invalid input data')
+    @api.response(404, 'Place not found')
     @api.doc(security="token")
+
     def put(self, place_id):
         """Update a place's information"""
+
         current_user = get_jwt_identity()
         place = facade.get_place(place_id)
 
@@ -139,6 +141,11 @@ class PlaceResource(Resource):
         
         place_data = api.payload
         amenities = place_data.pop("amenities")
+        
+        amenities = []
+        
+        if 'amenities' in place_data:
+            amenities = place_data.pop("amenities")
         
         if "owner_id" in place_data:
             api.abort(400, 'Invalid input data')
