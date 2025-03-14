@@ -8,10 +8,10 @@ api = Namespace('users', description='User operations')
 
 # Define the user model for input validation and documentation
 user_model = api.model('User', {
-    'id': fields.String(description="User id", example="7e495deb-c6a6-40e1-a264-dfae089a673f"),
-    'first_name': fields.String(description="User first name", example="John"),
-    'last_name': fields.String(description="User last name", example="Doe"),
-    'email': fields.String(description="User email", example="john@email.com")
+    'first_name': fields.String(required=True, description="User first name", example="John"),
+    'last_name': fields.String(required=True, description="User last name", example="Doe"),
+    'email': fields.String(required=True, description="User email", example="john@email.com"),
+    'password': fields.String(required=True, description="User password", example="Johnd0e!")
 })
 
 user_update_model = api.model('User Update', {
@@ -25,16 +25,26 @@ class UserList(Resource):
     @api.expect(user_model)
     @api.response(201, 'User successfully created')
     @api.response(400, 'Invalid input data')
+
     def post(self):
         """Register a new user"""
+
         try:
             user_data = api.payload
             existing_user = facade.get_user_by_email(user_data['email'])
             if existing_user:
-                return {'error': 'Email already registered'}, 400
+                api.abort(400, 'Email already in use')
+
+            valid_inputs = ['first_name', 'last_name', 'email', 'password']
+            for key in user_data:
+                if key not in valid_inputs:
+                    api.abort(400, f'Invalid input data: {key}')
+                if existing_user:
+                    return {'error': 'Email already registered'}, 400
             
             new_user = facade.create_user(user_data)
-            return {'id': new_user.id, 'first_name': new_user.first_name,
+            return {'id': new_user.id, 
+                    'first_name': new_user.first_name,
                     'last_name': new_user.last_name,
                     'email': new_user.email}, 201
 
@@ -66,11 +76,11 @@ class UserResource(Resource):
     @api.expect(user_update_model)
     @jwt_required()
     @api.response(201, 'User successfully updated')
-    @api.response(404, 'User not found')
     @api.response(400, 'Invalid input data')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'User not found')
     @api.doc(security="token")
-    @api.expect(user_model)
+    @api.expect(user_update_model)
 
     def put(self, user_id):
         """Update user details by ID"""
