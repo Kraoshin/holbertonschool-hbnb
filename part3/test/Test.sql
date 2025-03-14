@@ -1,6 +1,6 @@
 CREATE DATABASE if NOT EXISTS hbnb_test;
 
-CREATE TABLE if NOT EXISTS User(
+CREATE TABLE if NOT EXISTS Users(
     id CHAR(36) PRIMARY KEY,  -- UUID format
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE if NOT EXISTS Place_Amenity (
     FOREIGN KEY (amenity_id) REFERENCES Amenity(id) ON DELETE CASCADE  -- Cascade delete if amenity is deleted
 );
 
-INSERT INTO User (id, first_name, last_name, email, password, is_admin)
+INSERT INTO Users (id, first_name, last_name, email, password, is_admin)
 VALUES (
     '36c9050e-ddd3-4c3b-9731-9f487208bbc1',  -- ID fixe
     'Admin',  -- first_name
