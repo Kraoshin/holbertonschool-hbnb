@@ -18,8 +18,11 @@ class AmenityList(Resource):
     @api.response(400, 'Invalid input data')
     def post(self):
         """Create a new amenity"""
+        amenity_data = api.payload
+        existing_amenity = facade.get_amenity_by_name(amenity_data['name'])
+        if existing_amenity:
+            api.abort(400, 'Amenity already registered')
         try:
-            amenity_data = api.payload
             new_amenity = facade.create_amenity(amenity_data)
             return {'id': new_amenity.id, 'name': new_amenity.name}, 201
         except ValueError as error:
@@ -50,13 +53,19 @@ class AmenityList(Resource):
         def put(self, amenity_id):
             """Update an amenity's information"""
             amenity_data = api.payload
+            amenity = facade.get_amenity(amenity_id)
+
+            if not amenity:
+                api.abort(404, "Amenity not found")
+            
+            existing_amenity = facade.get_amenity_by_name(amenity_data['name'])
+            if existing_amenity and existing_amenity.id != amenity.id:
+                api.abort(400, "Amenity name already exists")
+
             try:
                 amenity = facade.update_amenity(amenity_id, amenity_data)
                 return {'id': amenity.id,
                         'name': amenity.name}, 200
-
-            except ValueError as error:
-                return {'error': str(error)}, 400
-            except KeyError as error:
-                return {'error': str(error)}, 404
-
+            except (ValueError, TypeError) as e:
+                api.abort(400, str(e))
+            
