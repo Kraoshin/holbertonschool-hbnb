@@ -38,8 +38,11 @@ class AdminUserCreate(Resource):
     @api.response(400, 'Invalid input data')
     @jwt_required()
     @api.doc(security="token")
+    
     def post(self):
+
         current_user = get_jwt_identity()
+
         if not current_user.get('is_admin'):
             return {'error': 'Admin privileges required'}, 403
 
@@ -61,17 +64,20 @@ class AdminUserModify(Resource):
     @api.expect(user_model_admin)
     @api.response(201, 'User successfully updated')
     @api.response(400, 'Invalid input data')
-    @api.response(404, 'User not found')
     @api.response(403, 'Admin privileges required')
+    @api.response(404, 'User not found')
     @jwt_required()
     @api.doc(security="token")
+
     def put(self, user_id):
 
         current_user = get_jwt_identity()
+
         if not current_user.get('is_admin'):
             return {'error': 'Admin privileges required'}, 403
         
         user = facade.get_user(user_id)
+
         if not user:
             api.abort(404, 'User not found')
 
@@ -97,15 +103,16 @@ class AdminUserModify(Resource):
 class AdminPlaceModify(Resource):
     @api.expect(place_model)
     @api.response(200, 'Place updated successfully')
-    @api.response(404, 'Place not found')
     @api.response(400, 'Invalid input data')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'Place not found')
     @jwt_required()
     @api.doc(security="token")
 
     def put(self, place_id):
 
         current_user = get_jwt_identity()
+
         if not current_user.get('is_admin'):
             api.abort(403, 'Admin privileges required')
 
@@ -115,7 +122,10 @@ class AdminPlaceModify(Resource):
         if not place:
             api.abort(404, "Place not found")
 
-        amenities = place_data.pop("amenities")
+        amenities = []
+
+        if 'amenities' in place_data:
+            amenities = place_data.pop("amenities")
 
         if "owner_id" in place_data:
             api.abort(400, 'Invalid input data')
@@ -136,12 +146,14 @@ class AdminPlaceModify(Resource):
             }, 200
     
     @api.response(200, 'Place deleted successfully')
-    @api.response(404, 'Place not found')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'Place not found')
     @jwt_required()
+    
     def delete(self, place_id):
        
         current_user = get_jwt_identity()
+
         place = facade.get_place(place_id)
 
         if not current_user.get('is_admin'):
@@ -159,24 +171,28 @@ class AdminReviewModify(Resource):
 
     @api.expect(review_model)
     @api.response(200, 'Review updated successfully')
-    @api.response(404, 'Review not found')
     @api.response(400, 'Invalid input data')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'Review not found')    
     @jwt_required()
     @api.doc(security="token")
 
     def put(self, review_id):
+
         current_user = get_jwt_identity()
+
         if not current_user.get('is_admin'):
             api.abort(403, 'Admin privileges required')
 
         review = facade.get_review(review_id)
+
         if not review:
             api.abort(404, "Review not found")
 
         review_data = api.payload
         
         valid_inputs = ["rating", "text"]
+
         for input in valid_inputs:
             if input not in review_data:
                 api.abort(400, "Invalid input data")
@@ -196,16 +212,20 @@ class AdminReviewModify(Resource):
             }, 200
     
     @api.response(200, 'Review deleted successfully')
-    @api.response(404, 'Review not found')
     @api.response(403, 'Unauthorized action')
+    @api.response(404, 'Review not found')
     @jwt_required()
+    @api.doc(security="token")
+
     def delete(self, review_id):
 
         current_user = get_jwt_identity()
+
         if not current_user.get('is_admin'):
             api.abort(403, 'Admin privileges required')
         
         review = facade.get_review(review_id)
+        
         if not review:
             api.abort(404, "Review not found")
 
@@ -220,9 +240,10 @@ class AdminAmenityCreate(Resource):
     @api.doc(security="token")
     @api.expect(amenity_model)
     @api.response(201, 'Amenity successfully created')
-    @api.response(403, 'Admin privileges required')
     @api.response(400, 'Invalid input data')
+    @api.response(403, 'Admin privileges required')
     @jwt_required()
+
     def post(self):
         current_user = get_jwt_identity()
         amenity_data = api.payload
@@ -231,6 +252,7 @@ class AdminAmenityCreate(Resource):
             return {'error': 'Admin privileges required'}, 403
 
         existing_amenity = facade.get_amenity_by_name(amenity_data['name'])
+
         if existing_amenity:
             api.abort(400, 'Amenity already registered')
         
@@ -246,22 +268,26 @@ class AdminAmenityCreate(Resource):
 class AdminAmenityModify(Resource):
     @api.expect(amenity_model)
     @api.response(200, 'Amenity updated successfully')
-    @api.response(404, 'Amenity not found')
     @api.response(400, 'Invalid input data')
     @api.response(403, 'Admin privileges required')
+    @api.response(404, 'Amenity not found')
     @jwt_required()
     @api.doc(security="token")
+
     def put(self, amenity_id):
         current_user = get_jwt_identity()
         amenity_data = api.payload
+
         if not current_user.get('is_admin'):
             return {'error': 'Admin privileges required'}, 403
 
         amenity = facade.get_amenity(amenity_id)
+
         if not amenity:
             api.abort(404, "Amenity not found")
         
         existing_amenity = facade.get_amenity_by_name(amenity_data['name'])
+
         if existing_amenity and existing_amenity.id != amenity.id:
             api.abort(400, "Amenity name already exists")
 
