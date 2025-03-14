@@ -48,6 +48,7 @@ review_model = api.model('Review', {
 class AdminUserCreate(Resource):
     @api.expect(user_model)
     @jwt_required()
+    @api.doc(security="token")
     def post(self):
         current_user = get_jwt_identity()
         if not current_user.get('is_admin'):
@@ -70,6 +71,7 @@ class AdminUserCreate(Resource):
 class AdminUserModify(Resource):
     @api.expect(user_model)
     @jwt_required()
+    @api.doc(security="token")
     def put(self, user_id):
         current_user = get_jwt_identity()
         if not current_user.get('is_admin'):
@@ -99,6 +101,7 @@ class AdminUserModify(Resource):
 class AdminPlaceModify(Resource):
     @api.expect(place_model)
     @jwt_required()
+    @api.doc(security="token")
     def put(self, place_id):
         current_user = get_jwt_identity()
 
@@ -128,6 +131,7 @@ class AdminPlaceModify(Resource):
 class AdminReviewModify(Resource):
     @api.expect(review_model)
     @jwt_required()
+    @api.doc(security="token")
     def put(self, review_id):
         current_user = get_jwt_identity()
 
@@ -160,6 +164,7 @@ class AdminReviewModify(Resource):
 """amenities admin"""
 @api.route('/amenities/')
 class AdminAmenityCreate(Resource):
+    @api.doc(security="token")
     @api.expect(amenity_model)
     @jwt_required()
     def post(self):
@@ -176,6 +181,7 @@ class AdminAmenityCreate(Resource):
 class AdminAmenityModify(Resource):
     @api.expect(amenity_model)
     @jwt_required()
+    @api.doc(security="token")
     def put(self, amenity_id):
         current_user = get_jwt_identity()
         amenity_data = api.payload

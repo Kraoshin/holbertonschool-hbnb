@@ -1,7 +1,7 @@
 from flask_restx import Namespace, Resource, fields
 from app.services import facade
 from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
-
+import json
 api = Namespace('places', description='Place operations')
 
 
@@ -16,10 +16,7 @@ place_model = api.model('Place', {
                              description='Latitude of the place'),
     'longitude': fields.Float(required=True,
                               description='Longitude of the place'),
-    'owner_id': fields.String(required=True,
-                              description='ID of the owner'),
-    'amenities': fields.List(fields.String, required=True,
-                             description="List of amenities ID's"),
+                              
 })
 
 
@@ -28,9 +25,14 @@ class PlaceList(Resource):
     @api.expect(place_model)
     @api.response(201, 'Place successfully created')
     @api.response(400, 'Invalid input data')
+    @api.doc(security="token")
+    @jwt_required()
     def post(self):
         """Register a new place"""
+        current_user = json.loads(get_jwt_identity())
         data_place = api.payload
+        data_place['owner_id'] = current_user['id']
+        print(data_place['owner_id'])
         try:
             
             new_place = facade.create_place(data_place)
@@ -83,15 +85,20 @@ class PlaceResource(Resource):
         except ValueError as error:
             return {"error": str(error)}, 404
 
+    @jwt_required()
     @api.expect(place_model)
     @api.response(200, 'Place updated successfully')
     @api.response(404, 'Place not found')
     @api.response(400, 'Invalid input data')
+    @api.doc(security="token")
     def put(self, place_id):
         """Update a place's information"""
+        current_user = json.loads(get_jwt_identity())
         place = facade.get_place(place_id)
         if not place:
             return {'message': 'Invalid input data'}, 400
+        if current_user['id'] != place.owner_id:
+            return{'error': 'Unauthorized action'}, 403
         updated_data = api.payload
         updated_place = facade.update_place(place_id, updated_data)
         if not updated_place:
