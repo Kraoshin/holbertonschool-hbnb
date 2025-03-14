@@ -140,10 +140,9 @@ class PlaceResource(Resource):
             return{'error': 'Unauthorized action'}, 403
         
         place_data = api.payload
-        amenities = place_data.pop("amenities")
         
         amenities = []
-        
+
         if 'amenities' in place_data:
             amenities = place_data.pop("amenities")
         
