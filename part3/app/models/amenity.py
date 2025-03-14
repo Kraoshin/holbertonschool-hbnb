@@ -23,10 +23,18 @@ class Amenity(BaseModel):
 
     name = db.Column(db.String(50), nullable=False)
 
-    @validates("name")
-    def validator(self, key, value):
-        if not value or len(value) > 50:
-            raise ValueError("Name must be a required with a maximum of " 
-                             "50 characters")
+    @validates('name')
+    def validate_name(self, key, value):
+        if not isinstance(value, str):
+            raise TypeError("Name is invalid")
+        if not value:
+            raise ValueError("Name is required")
+        if len(value) > 50:
+            raise ValueError("Name is too long")
         return value
->>>>>>> c9af39ae (models update and add systeme auth)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name
+        }
