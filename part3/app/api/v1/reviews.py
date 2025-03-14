@@ -124,7 +124,7 @@ class ReviewResource(Resource):
         """Update a review's information"""
 
         cur_user = get_jwt_identity()
-        user = facade.get_user(current_user)
+        user = facade.get_user(cur_user)
         review = facade.get_review(review_id)
 
         if not review:
@@ -164,22 +164,17 @@ class ReviewResource(Resource):
         """Delete a review"""
 
         cur_user = get_jwt_identity()
-        user = facade.get_user(current_user)
+        user = facade.get_user(cur_user)
         review = facade.get_review(review_id)
-
-        if review.user_id != cur_user['id']:
-            return {'error': 'Unauthorized action'}, 403
         
+        if not review:
+            api.abort(404,"Review not found")
+
         if not user or user.id != review.user_id:
             api.abort(403,'Unauthorized action')
-            
-        try:
-            deleted_review = facade.delete_review(review_id)
-            if deleted_review:
-                return {'message': 'Review deleted successfully'}, 200
 
-        except ValueError as error:
-            return {'error': str(error)}, 404
+        facade.delete_review(review_id)
+        return {"message": "Review deleted successfully"}, 200
 
 
 @api.route('/places/<place_id>/reviews')
