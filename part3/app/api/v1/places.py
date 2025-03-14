@@ -1,7 +1,6 @@
 from flask_restx import Namespace, Resource, fields
 from app.services import facade
-from flask_jwt_extended import jwt_required, get_jwt_identity, get_jwt
-import json
+from flask_jwt_extended import jwt_required, get_jwt_identity
 api = Namespace('places', description='Place operations')
 
 
@@ -29,7 +28,7 @@ class PlaceList(Resource):
     @jwt_required()
     def post(self):
         """Register a new place"""
-        current_user = json.loads(get_jwt_identity())
+        current_user = get_jwt_identity()
         data_place = api.payload
         data_place['owner_id'] = current_user['id']
         print(data_place['owner_id'])
@@ -93,7 +92,7 @@ class PlaceResource(Resource):
     @api.doc(security="token")
     def put(self, place_id):
         """Update a place's information"""
-        current_user = json.loads(get_jwt_identity())
+        current_user = get_jwt_identity()
         place = facade.get_place(place_id)
         if not place:
             return {'message': 'Invalid input data'}, 400
