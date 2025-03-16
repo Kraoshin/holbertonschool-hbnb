@@ -6,34 +6,16 @@ from app import db
 api = Namespace('reviews', description='Review operations')
 
 
-user_model = api.model('PlaceUser', {
-    'id': fields.String(description='User ID'),
-    'first_name': fields.String(description='First name of the owner'),
-    'last_name': fields.String(description='Last name of the owner'),
-    'email': fields.String(description='Email of the owner')
-})
-
 review_model = api.model('Review', {
-    'text': fields.String(required=True, description='Text of the review', example="Super cool!"),
-    'rating': fields.Integer(required=True, description='Rating of the place (1-5)', example=5),
-    'place_id': fields.String(required=True, description='ID of the place', example="a6e9d55e-c8d1-4268-bb65-4c19a5206a08")
+        'text': fields.String(required=True, description='Text of the review', example="Super cool!"),
+        'rating': fields.Integer(required=True, description='Rating of the place (1-5)', example=5),
+        'place_id': fields.String(required=True, description='ID of the place', example="32491cac-9dfa-4c76-bcd6-499421c5c269")
 })
 
 review_update_model = api.model('Review Update', {
     'text': fields.String(description='Text of the review', example="Pablo is the best thank you"),
     'rating': fields.Integer(description='Rating of the place (1-5)', example=5),
 })
-
-place_model = api.model('Place', {
-    'title': fields.String(required=True, description='Title of the place', example="Cozy Apartment"),
-    'description': fields.String(description='Description of the place', example="A nice place to stay"),
-    'price': fields.Float(required=True, description='Price per night', example=100.0),
-    'latitude': fields.Float(required=True, description='Latitude of the place', example=37.7749),
-    'longitude': fields.Float(required=True, description='Longitude of the place', example=-122.4194),
-    'owner_id': fields.String(required=True, description='Owner of the place', example="3fa85f64-5717-4562-b3fc-2c963f66afa6"),
-    'amenities': fields.List(fields.String, description="List of amenities ID's", example=["1fa85f64-5717-4562-b3fc-2c963f66afa6"]),
-})
-
 
 @api.route('/')
 class ReviewList(Resource):
@@ -47,11 +29,11 @@ class ReviewList(Resource):
     def post(self):
         """Register a new review"""
 
-        current_user = get_jwt_identity()
+        current_user = get_jwt_identity().get('id')
         user = facade.get_user(current_user)
-
+        
         review_data = api.payload
-
+        
         place = facade.get_place(review_data.get("place_id"))
         
         if not place:
@@ -64,21 +46,17 @@ class ReviewList(Resource):
 
         place_reviews = facade.get_reviews_by_place(place.id)
         if any(review.user_id == user.id for review in place_reviews):
-            api.abort(400, "You already reviewed this place")
+            api.abort(400, "Place already reviewed")
         
         review_data["place_id"] = place.id
 
         try:
             new_review = facade.create_review(review_data)
+            review_dict = new_review.to_dict()
         except (ValueError, TypeError) as e:
             api.abort(400, str(e))
 
-        return {'id': new_review.id,
-                'place_id': new_review.place_id,
-                'rating': new_review.rating,
-                'text': new_review.text,
-                'user_id': new_review.user_id
-                }, 201
+        return review_dict, 201
 
     @api.response(200, 'List of reviews retrieved successfully')
 
@@ -130,16 +108,16 @@ class ReviewResource(Resource):
     def put(self, review_id):
         """Update a review's information"""
 
-        cur_user = get_jwt_identity()
-        user = facade.get_user(cur_user)
+        current_user = get_jwt_identity().get('id')
+        user = facade.get_user(current_user)        
         review = facade.get_review(review_id)
-
-        if not review:
-            return {'error': 'Review not found'}, 404
         
+        if not review:
+            api.abort(404, "Review not found")
+
         if not user or user.id != review.user_id:
             api.abort(403,'Unauthorized action')
-        
+
         review_data = api.payload
 
         valid_inputs = ["rating", "text"]
@@ -150,17 +128,10 @@ class ReviewResource(Resource):
         try:
             review.update(review_data)
             facade.update_review(review_id, review_data)
-        
         except (ValueError, TypeError) as e:
             api.abort(400, str(e))
 
-        return {
-                'id': review_data.id,
-                'text': review_data.text,
-                'rating': review_data.rating,
-                'user_id': review_data.user_id,
-                'place_id': review_data.place_id
-            }, 200 
+        return {"message": "Review updated successfully"}, 200
 
     @api.response(200, 'Review deleted successfully')
     @api.response(403, 'Unauthorized action')
