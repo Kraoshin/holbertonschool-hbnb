@@ -16,15 +16,14 @@ amenity_model = api.model('Amenity', {
 })
 
 place_model = api.model('Place', {
-    'title': fields.String(description='Title of the place', example="Super Apartment"),
-    'description': fields.String(description='Description of the place', example="A super place for your week-end!"),
-    'price': fields.Float(description='Price per night', example=150.0),
-    'latitude': fields.Float(description='Latitude of the place', example=37.7749),
-    'longitude': fields.Float(description='Longitude of the place', example=-122.4194),
-    'amenities': fields.List(fields.String, description="List of amenities ID's", example=["1fa85f64-5717-4562-b3fc-2c963f66afa6"]),
+        'title': fields.String(required=True, description='Title of the place', example='Great house'),
+        'description': fields.String(description='Description of the place', example='A nice place to stay'),
+        'price': fields.Float(required=True, description='Price per night', example=100.0),
+        'latitude': fields.Float(required=True, description='Latitude of the place', example=-75.102),
+        'longitude': fields.Float(required=True, description='Longitude of the place', example=-122.4194)
 })
 
-review_model = api.model('Review', {
+review_model_admin = api.model('Review', {
     'text': fields.String(description='Text of the review', example="Pablo is the best thank you"),
     'rating': fields.Integer(description='Rating of the place (1-5)', example=5),
 })
@@ -169,7 +168,7 @@ class AdminPlaceModify(Resource):
 @api.route('/review/<review_id>')
 class AdminReviewModify(Resource):
 
-    @api.expect(review_model)
+    @api.expect(review_model_admin)
     @api.response(200, 'Review updated successfully')
     @api.response(400, 'Invalid input data')
     @api.response(403, 'Unauthorized action')
@@ -179,20 +178,19 @@ class AdminReviewModify(Resource):
 
     def put(self, review_id):
 
-        current_user = get_jwt_identity()
-
-        if not current_user.get('is_admin'):
-            api.abort(403, 'Admin privileges required')
-
+        current_user = get_jwt_identity().get('id')
+        admin_user = facade.get_user(current_user)
         review = facade.get_review(review_id)
+
+        if not admin_user or not admin_user.is_admin:
+            api.abort(403, 'Admin privileges required')
 
         if not review:
             api.abort(404, "Review not found")
 
         review_data = api.payload
-        
-        valid_inputs = ["rating", "text"]
 
+        valid_inputs = ["rating", "text"]
         for input in valid_inputs:
             if input not in review_data:
                 api.abort(400, "Invalid input data")
