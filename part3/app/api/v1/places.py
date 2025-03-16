@@ -6,43 +6,24 @@ from app import db
 api = Namespace('places', description='Place operations')
 
 
-# Define the models for related entities
-amenity_model = api.model('PlaceAmenity', {
-    'name': fields.String(required=True, description='Name of the amenity', example="Wifi")
-})
-
-user_model = api.model('PlaceUser', {
-    'id': fields.String(description='User ID'),
-    'first_name': fields.String(description='First name of the owner'),
-    'last_name': fields.String(description='Last name of the owner'),
-    'email': fields.String(description='Email of the owner')
-})
-
-review_model = api.model('PlaceReview', {
-    'id': fields.String(description='Review ID'),
-    'text': fields.String(description='Text of the review'),
-    'rating': fields.Integer(description='Rating of the place (1-5)'),
-    'user_id': fields.String(description='ID of the user')
-})
-
 # Define the place model for input validation and documentation
 place_model = api.model('Place', {
-        'title': fields.String(required=True, description='Title of the place', example='Great house at the beach'),
+        'title': fields.String(required=True, description='Title of the place', example='Great house'),
         'description': fields.String(description='Description of the place', example='A nice place to stay'),
         'price': fields.Float(required=True, description='Price per night', example=100.0),
-        'latitude': fields.Float(required=True, description='Latitude of the place', example=-90.0),
-        'longitude': fields.Float(required=True, description='Longitude of the place', example=-122.4194),
-        'amenities': fields.List(fields.String(description='List of amenity IDs'), example=["5191c141-a47b-465a-a94c-4007c6b69e1a"])
+        'latitude': fields.Float(required=True, description='Latitude of the place', example=-75.102),
+        'longitude': fields.Float(required=True, description='Longitude of the place', example=-122.4194)
 })                           
 
 place_update_model = api.model('Place Update', {
-    'title': fields.String(description='Title of the place', example="Super Apartment"),
-    'description': fields.String(description='Description of the place', example="A super place for your week-end!"),
-    'price': fields.Float(description='Price per night', example=150.0),
-    'latitude': fields.Float(description='Latitude of the place', example=37.7749),
-    'longitude': fields.Float(description='Longitude of the place', example=-122.4194),
-    'amenities': fields.List(fields.String, description="List of amenities ID's", example=["1fa85f64-5717-4562-b3fc-2c963f66afa6"]),
+        'title': fields.String(description='Title of the place', example='Great house at the beach'),
+        'description': fields.String(description='Description of the place', example='A nice place for holidays'),
+        'price': fields.Float(description='Price per night', example=150.0),
+        'latitude': fields.Float(description='Latitude of the place', example=-75.102),
+        'longitude': fields.Float(description='Longitude of the place', example=-122.4194),
+        'amenities': fields.List(fields.String(description='List of amenity IDs'), example=["99493758-3936-4aac-8a07-835b84ce02ef"])
 })
+
 
 @api.route('/')
 class PlaceList(Resource):
@@ -64,18 +45,15 @@ class PlaceList(Resource):
 
         place_data = api.payload
         place_data["owner_id"] = user.id
-
-        amenities = []
-
-        if 'amenities' in place_data:
-            amenities = place_data.pop("amenities")
+        amenities = place_data.pop("amenities", [])
 
         try:    
             new_place = facade.create_place(place_data, amenities)
+            place_dict = new_place.to_dict()
         except (ValueError, TypeError) as e:
             api.abort(400, str(e))
 
-        return new_place.to_dict, 201
+        return place_dict, 201
 
     @api.response(200, 'List of places retrieved successfully')
     def get(self):
@@ -140,10 +118,9 @@ class PlaceResource(Resource):
             return{'error': 'Unauthorized action'}, 403
         
         place_data = api.payload
-        
-        amenities = []
 
         if 'amenities' in place_data:
+            amenities = []
             amenities = place_data.pop("amenities")
         
         if "owner_id" in place_data:
