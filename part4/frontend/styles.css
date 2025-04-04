@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: hsla(35, 100%, 50%, 0.80);
+    color: #fff;
+    padding: 5px;
+}
+#login-link{
+    color: #fff;
+    margin-right: 15px;
+    position: fixed;
+    text-justify: center;
+    top: 17px;
+    right: 10px;
+    padding: 10px;
+}
+footer {
+    background-color: hsla(35, 100%, 50%, 0.80);
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#footerText {
+    font-size: 0.6rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+main {
+    padding: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.place-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: hsla(0, 0%, 0%, 0.2) 0px 0px 10px;
+    Margin: 20px;
+    width: 200px;
+    height: auto;
+}
+.review-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: hsla(0, 0%, 0%, 0.2) 0px 0px 10px;
+    Margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+    margin: 20px;
+    font-weight: bold;
+}
+#filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#title {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#price {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#Viewbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.myBtn {
+    background-color: hsl(355, 100%, 56%);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#placeTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
