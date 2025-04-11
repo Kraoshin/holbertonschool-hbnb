@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <img src="logo.png" alt="Application Logo" class="logo"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Place Details-->
+        <article id="place-details" class="place-card">
+            <h1 id="place-name">Place Name</h1>
+            <p id="place-price">Price per night: €100</p>
+            <p id="place-description">Description: A beautiful place for your vacation.</p>
+            <h2>Amenities</h2>
+            <ul id="place-amenities">
+                <li>Wi-Fi</li>
+                <li>Air Conditioning</li>
+                <li>Swimming Pool</li>
+                <li>Breakfast Included</li>
+                <li>Free Parking</li>
+            </ul>
+            </article>
+
+            <!--Reviews-->
+            <section id="reviews">
+                <h2>User Reviews</h2>
+
+                <div class="review-card">
+                    <h3>User Name</h3>
+                   <p>Comment: Very clean and quiet place, highly recommended!</p>
+                   <p>Rating: ⭐⭐⭐⭐☆</p> 
+                </div>
+
+                <!--Dynamic reviews will be added here-->
+                <div id="reviews-container"></div>
+            </section>
+
+            <!--Review Form-->
+            <section class="submit-review">
+                <h2>Leave a Review</h2>
+                <form id="review-form" aria-label="Review submission form">
+                    <label for="review-text">Your review:</label><br />
+                    <textatea id="review-text" name="review" rows="4" cols="50" required></textarea><br />
+                        <button type="submit">Submit</button>
+                        <p id="confirmation-message" style="color:green; display:none;">Thank you for your review!</p>
+                </form> 
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My App.All rights reserved.</p>
+    </footer>
+    <script>
+        const form = document.getElementById('review-form');
+        const textArea = document.getElementById('review-text');
+        const message = document.getElementById('confirmation-message');
+
+        form.addEventListener('submit', (e) => {
+            e.peventDefault();
+
+            const reviewText = textArea.value.trim();
+            if (reviewText == '') return ;
+
+            const review = document.createElement('div');
+            review.className = 'review-card';
+            review.innerHTML = `
+                <h3>New User</h3>
+                <p>Comment: ${reviewText}</p>
+                <p>Rating: ⭐⭐⭐⭐☆</p>
+            `;
+
+            document.getElementById('reviews-container').appendChild(review);
+            message.style.display = 'block';
+            form.reset();
+        });
+    </script>
+</body>
+</html>
