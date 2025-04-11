@@ -4,50 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place Details</title>
-    <link rel="stylesheet" href="holbertonschool-hbnb/part4/frontend/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="images/logo.png" class="logo" alt="Logo">
-            <a href="login.html" id="login-link">Login</a>
-        </nav>
+        <a href="index.html">
+        <img src="images/logo.png" alt="logo" class="logo">
+        </a>
+        <a href="login.html" id="login-button">Login</a>
+        <a href="index.html" id="logout-button">logout</a>
     </header>
     <main>
-        <section id="place-details">
-            <h1 id="placeTitle">Place Name</h1>
-            <div class="review-card">
-                <div class="details">
-                    <p>Host:</p>
-                    <br>
-                    <p>Price per night: $100</p>
-                    <br>
-                    <p>Description: A beautiful place to stay.</p>
-                    <br>
-                    <p>Amenities: Wifi</p>
-                </div>
-            </div>
-        </section>
-        <section id="reviews">
-            <h2>Reviews</h2>
-            <div class="review-card">
-                <div class="details">
-                    <h3>User:</h3>
-                    <br>
-                    <p>Review: Amazing experience!</p>
-                    <rating>Rating: 4</rating>
-                </div>
-        </section>
-        <section id="add-review">
-            <a href="holbertonschool-hbnb/part4/frontend/add_review.html" id="add-review-link">
-                <button class="myBtn">Add a Review</button>
-            </a>
-        </section>
+        <div id="place-details">
+            <!-- Place details will be populated dynamically -->
+        </div>
+        <div id="review">
+            <!-- Reviews will be populated dynamically -->
+        </div>
+        <div id="add-review">
+        
+        </div>
     </main>
-    <script src="scripts.js"></script>
+    <footer>
+        <small id="footerText">&copy; 2025 Holberton School</small>
+        <small id="footerText">All rights reserved.</small>
+    </footer>
+    <script src="js_file/place.js"></script>
 </body>
-<footer>
-    <small id="footerText">&copy; 2025 Holberton School</small>
-    <small id="footerText">All rights reserved.</small>
-</footer>
 </html>
