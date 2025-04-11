@@ -30,6 +30,9 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
+.login-button:hover {
+    background-color: #e69500;
+}
 
 /* Main Title */
 main h1 {
@@ -118,4 +121,33 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+/*Place Cards*/
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.place-card, .review-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.details-button, .add-review, .submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-button:hover, .add-review:hover, .submit-button:hover {
+    background-color: #218838;
 }
