@@ -151,4 +151,18 @@ footer {
 .details-button:hover, .add-review:hover, .submit-button:hover {
     background-color: #218838;
 }
+header {
+    background-color: #ffa500;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
 
