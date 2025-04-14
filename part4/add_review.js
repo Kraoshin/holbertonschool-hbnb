@@ -1,71 +1,68 @@
-function getCookie(name) {
+document.addEventListener('DOMContentLoaded', () => {
+    const token = getCookie('token');
+    const placeId = getPlaceIdFromURL();
+  
+    const reviewForm = document.getElementById('review-form');
+    if (reviewForm) {
+      reviewForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const reviewText = document.getElementById('review').value.trim();
+  
+        if (!reviewText) {
+          alert('Please enter a review');
+          return;
+        }
+  
+        await submitReview(token, placeId, reviewText);
+      });
+    }
+  });
+  
+  /* Simule récupération de cookie */
+  function getCookie(name) {
     const cookieArr = document.cookie.split(';');
     for (const cookie of cookieArr) {
-        const [key, value] = cookie.trim().split('=');
-        if (key === name) return value;
+      const [key, value] = cookie.trim().split('=');
+      if (key === name) return value;
     }
     return null;
-}
-
-const token = getCookie('token');
-if (!token) {
-    window.location.href = "index.html";
-}
-
-function getPlaceIdFromURL() {
+  }
+  
+  /* Simule l'extraction de place_id depuis l'URL */
+  function getPlaceIdFromURL() {
     const params = new URLSearchParams(window.location.search);
-    return params.get('place_id');
-}
-
-const placeId = getPlaceIdFromURL();
-const placeNameElement = document.getElementById("place-name");
-const messageDiv = document.getElementById("message");
-
-if (!placeId) {
-    messageDiv.textContent = "Error: No place ID found in the URL.";
-    messageDiv.style.color = "red";
-} else {
-    placeNameElement.textContent = `Add Review for Place ID: ${placeId}`;
-}
-
-const form = document.getElementById("review-form");
-form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    const reviewText = document.getElementById("review").value.trim();
-    const rating = document.getElementById("rating").value;
-
-    if (!reviewText || !rating) {
-        messageDiv.textContent = "Please fill in all fields.";
-        messageDiv.style.color = "red";
-        return;
-    }
-
+    return params.get('id');
+  }
+  
+  /* POST la review */
+  async function submitReview(token, placeId, reviewText) {
     try {
-        const response = await fetch(`https://api.example.com/places/${placeId}/review`, {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json',
-                'Authorization': `Bearer ${token}`
-            },
-            body: JSON.stringify({
-                review: reviewText,
-                rating: parseInt(rating)
-            })
-        });
-    
-        if (response.ok) {
-            messageDiv.textContent = "Your review was submitted successfully!";
-            messageDiv.style.color = "green";
-            form.reset();
-        } else {
-            const errorData = await response.json();
-            messageDiv.textContent = `Error: ${errorData.message || 'Unable to submit review.'}`;
-            messageDiv.style.color = "red";
-        }
+      const response = await fetch('http://127.0.0.1:5000/api/v1/reviews/', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          text: reviewText,
+          place_id: placeId
+        })
+      });
+  
+      handleResponse(response);
     } catch (error) {
-        console.error('Submission error:', error);
-        messageDiv.textContent = 'Network error: Please try again later.';
-        messageDiv.style.color = "red";
+      console.error('Network error:', error);
+      alert('Network error');
     }
-    });
+  }
+  
+  /* Réponse du serveur */
+  function handleResponse(response) {
+    if (response.ok) {
+      alert('Review submitted successfully!');
+      document.getElementById('review-form').reset();
+    } else {
+      alert('Failed to submit review');
+    }
+  }
+  
